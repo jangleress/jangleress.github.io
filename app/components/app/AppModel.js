@@ -100,7 +100,7 @@ define([
 
       // TEMP TODO
       // var url = window.location.href + '&mode=print',
-      var url = 'http://oceanplanning.wwf.ca/#!' + window.location.href.split('#!')[1] + '&mode=print'
+      var url = 'http://www.rom.on.ca/wwf/#!' + window.location.href.split('#!')[1] + '&mode=print'
 
 
       var state = _.clone(this.attributes.route)
