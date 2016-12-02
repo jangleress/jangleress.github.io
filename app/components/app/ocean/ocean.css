@@ -1,0 +1,69 @@
+/* ocean */
+
+.ocean-title h1 {
+  font-size: 30px;
+  line-height: 48px;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+.ocean-content-main {
+  margin-bottom: 20px;    
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;    
+}
+.ocean-header .ocean-image {
+    margin-bottom: 0px;
+}
+.ocean-header-image-wrapper{
+  margin: 0 40px;
+}
+
+
+@media(min-width: 769px) {
+  .ocean-header-image-wrapper{
+    margin:0
+  }
+  .ocean-content-main {
+    min-height: 110px;
+    margin: 29px 0 27px;
+  }
+
+  #ocean .content-container {
+    position:relative;
+    z-index:3502;
+  }
+  #ocean .list-module-nav {
+    margin-bottom:0;
+  }
+  #ocean .waves {
+    position:absolute;
+    bottom:14px;
+    z-index:3501;
+  }
+  .ocean-header {
+    margin-top: 16px;
+  }
+  .ocean-title h1 {
+    font-size: 48px;  
+    line-height: 42px;
+    margin-bottom: 24px;
+  }
+  .ocean-header .ocean-image {
+    margin-bottom: 15px;
+  }
+
+}
+
+
+
+
+
+
+.story-nav .hint {
+  margin-bottom:4px
+}
+
+.ocean-header .media-responsive-container {
+    background-color: transparent;
+}

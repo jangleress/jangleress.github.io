@@ -1,0 +1,463 @@
+#application.module-home {
+  background-color:#ffffff;
+}
+
+/* greys ==================================================================== */
+
+/* black	default (also app title link)	#212728 */
+#title a,
+.table-layer-select a:hover,
+.nav-secondary a.active,
+.nav-secondary a.active:focus,
+.nav-secondary a:hover,
+body {
+  color:#212728
+}
+.tooltip-inner,
+.table-layer-select a.layer-action-link,
+.close-item:hover{
+  background-color:#212728
+}
+
+.tooltip.top .tooltip-arrow {    
+    border-top-color: #212728;
+}
+/*light-black	lines on dark	#2b383a*/
+/*#2b383a*/
+.layer-links-bar td.spacer-border,
+#layers-control .layer-subcategory,
+.panel-dark .layers-home-main,
+.module-layers #nav-bottom-modules table,
+.module-layers #nav-bottom-modules td {
+  border-color: #2b383a;
+}
+/*darkest-grey	app title link hover, dark panel background active/hover	#364244*/
+.module-layers #nav-bottom-modules td a.active,
+.module-layers #nav-bottom-modules td a:hover {
+  background-color:#364244;
+}
+
+.table-layer-select a,
+#nav-bottom-modules td a.active,
+#nav-bottom-modules td a:hover,
+#title a:hover {
+  color:#364244;
+}
+
+/*darker-grey	home bottom link grey hover, dark panel background	#404c4e*/
+#home a.planning-link:hover{
+  color:#404c4e;
+}
+#application.module-layers,
+.module-layers #nav-bottom-modules td a,
+.close-item,
+.panel-dark {
+  background-color:#404c4e;
+}
+
+
+/*dark-grey	home bottom link grey, on dark hint	#808889*/
+
+.panel-dark .figcaption,
+.panel-dark .hint {
+  color: #808889;
+}
+
+/*grey	hint, nav onpage, on dark secondary header	#a0a5a6*/
+.map-key-label,
+#home a.planning-link,
+.subcategory-disclaimer,
+.layer-item-inner .category-text,
+.item-references,
+.item-references a,
+.figcaption a,
+#nav-bottom-modules td a,
+.panel-dark .cat-link-label.hint,
+.panel-dark h3, 
+.panel-dark h4, 
+.panel-dark h5, 
+.panel-dark h6,
+.module-page .navbar-default .navbar-nav > li > a,
+.nav-secondary a,
+.nav-secondary a:focus,
+.figcaption,
+.hint {
+  color: #a0a5a6;
+}
+
+td.toggle a.toggle-layer{
+  border-color: #a0a5a6;
+}
+
+/*light-grey	lines on light	#d0d3d4*/
+.layers-item-category .placeholder-layercontrol,
+.layers-item-header .category,
+.panel-light .chapter-border,
+header .navbar-collapse .nav li,
+#nav-bottom-modules table,
+#nav-bottom-modules td{
+  border-color: 	#d0d3d4;
+}
+
+/*lighter-grey	panel background active/hover	#e6e7e7*/
+#nav-bottom-modules td a.active,
+#nav-bottom-modules td a:hover{
+  background-color:#e6e7e7;
+}
+
+
+/*lightest-grey	text on dark panel, white panel background color	#f4f5f5*/
+.table-layer-select a.layer-action-link,
+.module-layers #nav-bottom-modules td a,
+.module-ocean #nav-bottom-modules td a,
+.panel-blue,
+.panel-blue .list-module-nav li a,
+.panel-blue .list-module-nav li a:focus,
+.panel-dark,
+.panel-dark .account-links a,
+.panel-dark .table-layer-select a,
+.panel-dark .table-layer-select a:focus{
+  color:#f4f5f5;
+}
+#application.module-page,
+#application.module-story,
+#application.module-layers.layer-item,
+#nav-bottom-modules td a,
+.panel-light {
+  background-color:#f4f5f5;
+}
+
+header .navbar-default .navbar-collapse {
+  background-color: #f4f5f5;
+}
+@media (min-width: 769px) {
+  header .navbar-default .navbar-collapse {
+    background-color: transparent;
+  }    
+}
+
+.story-nav .list-module-nav li {
+    border-color: rgba(244,245,245,0.6);
+}
+
+/*white	ondark header	#fffff*/
+#nav-bottom-oceans li a,
+.panel-white {
+  background-color:#ffffff;
+}
+   
+#nav-bottom-oceans li a.ocean-link:hover,
+#nav-bottom-oceans li a.ocean-link.active,
+.panel-blue h1, 
+.panel-blue h2, 
+.panel-dark h1, 
+.panel-dark h2,
+.module-layers #nav-bottom-modules td a.active,
+.module-layers #nav-bottom-modules td a:hover,
+.module-ocean #nav-bottom-modules td a.active,
+.module-ocean #nav-bottom-modules td a:hover,
+.panel-dark .account-links a:hover,
+.panel-dark .table-layer-select a:hover,
+.panel-blue .list-module-nav li a:hover,
+.btn.btn-default,
+a.btn.btn-default,
+.btn.btn-default:hover,
+a.btn.btn-default:hover 
+{
+  color:#ffffff;
+}
+
+
+#home.content-scroll.panel-white {
+  background: transparent;
+}
+@media (min-width: 769px) { 
+  #home.content-scroll.panel-white {
+    background: #ffffff;
+  }
+}
+
+
+
+ /*BLUES ==================================================================== */
+ 
+/*blue	default, nav onmap, nav onpage active/hover, link/blockquote/background)	#05a4db*/
+
+
+.module-page .navbar-default .navbar-nav > li > a.active,
+.module-page .navbar-default .navbar-nav > li > a:hover,
+.module-page .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a,
+blockquote,
+.ocean-color,
+h3.ocean-color,
+a,
+a:focus{
+  color:#05a4db;
+}
+#nav-bottom-oceans li a.active,
+.module-ocean #nav-bottom-modules td a,
+.panel-blue,
+.panel-dark .close-item,
+.btn.btn-default,
+a.btn.btn-default
+{
+  background-color:#05a4db;
+}
+
+/*dark-blue	default hover, nav onmap hover	#028ac7*/
+.panel-blue .hint,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.ocean-color-dark,
+a:hover {
+  color: #028ac7;
+}
+.module-ocean #nav-bottom-modules td a.active,
+.module-ocean #nav-bottom-modules td a:hover,
+.panel-dark .close-item:hover,
+.btn.btn-default:hover,
+a.btn.btn-default:hover 
+{
+  background-color:#028ac7;  
+}
+
+
+ /*PACIFIC BLUES ============================================================ */
+
+ /*blue	default, ocean menu active, background, on dark inactive (background)	#069b97*/
+.ocean-pacific .panel-dark a.ocean-color:hover,
+#nav-bottom-oceans li a.ocean-link-pacific,
+.ocean-pacific .ocean-color,
+.ocean-pacific .ocean-color:focus,
+.ocean-color-pacific{
+  color: #069b97;
+}
+#application.module-ocean.ocean-pacific,
+.ocean-pacific .sp-container button,
+.ocean-pacific .table-layer-select a.layer-action-link.active,
+.ocean-pacific .table-layer-select a.layer-action-link.active:hover,
+.ocean-pacific .layer-links-bar a:hover .ocean-bgcolor,
+#nav-bottom-oceans li a.ocean-link-pacific:hover,
+.ocean-pacific #nav-bottom-oceans li a.ocean-link-pacific.active,
+.ocean-pacific.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor,
+.ocean-pacific .panel-blue,
+.ocean-pacific a.btn.ocean-bgcolor,
+.ocean-pacific .ocean-bgcolor,
+.ocean-bgcolor-pacific{
+  background-color:#069b97;  
+}
+
+.ocean-pacific .story-layer-hint::after {
+    border-top-color: #069b97;
+}
+.ocean-pacific .story-bottom .story-nav .list-module-nav li {
+  border-color:#069b97;
+}
+
+ 
+ /*dark-blue	default hover/active, nav onmap, hover on ocean menu - not active on ocean menu	#1a8c87*/
+.ocean-pacific .navbar-default .navbar-nav > li > a.ocean-color,
+.ocean-pacific a.ocean-color:hover,
+a.ocean-color-pacific:hover{
+  color: #1a8c87;
+}
+.ocean-pacific .layers-bottom-categories .layer-links-bar .ocean-bgcolor,
+.ocean-pacific #layers-control .layer-links-bar .ocean-bgcolor,
+.ocean-pacific a.btn.ocean-bgcolor:hover,
+.ocean-pacific .panel-dark .close-item.ocean-bgcolor:hover,
+.ocean-pacific.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor.active,
+.ocean-pacific.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor:hover{
+  background-color:#1a8c87;
+}
+
+ 
+/*darker-blue	lines on ocean overview	#1b7d79*/
+.ocean-pacific.module-ocean #nav-bottom-modules table,
+.ocean-pacific.module-ocean #nav-bottom-modules td{
+  border-color: 	#1b7d79
+}
+
+
+/*darkest-blue	hint, nav onmap hover	#1d6967*/
+.ocean-pacific .ocean-color-dark,
+.ocean-pacific .navbar-default .navbar-nav > li > a.ocean-color:hover,
+.ocean-pacific .navbar-default .navbar-nav > li > a.ocean-color:focus,
+.ocean-pacific .panel-blue .hint{
+  color:#1d6967;
+}
+
+/*light-blue	on dark (also active/hover background)	#04baac*/
+.ocean-pacific .panel-dark .ocean-color,
+.ocean-pacific .panel-dark .ocean-color:focus,
+.panel-dark .ocean-color-pacific
+{
+  color:#04baac;
+}
+
+.ocean-pacific #layers-control .layer-links-bar a.active .ocean-bgcolor, 
+.ocean-pacific #layers-control .layer-links-bar a:hover .ocean-bgcolor, 
+.ocean-pacific .layer-links-bar a.active .ocean-bgcolor, 
+.ocean-pacific .layer-links-bar a:hover .ocean-bgcolor 
+{
+  background-color:#04baac;
+}
+
+
+
+ /*ARCTIC BLUES ============================================================ */
+
+ /*blue	default, ocean menu active, background, on dark inactive (background)	#069b97*/
+.ocean-arctic .panel-dark a.ocean-color:hover,
+#nav-bottom-oceans li a.ocean-link-arctic,
+.ocean-arctic .ocean-color,
+.ocean-arctic .ocean-color:focus,
+.ocean-color-arctic{
+  color: #00bcd9;
+}
+#application.module-ocean.ocean-arctic,
+.ocean-arctic .sp-container button,
+.ocean-arctic  .table-layer-select a.layer-action-link.active,
+.ocean-arctic  .table-layer-select a.layer-action-link.active:hover,
+.ocean-arctic .layer-links-bar a:hover .ocean-bgcolor,
+#nav-bottom-oceans li a.ocean-link-arctic:hover,
+.ocean-arctic #nav-bottom-oceans li a.ocean-link-arctic.active,
+.ocean-arctic.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor,
+.ocean-arctic .panel-blue,
+.ocean-arctic a.btn.ocean-bgcolor,
+.ocean-arctic .ocean-bgcolor,
+.ocean-bgcolor-arctic{
+  background-color:#00bcd9;  
+}
+.ocean-arctic .story-layer-hint::after {
+    border-top-color: #00bcd9;
+}
+.ocean-arctic .story-bottom .story-nav .list-module-nav li {
+  border-color:#00bcd9;
+}
+
+ 
+ /*dark-blue	default hover/active, nav onmap, hover on ocean menu - not active on ocean menu	#1a8c87*/
+.ocean-arctic .navbar-default .navbar-nav > li > a.ocean-color,
+.ocean-arctic a.ocean-color:hover,
+a.ocean-color-arctic:hover{
+  color: #00a9c5;
+}
+.ocean-arctic .layers-bottom-categories .layer-links-bar .ocean-bgcolor,
+.ocean-arctic #layers-control .layer-links-bar .ocean-bgcolor,
+.ocean-arctic a.btn.ocean-bgcolor:hover,
+.ocean-arctic .panel-dark .close-item.ocean-bgcolor:hover,
+.ocean-arctic.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor.active,
+.ocean-arctic.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor:hover{
+  background-color:#00a9c5;
+}
+
+ 
+/*darker-blue	lines on ocean overview	#1b7d79*/
+.ocean-arctic.module-ocean #nav-bottom-modules table,
+.ocean-arctic.module-ocean #nav-bottom-modules td{
+  border-color: 	#009cb7
+}
+
+
+/*darkest-blue	hint, nav onmap hover	#1d6967*/
+.ocean-arctic .ocean-color-dark,
+.ocean-arctic .navbar-default .navbar-nav > li > a.ocean-color:hover,
+.ocean-arctic .navbar-default .navbar-nav > li > a.ocean-color:focus,
+.ocean-arctic .panel-blue .hint{
+  color:#02859b;
+}
+
+/*light-blue	on dark (also active/hover background)	#04baac*/
+.ocean-arctic .panel-dark .ocean-color,
+.ocean-arctic .panel-dark .ocean-color:focus,
+.panel-dark .ocean-color-arctic
+{
+  color:#00cce9;
+}
+.ocean-arctic #layers-control .layer-links-bar a.active .ocean-bgcolor, 
+.ocean-arctic #layers-control .layer-links-bar a:hover .ocean-bgcolor, 
+.ocean-arctic .layer-links-bar a.active .ocean-bgcolor, 
+.ocean-arctic .layer-links-bar a:hover .ocean-bgcolor 
+{
+  background-color:#00cce9;
+}
+
+ /*ATLANTIC BLUES ============================================================ */
+
+ /*blue	default, ocean menu active, background, on dark inactive (background)	#069b97*/
+
+.ocean-atlantic .panel-dark a.ocean-color:hover,
+#nav-bottom-oceans li a.ocean-link-atlantic,
+.ocean-atlantic .ocean-color,
+.ocean-atlantic .ocean-color:focus,
+.ocean-color-atlantic{
+  color: #0094be;
+}
+#application.module-ocean.ocean-atlantic,
+.ocean-atlantic .sp-container button,
+.ocean-atlantic .table-layer-select a.layer-action-link.active,
+.ocean-atlantic .table-layer-select a.layer-action-link.active:hover,
+.ocean-atlantic .layer-links-bar a:hover .ocean-bgcolor,
+#nav-bottom-oceans li a.ocean-link-atlantic:hover,
+.ocean-atlantic #nav-bottom-oceans li a.ocean-link-atlantic.active,
+.ocean-atlantic.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor,
+.ocean-atlantic .panel-blue,
+.ocean-atlantic a.btn.ocean-bgcolor,
+.ocean-atlantic .ocean-bgcolor,
+.ocean-bgcolor-atlantic{
+  background-color:#0094be;  
+}
+.ocean-atlantic .story-layer-hint::after {
+    border-top-color: #0094be;
+}
+.ocean-atlantic .story-bottom .story-nav .list-module-nav li {
+  border-color:#0094be;
+}
+
+ 
+ /*dark-blue	default hover/active, nav onmap, hover on ocean menu - not active on ocean menu	#1a8c87*/
+.ocean-atlantic .navbar-default .navbar-nav > li > a.ocean-color,
+.ocean-atlantic a.ocean-color:hover,
+a.ocean-color-atlantic:hover{
+  color: #0485ad;
+}
+.ocean-atlantic .layers-bottom-categories .layer-links-bar .ocean-bgcolor,
+.ocean-atlantic #layers-control .layer-links-bar .ocean-bgcolor,
+.ocean-atlantic a.btn.ocean-bgcolor:hover,
+.ocean-atlantic .panel-dark .close-item.ocean-bgcolor:hover,
+.ocean-atlantic.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor.active,
+.ocean-atlantic.module-ocean #nav-bottom-modules td a.ocean-module-bgcolor:hover{
+  background-color:#0485ad;
+}
+
+ 
+/*darker-blue	lines on ocean overview	#1b7d79*/
+.ocean-atlantic.module-ocean #nav-bottom-modules table,
+.ocean-atlantic.module-ocean #nav-bottom-modules td{
+  border-color: 	#00779a
+}
+
+
+/*darkest-blue	hint, nav onmap hover	#1d6967*/
+.ocean-atlantic .ocean-color-dark,
+.ocean-atlantic .navbar-default .navbar-nav > li > a.ocean-color:hover,
+.ocean-atlantic .navbar-default .navbar-nav > li > a.ocean-color:focus,
+.ocean-atlantic .panel-blue .hint{
+  color:#006c8a;
+}
+
+/*light-blue	on dark (also active/hover background)	#04baac*/
+.ocean-atlantic .panel-dark .ocean-color,
+.ocean-atlantic .panel-dark .ocean-color:focus,
+.panel-dark .ocean-color-atlantic
+{
+  color:#00a5cd;
+}
+.ocean-atlantic #layers-control .layer-links-bar a.active .ocean-bgcolor, 
+.ocean-atlantic #layers-control .layer-links-bar a:hover .ocean-bgcolor, 
+.ocean-atlantic .layer-links-bar a.active .ocean-bgcolor, 
+.ocean-atlantic .layer-links-bar a:hover .ocean-bgcolor 
+{
+  background-color:#00a5cd;
+}

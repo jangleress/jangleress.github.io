@@ -1,0 +1,40 @@
+{% assign t = site.tags.translations[0][page.lang] %}
+<div id="nav-bottom-modules" class="links-large">
+  <nav class="">    
+    <table>
+    <tbody>
+      <tr>        
+      <td>        
+        <a href='#' class="module-link ocean-module-bgcolor reveal-on-hover" data-module='story' title="{{t.nav.story}}">
+          <span class="module-link-icon">  
+            <span class="hide-on-module-story">                        
+              <span class="icon-wwf_story"></span>            
+            </span>
+            <span class="show-on-module-story">            
+              <span class="icon-wwf_story-dark"></span>          
+            </span>          
+          </span>          
+          <span class="module-link-text">{{t.nav.story}}</span>
+          <span class="module-link-spacer hidden-xs"></span>
+        </a>
+      </td>    
+      <td>        
+        <a href='#' class="module-link ocean-module-bgcolor reveal-on-hover" data-module='layers' title="{{t.nav.layers}}">
+          <span class="module-link-icon">  
+            <span class="hide-on-module-story">                        
+              <span class="icon-wwf_explore"></span>        
+            </span>
+            <span class="show-on-module-story">            
+              <span class="show-on-active show-on-hover icon-wwf_explore-dark"></span>          
+              <span class="hide-on-active hide-on-hover icon-wwf_explore-dark-inactive"></span>          
+            </span>
+          </span>
+          <span class="module-link-text">{{t.nav.layers}}</span>
+          <span class="module-link-spacer hidden-xs"></span>          
+        </a>
+      </td>    
+      </tr>    
+    </tbody>      
+    </table>      
+  </nav>
+</div>

@@ -1,0 +1,99 @@
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  {% if page.lang == 'en' %}
+    <link rel="alternate" hreflang="en-ca" href="{{site.siteurl}}{{page.permalink}}" />
+    <link rel="alternate" hreflang="fr-ca" href="{{site.siteurl}}/fr{{page.permalink}}" />
+  {% else if page.lang == 'fr' %}
+    <link rel="alternate" hreflang="en-ca" href="{{site.siteurl}}{{page.permalink | replace_first:'/fr','' }}" />
+    <link rel="alternate" hreflang="fr-ca" href="{{site.siteurl}}{{page.permalink}}" />
+  {% endif %}
+  <!-- Site meta -->
+  <title>{% if page.meta_title and page.meta_title != "" %}{{page.meta_title}}{% else %}{{page.title}}{% endif %}{% if page.layout != 'home' %} | {{site.tags.translations[0][page.lang].app.title}}{% endif %} | WWF Canada</title>
+  <meta name="description" 
+        content="{% if page.meta_description and page.meta_description != '' %}{{page.meta_description}}{% else %}{{page.content | strip_html}}{% endif %}">
+ 
+  <!-- Facebook meta data -->
+  {% if page.lang == 'en' %}
+  <meta property="og:locale" content="en_US" />  
+  <meta property="og:locale:alternate" content="fr_CA" />
+  {% endif %}
+  {% if page.lang == 'fr' %}
+  <meta property="og:locale" content="fr_CA" />
+  <meta property="og:locale:alternate" content="en_US" />
+  {% endif %}
+  <meta property="og:title" content="{% if page.fb_title and page.fb_title != '' %}{{page.fb_title}}{% else %}{{page.title}}{% endif %}" />
+  <meta property="og:site_name" content="{% if page.fb_sitename and page.fb_sitename != '' %}{{page.fb_sitename}}{% else %}{{page.title}}{% endif %}"/>
+  {% if page.lang == 'en' %}
+    <meta property="og:url" content="{{site.siteurl}}" />
+  {% else %}
+    <meta property="og:url" content="{{site.siteurl}}/{{page.lang}}/" />
+  {% endif %}
+  <meta property="fb:app_id" content="930721963705859" />
+  <meta property="og:description" content="{% if page.fb_description and page.fb_description != '' %}{{page.fb_description}}{% else %}{{page.content | strip_html}}{% endif %}" />
+  <meta property="og:type" content="website" />
+  {% if page.image contains 'http' %}
+    <meta property="og:image" content="{{page.fb_image}}" />
+  {% else %}
+    <meta property="og:image" content="{{site.imageurl}}/{{page.fb_image}}" />
+  {% endif %}
+  
+    <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{% if page.tw_site and page.tw_site != '' %}{{page.tw_site}}{% else %}{{page.title}}{% endif %}">
+  <meta name="twitter:title" content="{% if page.tw_title and page.tw_title != '' %}{{page.tw_title}}{% else %}{{page.title}}{% endif %}">  
+  <meta name="twitter:description" 
+        content="{% if page.tw_description and page.tw_description != '' %}{{page.tw_description}}{% else %}{{page.content | strip_html}}{% endif %}">
+  <meta name="twitter:creator" content="@WWFCanada">    
+  {% if page.image contains 'http' %}
+    <meta name="twitter:image" content="{{page.tw_image}}">
+  {% else %}
+    <meta name="twitter:image" content="{{site.imageurl}}/{{page.tw_image}}">
+  {% endif %}
+  
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" 
+        content="{% if page.g_name and page.g_name != '' %}{{page.g_name}}{% else %}{{page.title}}{% endif %}">
+  <meta itemprop="description" 
+        content="{% if page.g_description and page.g_description != '' %}{{page.g_description}}{% else %}{{page.content | strip_html}}{% endif %}">  
+  {% if page.image contains 'http' %}
+    <meta itemprop="image" content="{{page.fb_image}}">
+  {% else %}
+    <meta itemprop="image" content="{{site.imageurl}}/{{page.fb_image}}" />
+  {% endif %}
+  
+  <link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-196.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+	<link rel="apple-touch-icon" href="/favicon-57.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/favicon-144.png">
+  
+  {% include scripts.html %}
+
+  <link href='{{site.baseurl}}/assets/css/main.css' rel='stylesheet' />
+  <script src="{{site.baseurl}}/assets/css/grunticon.loader.js"></script>
+  <script>
+    grunticon([
+      "{{site.baseurl}}/assets/css/icons.data.svg.css",
+      "{{site.baseurl}}/assets/css/icons.data.png.css",
+      "{{site.baseurl}}/assets/css/icons.fallback.css"
+    ]);    
+  </script>
+  <script src="{{site.baseurl}}/app/libs/modernizr-2.6.2-respond-1.1.0.min.js"></script>  
+  <script src="{{site.baseurl}}/app/libs/googletagmanager.js"></script>
+  <script data-main="{{site.baseurl}}/app/main" src="{{site.baseurl}}/app/libs/require.js"></script>
+  <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=930721963705859"></script>  
+</head>

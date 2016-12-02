@@ -1,0 +1,24 @@
+---
+layout: app
+---
+{% assign t = site.tags.translations[0][page.lang] %}
+
+<div class="content-scroll-sm content-wrap text-center panel-white">
+  <div id="intro" class="content-container">
+    <h1>{{page.title}}</h1>    
+    <h2>{{page.subtitle}}</h2>    
+    <div id="intro-content">{{content}}</div>      
+  </div>
+  <div class="home-select-ocean content-container">
+    <p class="hint">{{t.ux.home.select_ocean}}</p>
+    <ul class="list-inline links-large list-module-nav">      
+      <li><a href="#" class="ocean-link ocean-link-pacific ocean-color-pacific" data-oceanid="pacific">{{t.oceans.pacific}}</a></li>
+      <li><a href="#" class="ocean-link ocean-link-arctic ocean-color-arctic" data-oceanid="arctic">{{t.oceans.arctic}}</a></li>      
+      <li><a href="#" class="ocean-link ocean-link-atlantic ocean-color-atlantic" data-oceanid="atlantic">{{t.oceans.atlantic}}</a></li>
+    </ul>
+  </div>
+  <div class="waves"></div>
+  <div class="home-footer content-container">
+    {% include planning-link.html %}
+  </div>
+</div>

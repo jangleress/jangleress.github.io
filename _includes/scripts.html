@@ -1,0 +1,10 @@
+{% assign t = site.tags.translations[0][page.lang] %} 
+<script>
+  var lang = '{{page.lang}}'        
+  var url = '{{page.url}}'        
+  var baseurl = '{{site.baseurl}}'        
+  var tlang = {{ t | replace: '=>', ':' | replace: 'nil', '""' }}  
+  var categoriesGlobal = {
+    layers : {{ site.layercategories | replace: '=>', ':' | replace: 'nil', '""' }}
+  }          
+</script>

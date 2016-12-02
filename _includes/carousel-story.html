@@ -1,0 +1,60 @@
+{% capture carouselid %}carousel-{{chapter.value}}-{{forloop.index}}{% endcapture %}
+<div id="{{carouselid}}" class="carousel-item carousel slide">
+  
+  <!-- Indicators -->
+  <ol class="carousel-indicators">                  
+{% for i in (1..post.media_no) %}
+  {% capture media_type_hash %}media_type_{{ i }}{% endcapture %}    
+  {% assign media_type = post[media_type_hash] %}  
+    <li data-target="#{{carouselid}}" 
+        data-slide-to="{{i | minus: 1}}" 
+        class="{% if i == 1 %} active {% endif %} media-type-{{media_type}}">
+      <span class='show-on-active icon-wwf_{{media_type}}-{{page.ocean_id}}'></span>
+      <span class='hide-on-active icon-wwf_{{media_type}}'></span>
+    </li>              
+{% endfor %}
+  </ol>
+  <div class="carousel-inner" role="listbox">
+{% for i in (1..post.media_no) %}                  
+  {% capture media_type_hash %}media_type_{{ i }}{% endcapture %}                                                          
+  {% assign media_type = post[media_type_hash] %}
+  {% capture media_url_hash %}media_url_{{ i }}{% endcapture %}                                                          
+  {% assign media_url = post[media_url_hash] %}
+  {% capture media_att_hash %}media_att_{{ i }}{% endcapture %}                                                          
+  {% assign media_att = post[media_att_hash] %}
+    <div class="item {% if i == 1 %} active {% endif %} item-media-type-{{media_type}}">
+      <div class="item-media">
+        <figure>
+  {% if media_type != 'video' %}
+          <div class="media-responsive-container media-responsive-container-16x9">
+    {% if media_url contains 'http' %}
+            <img class="img-responsive" src="{{media_url}}" alt="{{media_att}}">
+    {% else %}
+            <img class="img-responsive" src="{{site.imageurl}}/{{media_url}}" alt="{{media_att}}">
+    {% endif %}
+          </div>
+  {% else %}
+          <div class="media-responsive-container media-responsive-container-16x9 media-responsive-container-video">
+            <iframe src="https://www.youtube.com/embed/{{media_url}}?version=3&amp;autoplay=0&amp;rel=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+  {% endif %}
+          <figcaption class="figcaption">
+            {% if media_att && media_att != '' %}
+            {{media_att | markdownify }}
+            {% else %}                        
+            &nbsp;
+            {% endif %}                        
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+{% endfor %}                
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#{{carouselid}}" role="button" data-slide="prev">    
+    <span class="icon-wwf_arrow-left-dark-hover"></span>
+  </a>
+  <a class="right carousel-control" href="#{{carouselid}}" role="button" data-slide="next">    
+    <span class="icon-wwf_arrow-right-dark-hover"></span>
+  </a>
+</div>

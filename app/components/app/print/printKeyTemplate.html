@@ -1,0 +1,11 @@
+<% if (layerChunks.length > 0) {%>
+  <% _.each(layerChunks, function(layers){ %>
+    <div class="print-key-layer-list row">      
+      <% _.each(layers, function(layer){ %>
+      <div class="print-key-layer-list-item col-xs-2">        
+        <%= layer.keyFullHtml %>
+      </div>  
+      <% }) %>
+    </div>
+  <% }) %>
+<% } %>

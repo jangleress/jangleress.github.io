@@ -1,0 +1,132 @@
+---
+layout: default
+---
+{% assign t = site.tags.translations[0][page.lang] %}
+
+{% capture pageid %}{{ page.permalink | split: '/' | last }}{% endcapture %}
+
+<div id="pages" class="content-full">
+  <div id="page-item" class="content page-id-{{pageid}}">
+  <a href="#" class="hidden-xs icon-wwf_close-large close-item close-item-large"></a>          
+  <a href="#" class="visible-xs icon-wwf_close close-item"></a>          
+  <div class="content-scroll panel-light">
+    <div class="page-item-main">
+      <div class="container-fluid">
+        <div class="row text-center page-content-header">
+          <div class="col-sm-12">
+            <h1 class="placeholder-section-title">{{page.title}}</h1>
+            <div class="placeholder-subpage-nav"></div>        
+          </div>
+        </div>
+        {% if page.image and page.image != '' %}
+
+        <div class="row page-content-header-image">
+          <div class="col-sm-offset-2 col-sm-8">
+        {% if page.image contains 'http' %}
+            <img class="img-responsive img-retina" src="{{page.image}}" alt="{{page.image_att}}">
+        {% else %}
+            <img class="img-responsive img-retina" src="{{site.imageurl}}/{{page.image}}" alt="{{page.image_att}}">
+        {% endif %}
+            <figcaption class="figcaption"> {{ page.image_att }}</figcaption>
+          </div>
+        </div>
+
+        {% endif %}
+      </div>
+      <div class="container-fluid page-content-main-wrap">
+        <div class="row page-content-main">
+          <div class="col-sm-offset-3 col-sm-6">
+            {{ content }}
+          {% if page.link_action_url and page.link_action_url != '' %}
+            <div class="action-btn">
+              <a class="page-link btn btn-default" href="{{ page.link_action_url }}" >{{ page.link_action_anchor }}</a>
+            </div>
+          {% endif %}
+          </div>
+        </div>
+        {% if page.media_no > 0 %}
+        {% if page.media_title and page.media_title != '' %}
+        <div class="row page-content-slideshow-title">
+          <div class="col-sm-offset-1 col-sm-10 text-center">
+            <h2>{{page.media_title}}</h2>
+          </div>
+        </div>
+        {% endif %}
+        <div class="row page-content-slideshow">
+          <div class="col-sm-offset-1 col-sm-10">
+          {% if page.media_no == 1 %}
+            <div class="item-media">
+              <div class="row">
+                <div class="col-sm-9 col-figure">
+                  <figure>
+                {% if page.media_type_1 != 'video' %}
+                  {% if page.media_url_1 contains 'http' %}
+                    <img class="img-responsive" src="{{page.media_url_1}}" alt="{{page.media_att_1}}">
+                  {% else %}
+                    <img class="img-responsive" src="{{site.imageurl}}/{{page.media_url_1}}" alt="{{page.media_att_1}}">
+                  {% endif %}
+                {% else %}
+                    <div class="media-responsive-container media-responsive-container-16x9 media-responsive-container-video">
+                      <iframe src="https://www.youtube.com/embed/{{page.media_url_1}}?version=3&amp;autoplay=0&amp;rel=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                {% endif %}
+                  </figure>
+                </div>
+                <div class="col-sm-3 col-caption">
+                  {{page.media_caption_1}}
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="figcaption attribution">
+                      {% if page.media_att_1 && page.media_att_1 != '' %}
+                      {{page.media_att_1 | markdownify }}
+                      {% endif %}                                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- item media //  single media -->
+          {% else %}
+            {% include carousel-page.html %}
+        {% endif %}
+          </div><!-- col -->
+        </div><!-- rowpage-content-slideshow -->
+        {% endif %}
+        {% if page.image_large and page.image_large != '' %}
+        <div class="row page-content-infographic">
+          <div class="col-sm-offset-1 col-sm-10">
+          </div>
+        </div>
+        {% endif %}
+      </div>
+      <div class="container-fluid">
+        {% if page.link_url and page.link_url != '' %}
+        <div class="page-bottom-link row">
+          <div class="page-bottom-link col-sm-offset-1 col-sm-10">
+            <div class="page-item-link">
+              {% if page.link_description and page.link_description != ''  %}
+              <div class="page-item-link-description">
+                {{ page.link_description }}
+              </div>
+              {% endif %}
+              <a class="page-link" href="{{ page.link_url }}">{{ page.link_anchor }}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        <div class="waves"></div>
+        {% if page.ref_text and page.ref_text != '' %}
+        <div class="page-item-footer page-references item-references row">          
+          <div class="col-sm-offset-1 col-sm-10">          
+            <h5>{{ t.ux.references }}</h5>
+            <div class="convert-markdown">           
+              {{page.ref_text}}                   
+            </div>          
+          </div>          
+        </div>
+        {% endif %}
+      </div><!-- .container-fluid -->
+    </div><!-- #page-item-main -->
+  </div>
+  </div><!-- #page-item -->
+</div><!-- #pages -->

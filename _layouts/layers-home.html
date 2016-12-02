@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% assign t = site.tags.translations[0][page.lang] %}
+
+<div id="map"><span class="loading-animation hide-on-app-loaded map-loading-animation"></span></div>
+<div id="key"></div> 
+<div id="layers" class="content-aside">  
+  <div id="layers-home" class="content content-scroll panel-dark hidden-xs">   
+    <div class="layers-home-header content-container panel-header">
+      <h3 class="placeholder-ocean">&nbsp;</h3>
+      <h1>{{page.title}}</h1>      
+    </div>
+    <div class="waves"></div>    
+    <div class="content-container">
+      <div class="layers-home-categories">
+        <h2 class="layers-home-category-hint">
+          {{ t.ux.layers.category_hint }} 
+        </h2>
+        {% include nav-layers-home.html %}
+      </div>
+    </div>
+    <div class="content-container">      
+      <div class="layers-home-main content-home-main">
+        {{content}}  
+      </div>
+      <div class="layers-home-footer">
+        {% include planning-link.html %}
+      </div>
+    </div>   
+    <div class="layers-bottom-categories visible-xs">
+      <h2 class="layers-home-category-hint">
+        {{ t.ux.layers.category_hint }} 
+      </h2>
+      {% include nav-layers-home.html %}
+    </div>
+  </div>   
+</div>   
+

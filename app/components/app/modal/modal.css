@@ -1,0 +1,96 @@
+/* modal */
+
+#modal-wrap {
+    z-index: 5500;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    background-color: rgba(0,0,0,0.3);
+    top: 0px;
+    bottom: 0;
+}
+
+.modal {
+  cursor: default;
+}
+
+@media (min-width: 769px) {
+  .modal {    
+    left:auto
+  }
+}
+
+a.btn-default.btn-share.btn-small {
+    text-transform: uppercase;
+    padding-right: 16px;
+}
+
+.account-icon, .account-text,
+.btn-icon, .btn-icon-text {
+    vertical-align: middle;
+}
+
+.account-text,
+.btn-icon-text {
+    margin-left: 5px;
+}
+
+.modal-content h4 {
+  margin-top: 30px;
+}
+
+.modal-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.modal-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.modal-content input {
+  background-color: #364244;
+  border: none;
+  border-radius: 5px;
+  color: #05a4db;
+  display: inline-block;
+  font-size: 12px;
+  height: 28px;
+  width: 240px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.modal-content .share-accounts {
+  border-top: 1px solid #2B383A;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.modal-content .share-accounts li {
+  border-bottom: 1px solid #2B383A;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 3px 0;
+  text-align: left;
+  padding: 6px 0;  
+}
+
+.modal-content .share-accounts a.hero {
+  padding: 20px 0;
+}
+
+.account-links {
+    margin-bottom: 30px;
+}
+
+
+.account-links a:hover {
+    opacity: 0.8;
+}
+
+.share-links.list-inline > li {
+    padding: 0 10px;
+}

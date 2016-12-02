@@ -1,0 +1,59 @@
+---
+layout: default
+---
+{% assign t = site.tags.translations[0][page.lang] %}
+
+{% capture pageid %}{{ page.permalink | split: '/' | last }}{% endcapture %}
+
+<div id="pages" class="content-full">
+  <div id="page-item" class="content page-id-{{pageid}}">
+  <a href="#" class="hidden-xs icon-wwf_close-large close-item close-item-large"></a>      
+  <a href="#" class="visible-xs icon-wwf_close close-item"></a>            
+  <div class="content-scroll panel-light">
+    <div class="page-item-main">
+      <div class="container-fluid">
+        <div class="row text-center page-content-header">
+          <div class="col-sm-12">
+            <h1 class="placeholder-section-title"></h1>
+            <div class="placeholder-subpage-nav"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid page-content-main-wrap">        
+        <div class="row page-content-main">
+          <div class="col-sm-offset-1 col-sm-10">
+            {{ content }}
+          </div>
+        </div>    
+      </div>
+      <div class="container-fluid">        
+        {% if page.link_url and page.link_url != '' %}
+        <div class="page-bottom-link row">
+          <div class=" col-sm-offset-1 col-sm-10">
+            <div class="page-item-link">
+              {% if page.link_description and page.link_description != ''  %}
+              <p class="page-item-link-description">
+                {{ page.link_description }}
+              </p>
+              {% endif %}
+              <a class="page-link" href="{{ page.link_url }}">{{ page.link_anchor }}</a>              
+            </div>
+          </div>
+        </div>
+        {% endif %}    
+        <div class="waves"></div>
+        {% if page.ref_text and page.ref_text != '' %}
+        <div class="page-item-footer page-references item-references row">          
+          <div class="col-sm-offset-1 col-sm-10">    
+            <h5>{{ t.ux.references }}</h5>
+            <div class="convert-markdown">            
+              {{page.ref_text}}                         
+            </div>          
+          </div>
+        </div>
+        {% endif %}
+      </div><!-- .container-fluid -->
+    </div><!-- #page-item-main -->
+  </div>
+  </div><!-- #page-item -->
+</div><!-- #pages -->

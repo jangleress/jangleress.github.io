@@ -1,0 +1,86 @@
+<div class="modal content-scroll panel-dark">
+  <div class="share-modal-header panel-header">
+    <a href="#" class="icon-wwf_close close-item ocean-bgcolor"></a>
+    <h3 class="modal-subtitle ocean-color"><%= t.app.title %></h3>
+    <h1 class="modal-title"><%= t.ux.share.share_title %></h1>
+  </div>
+  <div class="waves"></div>        
+  <div class="modal-content">
+    <div class="content-container">
+      <ul class="share-links list-unstyled list-inline">
+        <li>
+          <a href="//twitter.com/intent/tweet?text=<%= encodeURI(t.ux.share.share_tweet) %>&url=<%= url_enc %>&hashtags=<%= t.ux.share.share_twitter_hashtag %>&via=<%= t.ux.share.share_twitter_via %>"
+           class="btn btn-small btn-default btn-share ocean-bgcolor" target="_blank" >
+          <span class="btn-icon icon-wwf_twitter"></span>
+          <span class="btn-icon-text"><%= t.ux.share.twitter %></span>
+        </a>
+        </li><li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=<%= url_enc %>"
+           class="btn btn-small btn-default btn-share ocean-bgcolor" target="_blank" >
+          <span class="btn-icon icon-wwf_facebook"></span>
+          <span class="btn-icon-text"><%= t.ux.share.facebook %></span>
+        </a>
+        </li>
+      </ul>
+      <div class="share-copy-link">
+        <h4><%= t.ux.share.share_link_current_view %></h4>
+        <input class="form-control select-on-click share-link ocean-color" type="text" value="<%= url_current %>">
+      </div>        
+    </div>
+    <div class="content-container container-fluid">
+      <div class="share-accounts">
+        <h4><%= t.ux.share.share_visit %></h4>
+        <div class="row">
+          <ul class="account-links list-unstyled col-xs-6 col-sm-4 col-sm-offset-2">
+            <li>
+              <a href="<%= t.ux.share.twitter_url %>" target="_blank" class="">
+              <span class="account-icon icon-wwf_twitter"></span>
+              <span class="account-text"><%= t.ux.share.twitter %></span>
+            </a>
+            </li>
+            <li>
+              <a href="<%= t.ux.share.facebook_url %>" target="_blank" class="">
+                <span class="account-icon icon-wwf_facebook"></span>
+                <span class="account-text"><%= t.ux.share.facebook %></span>
+              </a>
+            </li>
+            <li>
+              <a href="<%= t.ux.share.google_url %>" target="_blank" class="">
+                <span class="account-icon icon-wwf_googleplus"></span>
+                <span class="account-text"><%= t.ux.share.google %></span>
+              </a>
+            </li>
+            <li>
+              <a href="<%= t.ux.share.instagram_url %>" target="_blank" class="">
+                <span class="account-icon icon-wwf_instagram"></span>
+                <span class="account-text"><%= t.ux.share.instagram %></span>
+              </a>
+            </li>
+          </ul>
+          <ul class="account-links list-unstyled col-xs-6 col-sm-4">              
+            <li>
+              <a href="<%= t.ux.share.pinterest_url %>" target="_blank" class="">
+                <span class="account-icon icon-wwf_pinterest"></span>
+                <span class="account-text"><%= t.ux.share.pinterest %></span>
+              </a>
+            </li>
+            <li>
+              <a href="<%= t.ux.share.youtube_url %>" target="_blank" class="">
+                <span class="account-icon icon-wwf_youtube"></span>
+                <span class="account-text"><%= t.ux.share.youtube %></span>
+              </a>
+            </li>
+            <li>
+              <a href="<%= t.ux.share.blog_url %>" target="_blank" class="">
+                <span class="account-icon icon-wwf_wwf"></span>
+                <span class="account-text"><%= t.ux.share.blog %></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="<%= t.app.wwfurl %>" target="_blank" class="hero ocean-color"><%= t.app.wwfanchor %></a>
+      </div>
+    </div>
+
+  </div>
+</div>  

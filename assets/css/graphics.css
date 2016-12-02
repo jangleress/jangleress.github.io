@@ -1,0 +1,118 @@
+
+.loading-animation {
+  background: url('../img/loading.gif') no-repeat top left;
+  background-size:52px 52px;
+  display:block;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  margin: -26px 0 0 -26px;  
+  width: 52px;
+  height: 52px;  
+  z-index:10001;  
+}
+.print-loading-animation {
+    position: static;
+    top: initial;
+    left: inherit;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ocean-pacific .loading-animation{
+  background-image: url('../img/loading-pacific.gif');
+}
+.ocean-arctic .loading-animation{
+  background-image: url('../img/loading-arctic.gif');
+}
+.ocean-atlantic .loading-animation{
+  background-image: url('../img/loading-atlantic.gif');
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+  .loading-animation {
+    background-image: url('../img/loading@2.gif')
+  }
+  .ocean-pacific .loading-animation{
+    background-image: url('../img/loading-pacific@2.gif');
+  }
+  .ocean-arctic .loading-animation{
+    background-image: url('../img/loading-arctic@2.gif');
+  }
+  .ocean-atlantic .loading-animation{
+    background-image: url('../img/loading-atlantic@2.gif');    
+  }
+}
+
+.media-responsive-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  background-color:#E7ECEF;
+  
+}
+.media-responsive-container-video {
+  background-color:#000;
+}
+/* 16x9 Aspect Ratio */
+.media-responsive-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.media-responsive-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.media-responsive-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.page hr,
+.waves {
+  background-image: url('../img/waves.png');
+  background-position: 0px 0px;
+  background-size: 56px 200px;
+  background-repeat:repeat-x;
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+.page hr{
+  border-top:0;
+  background-position: 0px -40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.panel-white .waves,
+.panel-light .waves {
+  background-position: 0px -40px;
+}
+
+.ocean-pacific .waves.waves-ocean{
+  background-position: 0px -80px;
+}
+.ocean-arctic .waves.waves-ocean{
+  background-position: 0px -120px;
+}
+.ocean-atlantic .waves.waves-ocean{
+  background-position: 0px -160px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+  .page hr,
+  .waves {
+    background-image: url('../img/waves@2.png');
+  }
+}

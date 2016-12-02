@@ -1,0 +1,18 @@
+{% assign t = site.tags.translations[0][page.lang] %}
+<nav class="layer-links layer-links-bar">
+  <table class=""><tbody>
+    <tr class="">
+  {% for cat in site.layercategories %}
+      <td class="column-cat-link-layers-{{cat.value}}">
+        <a href='#'
+           data-catid='{{cat.value}}' 
+           class='cat-link cat-link-layers cat-link-layers-{{cat.value}}' 
+           title='{{ t.categories[cat.value] }}'>
+          <div class='cat-link-icon icon-wwf_{{cat.value}} ocean-bgcolor'></div>
+          <div class='cat-link-label hint hidden-xs'>{{ t.categories[cat.value] }}</div>
+        </a>
+      </td>
+  {% endfor %}
+    </tr>
+  </tbody></table>
+</nav>

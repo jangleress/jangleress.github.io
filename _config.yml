@@ -1,0 +1,660 @@
+title: WWF Canada Oceans Interactive
+baseurl: ''
+imageurl: 'http://oceanplanning.wwf.ca/assets/uploads'
+siteurl: 'http://oceanplanning.wwf.ca'
+permalink: /:categories/:title
+markdown: kramdown
+exclude:
+  - "nbproject/"
+languages: &languages
+  - name: 'English'
+    value: 'en'
+  - name: 'French'
+    value: 'fr'
+oceans: &oceans
+  - name: 'Pacific'
+    value: pacific
+  - name: 'Arctic'
+    value: arctic
+  - name: 'Atlantic'
+    value: atlantic
+storychapters: &storychapters
+  - name: 'Natural Riches'
+    value: 1
+  - name: 'Challenges'
+    value: 2
+  - name: 'Solutions'
+    value: 3
+mediatypes: &mediatypes
+  - name: 'Photo'
+    value: photo
+  - name: 'Infographic'
+    value: graphic
+  - name: 'Video'
+    value: video
+layercategories: &layercategories
+  - name: 'Wildlife'
+    value: 'wildlife'
+  - name: 'Protected and important areas'
+    value: 'ecology'
+  - name: 'Human Activity'
+    value: 'human'
+  - name: 'Planning and management'
+    value: 'planning'
+  - name: 'Custom'
+    value: 'custom'
+prose:
+  media: "assets/uploads"
+  rooturl: '_posts'
+  siteurl: 'http://wwfcanada.github.io/oceansmap/'
+  relativeLinks: 'http://wwfcanada.github.io/oceansmap/resources/links.jsonp'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "home"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: "/"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          options: *languages
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          value: ""
+      - name: "meta_title"
+        field:
+          element: "text"
+          label: "Meta title"
+          value: ""
+      - name: "meta_description"
+        field:
+          element: "text"
+          label: "Meta description"
+          value: ""
+      - name: "fb_title"
+        field:
+          element: "text"
+          label: "Facebook Title"
+          value: ""
+      - name: "fb_description"
+        field:
+          element: "text"
+          label: "Facebook Description"
+          value: ""
+      - name: "fb_sitename"
+        field:
+          element: "text"
+          label: "Facebook Site Name"
+          value: ""
+      - name: "fb_image"
+        field:
+          element: "text"
+          label: "Facebook Image"
+          value: ""
+      - name: "tw_title"
+        field:
+          element: "text"
+          label: "Twitter Title"
+          value: ""
+      - name: "tw_site"
+        field:
+          element: "text"
+          label: "Twitter Site"
+          value: ""
+      - name: "tw_description"
+        field:
+          element: "text"
+          label: "Twitter Description"
+          value: ""
+      - name: "tw_image"
+        field:
+          element: "text"
+          label: "Facebook Image"
+          value: ""
+      - name: "g_name"
+        field:
+          element: "text"
+          label: "Google+ Name"
+          value: ""
+      - name: "g_description"
+        field:
+          element: "text"
+          label: "Google+ Description"
+          value: ""
+    _posts/oceans:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "ocean"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: "/ocean/oceanid/"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          options: *languages
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "meta_title"
+        field:
+          element: "text"
+          label: "Meta title"
+          value: ""
+      - name: "meta_description"
+        field:
+          element: "text"
+          label: "Meta description"
+          value: ""      
+    _posts/pages:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: "/page/]pageid]/"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          options: *languages
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Header Image/Graphic URL"
+          value: ""
+      - name: "image_att"
+        field:
+          element: "text"
+          label: "Image Caption/Attribution"
+          help: "links: [text](http://www.wwf.ca)"                    
+          value: ""
+      - name: "meta_title"
+        field:
+          element: "text"
+          label: "Meta title"
+          value: ""
+      - name: "meta_description"
+        field:
+          element: "text"
+          label: "Meta description"
+          value: ""
+      - name: "link_action_url"
+        field:
+          element: "text"
+          label: "Action Link URL"
+          value: ""
+      - name: "link_action_anchor"
+        field:
+          element: "text"
+          label: "Action Link anchor text"
+          value: ""               
+      - name: "media_title"
+        field:
+          element: "text"
+          label: "Media/slideshow title (optional)"
+          value: ""
+      - name: "media_no"
+        field:
+          element: "number"
+          label: "No of media items in slideshow (0 - 5)"
+          value: 1
+      - name: "media_type_1"
+        field:
+          element: "select"
+          label: "Media 1 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_1"
+        field:
+          element: "text"
+          label: "Media 1 image filename or video id"
+          value: ""
+      - name: "media_att_1"
+        field:
+          element: "text"
+          label: "Media 1 Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_caption_1"
+        field:
+          element: "text"
+          label: "Media 1 Caption"
+          value: ""
+      - name: "media_type_2"
+        field:
+          element: "select"
+          label: "Media 2 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_2"
+        field:
+          element: "text"
+          label: "Media 2 image filename or video id"
+          value: ""
+      - name: "media_att_2"
+        field:
+          element: "text"
+          label: "Media 2 Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_caption_2"
+        field:
+          element: "text"
+          label: "Media 2 Caption"
+          value: ""
+      - name: "media_type_3"
+        field:
+          element: "select"
+          label: "Media 3 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_3"
+        field:
+          element: "text"
+          label: "Media 3 image filename or video id"
+          value: ""
+      - name: "media_att_3"
+        field:
+          element: "text"
+          label: "Media 3 Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_caption_3"
+        field:
+          element: "text"
+          label: "Media 3 Caption"
+          value: ""
+      - name: "media_type_4"
+        field:
+          element: "select"
+          label: "Media 4 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_4"
+        field:
+          element: "text"
+          label: "Media 4 image filename or video id"
+          value: ""
+      - name: "media_att_4"
+        field:
+          element: "text"
+          label: "Media 4 Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_caption_4"
+        field:
+          element: "text"
+          label: "Media 4 Caption"
+          value: ""
+      - name: "media_type_5"
+        field:
+          element: "select"
+          label: "Media 5 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_5"
+        field:
+          element: "text"
+          label: "Media 5 image filename or video id"
+          value: ""
+      - name: "media_att_5"
+        field:
+          element: "text"
+          label: "Media 5 Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_caption_5"
+        field:
+          element: "text"
+          label: "Media 5 Caption"
+          value: ""
+      - name: "link_anchor"
+        field:
+          element: "text"
+          label: "Related Link Label"
+          value: ""       
+      - name: "link_url"
+        field:
+          element: "text"
+          label: "Related Link URL/target"
+          help: "Full URL for external links or #?page=[pageid] for internal page links"          
+          value: ""
+      - name: "link_description"
+        field:
+          element: "text"
+          label: "Related Link description"
+          value: ""
+      - name: "ref_text"
+        field:
+          element: "textarea"
+          label: "Text references"
+          help: "Separate multiple references with ' _ ', links: [text](http://www.wwf.ca), bold: **bold**"
+          value: ""
+    _posts/layers:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "layers-home"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: "/layers/home/"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          options: *languages
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "hint"
+        field:
+          element: "text"
+          label: "Select category hint"
+          value: ""
+      - name: "meta_title"
+        field:
+          element: "text"
+          label: "Meta title"
+          value: ""
+      - name: "meta_description"
+        field:
+          element: "text"
+          label: "Meta description"
+          value: ""
+    _posts/layers/items:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "layers-item"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          help: "replace contentid with the layer id or the layer's contentid if defined "          
+          value: "/layers/contentid/"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          options: *languages
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "fact"
+        field:
+          element: "textarea"
+          label: "Fact (optional)"
+          value: ""
+      - name: "status"
+        field:
+          element: "text"
+          label: "Status (species layers only)"
+          value: ""
+      - name: "population"
+        field:
+          element: "text"
+          label: "Population (species layers only)"
+          value: ""
+      - name: "ref_text"
+        field:
+          element: "text"
+          label: "Description reference/source"
+          help: "Separate multiple references with ' _ ', links: [text](http://www.wwf.ca), bold: **bold**"          
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Header image URL (optional)"
+          value: ""
+      - name: "image_att"
+        field:
+          element: "text"
+          label: "Image Caption/Attribution (optional)"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+    _posts/stories:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "story"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: "/story/[storyid]/"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          options: *languages
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "ocean_id"
+        field:
+          element: "select"
+          label: "Ocean"
+          placeholder: "Select ocean"
+          options: *oceans
+      - name: "layers"
+        field:
+          element: "text"
+          label: "Layer ids of associated layers"
+          help: "comma-separated list"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Header image URL (optional)"
+          value: ""
+      - name: "image_att"
+        field:
+          element: "text"
+          label: "Image Caption/Attribution (optional)"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "ref_text"
+        field:
+          element: "textarea"
+          label: "Text references"
+          help: "Separate multiple references with ' _ ', links: [text](http://www.wwf.ca), bold: **bold**"          
+          value: ""
+    _posts/stories/items:
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: ""
+          options: *languages      
+      - name: "category"
+        field:
+          element: "text"
+          label: "Story id"                
+      - name: "chapter"
+        field:
+          element: "select"
+          label: "Select story chapter"
+          placeholder: "Challenges"
+          options: *storychapters
+          selected: "challenges"
+      - name: "order"
+        field:
+          element: "number"
+          label: "Story item order"
+          value: "0"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "layers"
+        field:
+          element: "text"
+          label: "Layer ids of associated layers"
+          help: "comma-separated list"
+          value: ""
+      - name: "fact"
+        field:
+          element: "textarea"
+          label: "Fact (optional)"
+          value: ""
+      - name: "audio"
+        field:
+          element: "text"
+          label: "Audio file filename/URL"
+          value: ""
+      - name: "audio_name"
+        field:
+          element: "text"
+          label: "Audio file title"
+          value: ""
+      - name: "link_url"
+        field:
+          element: "text"
+          label: "Link URL"
+          value: ""
+      - name: "link_description"
+        field:
+          element: "text"
+          label: "Link description"
+          value: ""
+      - name: "link_anchor"
+        field:
+          element: "text"
+          label: "Link anchor text"
+          value: ""
+      - name: "media_no"
+        field:
+          element: "number"
+          label: "No of media items in slideshow (0 - 5)"
+          value: 1
+      - name: "media_type_1"
+        field:
+          element: "select"
+          label: "Media 1 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_1"
+        field:
+          element: "text"
+          label: "Media 1 image filename or video id"
+          value: ""
+      - name: "media_att_1"
+        field:
+          element: "text"
+          label: "Media 1 Caption/Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_type_2"
+        field:
+          element: "select"
+          label: "Media 2 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_2"
+        field:
+          element: "text"
+          label: "Media 2 image filename or video id"
+          value: ""
+      - name: "media_att_2"
+        field:
+          element: "text"
+          label: "Media 2 Caption/Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_type_3"
+        field:
+          element: "select"
+          label: "Media 3 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_3"
+        field:
+          element: "text"
+          label: "Media 3 image filename or video id"
+          value: ""
+      - name: "media_att_3"
+        field:
+          element: "text"
+          label: "Media 3 Caption/Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_type_4"
+        field:
+          element: "select"
+          label: "Media 4 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_4"
+        field:
+          element: "text"
+          label: "Media 4 image filename or video id"
+          value: ""
+      - name: "media_att_4"
+        field:
+          element: "text"
+          label: "Media 4 Caption/Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""
+      - name: "media_type_5"
+        field:
+          element: "select"
+          label: "Media 5 type"
+          placeholder: "Photo"
+          options: *mediatypes
+          selected: "photo"
+      - name: "media_url_5"
+        field:
+          element: "text"
+          label: "Media 5 image filename or video id"
+          value: ""
+      - name: "media_att_5"
+        field:
+          element: "text"
+          label: "Media 5 Caption/Attribution"
+          help: "links: [text](http://www.wwf.ca)"
+          value: ""

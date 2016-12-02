@@ -1,0 +1,115 @@
+<div class="content-wrap">
+  <div class="panel-header content-container text-center">
+    <a href="#" class="icon-wwf_close close-item visible-xs ocean-bgcolor"></a>
+    <h3>
+      <a href="#" class="ocean-link ocean-color-<%= ocean %> link-large" data-oceanid="<%= ocean %>">
+        <%= t.oceans[ocean] %>
+      </a>
+    </h3>
+    <h2><%= t.categories[category] %></h2>
+  </div>
+  <div class="waves"></div>   
+  <div class="layer-container content-container">
+    
+    <%= catNav %>
+
+    
+    <ul class="list-unstyled">
+  <% _.each(grouped, function(groups,subcategory){ %>
+    <% if (subcategory !== 'undefined') { %>
+      <li class="layer-subcategory">
+        <h3><%= typeof t.subcategories[subcategory] !== 'undefined' ? t.subcategories[subcategory].title : subcategory %></h3>
+        <div class="subcategory-disclaimer">
+          <%= typeof t.subcategories[subcategory] !== 'undefined' ? t.subcategories[subcategory].disclaimer : '' %>
+        </div>
+        <ul class="layer-select-list list-unstyled">
+    <% } %>
+    <% _.each(groups, function(layers,group){ %>
+      <% if (group === 'undefined'){ %>
+        <% _.each(layers, function(layer){ %>
+          <li class="layer-group layer-group-undefined">
+            <table class="table-layer-select <%= layer.isModuleDefault() ? 'module-default' : '' %>"><tbody>
+              <tr class="layer-key-main">
+                <td class="toggle">
+                  <a href="#" class="toggle-layer <%= layer.isActive() ? 'active' : '' %>"
+                     data-layerid="<%= layer.id %>">
+                    <span class="icon-wwf_tick show-on-active"></span>
+                  </a>
+                </td>
+                <td class="title">
+                  <a href="#" class="toggle-layer <%= layer.isActive() ? 'active' : '' %>" 
+                     data-layerid="<%= layer.id %>">
+                    <div class="title-inner"><%= layer.getTitle() %></div>
+                  </a>
+                  <% if(layer.getHint() !== '') { %>
+                  <div class="hint">
+                    <%= layer.getHint() %>
+                  </div>
+                  <% } %>
+                </td>
+                <td class="action-link">
+                  <a class="layer-info-link layer-action-link pull-right" data-layerid="<%= layer.id %>" href='#'>
+                    <%= t.ux.info %>
+                  </a>
+                </td>
+                <td class="key">
+                  <%= layer.getKeySquareIcon('sm') %>
+                </td>
+              </tr></tbody>
+            </table>
+          </li>
+        <% }) %>
+      <% }  %>
+    <% }) %>      
+    <% _.each(groups, function(layers,group){ %>
+      <% if (group !== 'undefined'){ %>      
+        <% var groupActive = _.reduce(layers, function(memo, layer){return memo && layer.isActive()}, true) %>
+          <li class="layer-group">
+            <h4><%= t.groups[group]%></h4>
+            <ul class="layer-select-list list-unstyled">
+        <% _.each(layers, function(layer){ %>
+              <li class="layer-select-list-item">
+                <table class="table-layer-select <%= layer.isModuleDefault() ? 'module-default' : '' %>"><tbody>
+                  <tr class="layer-key-main">
+                    <td class="toggle">
+                      <a href="#" class="toggle-layer <%= layer.isActive() ? 'active' : '' %>"
+                        data-layerid="<%= layer.id %>">
+                        <span class="icon-wwf_tick show-on-active"></span>
+                      </a>
+                    </td>
+                    <td class="title">
+                      <a href="#"
+                        class="toggle-layer <% if (layer.isActive()) { %> active<% }%>"
+                        data-layerid="<%= layer.id %>">
+                        <div class="title-inner"><%= layer.getTitle() %></div>
+                      </a>
+                      <% if(layer.getHint() !== '') { %>
+                      <div class="hint">
+                        <%= layer.getHint() %>
+                      </div>
+                      <% } %>
+                    </td>
+                    <td class="action-link">
+                      <a class="layer-info-link layer-action-link pull-right" data-layerid="<%= layer.id %>" href='#'>
+                        <%= t.ux.info %>
+                      </a>
+                    </td>
+                    <td class="key">
+                      <%= layer.getKeySquareIcon('sm') %>
+                    </td>
+                  </tr></tbody>
+                </table>
+              </li>
+        <% }) %>
+            </ul>
+          </li>
+      <% } %>
+    <% }) %>
+    <% if (subcategory !== 'undefined') { %>
+        </ul>
+      </li>
+    <% } %>
+  <% }) %>
+    </ul>
+  </div>
+</div>

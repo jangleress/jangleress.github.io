@@ -1,0 +1,12 @@
+{% assign t = site.tags.translations[0][page.lang] %}
+<nav class="story-links">      
+    <ul class="nav list-inline">  
+{% for chapter in site.storychapters %}
+      <li>        
+        <a href='#' data-chapterid='{{chapter.value}}' class='chapter-link chapter-link-{{chapter.value}}' title='{{ chapter.value }}'>                
+          {{ chapter.value }}
+        </a>
+      </li>
+{% endfor %}
+    </ul>       
+</nav>  

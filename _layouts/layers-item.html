@@ -1,0 +1,111 @@
+---
+layout: default
+---
+{% assign t = site.tags.translations[0][page.lang] %}
+{% capture id %}{{page.permalink | split:'/' | last}}{% endcapture %}
+<div id="map"><span class="loading-animation hide-on-app-loaded map-loading-animation"></span></div>
+<div id="key"></div>
+<div id="layers" class="content-aside">
+  <div id="layer-item" class="layer-item content-scroll" >    
+    <div id="layer-item-{{id}}" class="content">
+      <div id="layer-item-{{id}}-inner" class="layer-item-inner panel-light">
+        <div class="content-wrap content-item-wrap">                
+          <div class="layers-item-header content-container panel-header">
+            <h3 class="placeholder-ocean">&nbsp;</h3>
+            <div class="placeholder-category"></div>
+            {% include close.html %}
+          </div>        
+          {% if page.image and page.image != '' %}        
+          <div class="layers-item-media content-container">
+            <figure>
+              <div class="media-responsive-container media-responsive-container-16x9">
+
+              {% if page.image contains 'http' %}
+                    <img class="img-responsive" src="{{page.image}}" alt="{{page.image_att}}">
+              {% else %}
+                    <img class="img-responsive" src="{{site.imageurl}}/{{page.image}}" alt="{{page.image_att}}">
+              {% endif %}        
+              </div>
+              <figcaption class="figcaption">
+                {% if page.image_att && page.image_att != '' %}
+                {{page.image_att | markdownify }}
+                {% endif %}                  
+              </figcaption>
+            </figure>
+          </div>
+          {% endif %}        
+          <div class="layers-item-main content-container">
+            <h2>{{ page.title }}</h2>          
+            {% if page.fact and page.fact != ''%}
+            <blockquote class='item-fact ocean-color'>
+              <p>{{page.fact}}</p>
+            </blockquote>
+            {% else %}
+              {% if page.population or page.status%}
+              <blockquote class='item-figures  ocean-color'>
+                <ul class="list-unstyled">
+                  {% if page.status and page.status != ''%}
+                  <li class="panel-white">
+                    <ul class="list-inline">
+                      <li>
+                        <span class="figure-icon show-on-arctic icon-wwf_status-arctic"></span>
+                        <span class="figure-icon show-on-pacific icon-wwf_status-pacific"></span>
+                        <span class="figure-icon show-on-atlantic icon-wwf_status-atlantic "></span>
+                      </li><li>
+                        <h4>{{t.ux.layers.status}}</h4>
+                        <p>
+                          {{page.status}} 
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  {% endif %}
+                  {% if page.population and page.population != ''%}
+                  <li class="panel-white">
+                    <ul class="list-inline">
+                      <li>                     
+                        <span class="figure-icon show-on-arctic icon-wwf_population-arctic"></span>
+                        <span class="figure-icon show-on-pacific icon-wwf_population-pacific"></span>
+                        <span class="figure-icon show-on-atlantic icon-wwf_population-atlantic "></span>
+                      </li><li>
+                        <h4>{{t.ux.layers.population}}</h4>
+                        <p>
+                          {{page.population}} 
+                        </p>
+                      </li>
+                    </ul>                  
+                  </li>
+                  {% endif %}
+                </ul>
+              </blockquote>                      
+              {% endif %}          
+            {% endif %}          
+            {{content}}
+
+          </div>
+          <div class="layers-item-category content-container">
+            <div class="placeholder-layercontrol"></div>
+          </div>
+          <div class="waves"></div>   
+          <div class="layers-item-footer content-container">
+            <div class="layers-item-references item-references">
+              <h5>{{t.ux.references}}</h5>
+              {% if page.ref_text and page.ref_text != '' %}
+              <div class="layers-item-references-text">
+                <div class="item-reference-label">{{t.ux.layers.references_text}}</div> 
+                <div class="convert-markdown">                
+                  {{page.ref_text}}                                                   
+                </div>
+              </div>
+              {% endif %}                
+              <div class="layers-item-references-layer">
+                <div class="item-reference-label">{{t.ux.layers.references_layer}}</div>
+                <div class="placeholder-layer-reference"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+{% assign t = site.tags.translations[0][page.lang] %}
+<div id="nav-bottom-oceans">
+  <nav class="">
+    <ul class="list-inline links-large">
+      <li>
+        <a href='#' class="reveal-on-hover ocean-link ocean-link-pacific" data-oceanid='pacific' title="{{t.oceans.pacific}}">
+          {{t.oceans.pacific}}          
+          <div class="show-on-active show-on-hover icon-wwf_pacific-white"></div>
+          <div class="hide-on-active hide-on-hover icon-wwf_pacific"></div>
+        </a>
+      </li>
+      <li>
+        <a href='#' class="reveal-on-hover ocean-link ocean-link-arctic" data-oceanid='arctic' title="{{t.oceans.arctic}}">
+          {{t.oceans.arctic}}
+          <div class="show-on-active show-on-hover icon-wwf_arctic-white"></div>
+          <div class="hide-on-active hide-on-hover icon-wwf_arctic"></div>
+        </a>
+      </li>
+      <li>
+        <a href='#' class="reveal-on-hover ocean-link ocean-link-atlantic" data-oceanid='atlantic' title="{{t.oceans.atlantic}}">
+          {{t.oceans.atlantic}}
+          <div class="show-on-active show-on-hover icon-wwf_atlantic-white"></div>
+          <div class="hide-on-active hide-on-hover icon-wwf_atlantic"></div>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

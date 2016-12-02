@@ -1,0 +1,26 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie"> <![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 oldie" > <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 oldie" > <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9 oldie" > <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+
+{% include head.html %}
+
+{% assign t = site.tags.translations[0][page.lang] %}
+
+<body>
+  <div id="application" data-baseurl="{{site.baseurl}}" data-url="{{page.url}}" data-lang="{{page.lang}}" class="module-home">       
+    <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser that is unfortunately not supported by the application. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+    <![endif]-->   
+    {% include nav-top.html %}
+    {{content}}    
+    {% include modal.html %}
+    {% include nav-bottom-modules.html %}
+    {% include nav-bottom-oceans.html %}   
+    <div id="print" style=""></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% assign t = site.tags.translations[0][page.lang] %}
+{% capture oceanid %}{{ page.permalink | split: '/' | last }}{% endcapture %}
+
+<div id="map"><span class="loading-animation hide-on-app-loaded map-loading-animation"></span></div>
+<div id="key"></div>
+<div id="ocean" class="">
+  <div class="content">
+    <div class="content-aside content-scroll-sm content-wrap panel-blue text-center ocean-{{oceanid}} ocean-bgcolor-{{oceanid}}">  
+      <div class="ocean-header content-container">
+        <div class="ocean-header-image-wrapper">
+          <div class="media-responsive-container media-responsive-container-16x9">
+            <img class="ocean-image img-responsive img-retina" src="{{site.baseurl}}/assets/img/wwf-graphic-{{oceanid}}.png">
+          </div>
+        </div>
+        <a href="#" class="ocean-nav-previous previous-ocean-link pull-left">
+          <span class="icon-wwf_arrow-left-white"></span>
+        </a>
+        <a href="#" class="ocean-nav-next next-ocean-link pull-right">
+          <span class="icon-wwf_arrow-right-white"></span>
+        </a>        
+        <div class="ocean-title">
+          <h1>{{page.title}}</h1>
+        </div>
+      </div>
+      <div class="ocean-content-main  content-container">
+        {{content}}
+      </div>
+      <div class="story-nav content-container">
+        <p class="hint">{{t.ux.ocean.select_story }}</p>        
+        <div class="placeholder-story-nav"></div>
+      </div>     
+      <div class="waves waves-ocean"></div>
+    </div>
+  </div>
+</div>

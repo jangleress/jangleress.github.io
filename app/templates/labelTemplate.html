@@ -1,0 +1,12 @@
+<div class="label">
+<% if (typeof supTitle !== 'undefined' && supTitle !== '') { %>
+<div class="label-sup-title"><small><%= supTitle %></small></div>  
+<% } %>
+<% if (typeof title !== 'undefined' && title !== '') { %>
+<div class="label-title"><strong><%= title %></strong></div>  
+<% } %>
+<% if (typeof description !== 'undefined' && description !== '') { %>
+  <div class="label-description"><%= description %></div>  
+<% } %>
+
+</div>

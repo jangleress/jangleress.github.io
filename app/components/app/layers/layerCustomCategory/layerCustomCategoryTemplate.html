@@ -1,0 +1,134 @@
+<div class="content-wrap">
+  <div class="panel-header content-container text-center">
+    <a href="#" class="icon-wwf_close close-item visible-xs ocean-bgcolor"></a>
+    <h3>
+      <a href="#" class="ocean-link ocean-color-<%= ocean %> link-large" data-oceanid="<%= ocean %>">
+        <%= t.oceans[ocean] %>
+      </a>
+    </h3>
+    <h2><%= t.categories[category] %></h2>
+  </div>
+  <div class="waves"></div>   
+  <div class="layer-container content-container">    
+    <%= catNav %>
+    <h3><%= t.ux.layers.your_layers %></h3>
+    <% if (layers.length > 0) { %>
+    <ul class="layer-select-list list-unstyled">
+      <% _.each(layers, function(layer){ %>
+        <li class="layer-group layer-group-undefined">
+          <table class="table-layer-select"><tbody>
+            <tr class="layer-key-main">
+              <td class="toggle">
+                <a href="#" class="toggle-layer <%= layer.isActive() ? 'active' : '' %>"
+                   data-layerid="<%= layer.id %>">
+                  <span class="icon-wwf_tick show-on-active"></span>
+                </a>
+              </td>
+              <td class="title">
+                <% if (layer.isEdit() && editTitle === layer.id) { %>
+                <input class="form-control select-on-click ocean-color input-layer-title" 
+                       type="text" 
+                       data-layerid="<%= layer.id %>"
+                       value="<%= layer.getTitle() %>">
+                <% } else { %>
+                <a href="#" class="toggle-layer <%= layer.isActive() ? 'active' : '' %>" 
+                   data-layerid="<%= layer.id %>">
+                  <div class="title-inner"><%= layer.getTitle() %></div>
+                </a>
+                <% } %>
+              </td>
+              <td class="action-link">
+                <a class="remove-layer layer-action-link pull-right " data-layerid="<%= layer.id %>" href='#'>
+                  <%= t.ux.layers.delete_layer %>
+                </a>
+              </td>
+              <td class="action-link">
+                <a class="edit-layer layer-action-link pull-right <%= layer.isEdit() ? ' active' : '' %> " data-layerid="<%= layer.id %>" href='#'>
+                  <%= t.ux.layers.edit_layer %>
+                </a>
+              </td>
+              <td class="key">
+                <% if (layer.isEdit()) { %>
+                <a href="" class="edit-layer-color" data-layerid="<%= layer.id %>">
+                <% } %>
+                <%= layer.getKeySquareIcon('sm') %>
+                <% if (layer.isEdit()) { %></a><% } %>
+              </td>
+            </tr>                
+          <% if (layer.isEdit()) { %>        
+            <% if (editTitle === layer.id) { %>   
+            <tr class="layer-key-edits">
+              <td></td>
+              <td>
+                <a href="#" class="save-layer-title ocean-bgcolor" data-layerid="<%= layer.id %>">
+                  <%= t.ux.layers.confirm %>
+                </a>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <% } else if (editColor === layer.id) { %>  
+            <tr class="layer-key-edits">
+              <td></td>
+              <td colspan="4">
+                <div class="input-layer-color-wrap">
+                  <input type='text' 
+                     class="input-layer-color" 
+                     data-layerid="<%= layer.id %>"                   
+                     value="<%= layer.getColor() %>"/>
+                </div>
+                <div class="input-layer-color-cancel-wrap">
+                  <a href="#" class="cancel-layer-color ocean-color pull-right " >
+                    <%= t.ux.layers.cancel %>
+                  </a>
+                </div>
+              </td>
+            </tr>              
+            <% } else { %>   
+            <tr class="layer-key-edits">
+              <td></td>
+              <td>
+                <a href="#" class="reveal-on-hover pull-left edit-layer-title" data-layerid="<%= layer.id %>">
+                  <span class="hide-on-hover hint">
+                    <span class="icon-wwf_edit-light"></span>
+                    <%= t.ux.layers.edit_title %>
+                  </span>
+                  <span class="show-on-hover ocean-color">
+                    <span class="icon-wwf_edit-<%= ocean %>"></span>
+                    <%= t.ux.layers.edit_title %>
+                  </span>
+                </a>
+              </td>
+              <td colspan="3">
+                <a href="#" class="reveal-on-hover pull-right edit-layer-color ocean-color" data-layerid="<%= layer.id %>">
+                  <span class="hide-on-hover hint">
+                    <span class="icon-wwf_edit-light"></span>
+                    <%= t.ux.layers.edit_color %>
+                  </span>
+                  <span class="show-on-hover ocean-color">
+                    <span class="icon-wwf_edit-<%= ocean %>"></span>
+                    <%= t.ux.layers.edit_color %>
+                  </span>
+                </a>
+              </td>
+            </tr>            
+            <tr class="layer-key-instructions">
+              <td></td>
+              <td colspan="4">
+                <div class="custom-layer-edit-hint hint">
+                  <%= t.ux.layers.edit_instructions %>
+                </div>
+              </td>
+            </tr>
+            <% } %>                        
+          <% } %>            
+          </tbody></table>
+        </li>
+      <% }) %>
+    </ul>
+    <% } %>
+    <a class="add-layer link-large ocean-color" href="#">+ <%= t.ux.layers.add_layer %></a>
+    
+  </div>
+</div>

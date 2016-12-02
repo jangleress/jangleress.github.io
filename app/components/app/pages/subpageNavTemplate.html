@@ -1,0 +1,9 @@
+  <ul class="list-inline subpage-list nav-secondary">
+    <% _.each(pages, function(page){ %>
+    <li class="page-item">
+      <a href="#" data-pageid="<%= page.id %>" class="page-link <%= pageactive === page.id ? 'active' : ''  %>">
+        <%= page.getTitle() %>
+      </a>      
+    </li>  
+    <% }) %>
+  </ul>

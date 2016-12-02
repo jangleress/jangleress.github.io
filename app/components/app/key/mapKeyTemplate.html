@@ -1,0 +1,24 @@
+<% if (layerKeys.length > 0) {%>
+<div class="map-key">
+  <div class="map-key-label">
+  <%= t.ux.map.map_key %>
+  </div>
+  <div class="scroll-cover">
+    <a class="scroll-up reveal-on-hover" href="#">      
+      <span class="icon-wwf_scroll-up hide-on-hover"></span>      
+      <span class="icon-wwf_scroll-up-hover show-on-hover  show-on-hover-inline"></span>            
+    </a>
+    <ul class="map-key-layer-list list-unstyled scroll-scroller  <%= preventLayerToggle ? 'prevent-layer-toggle' : '' %>">
+      <% _.each(layerKeys, function(layerKey){ %>
+      <li class="map-key-layer-list-item reveal-on-hover">
+        <%= layerKey %>
+      </li>  
+      <% }) %>
+    </ul>
+    <a class="scroll-down reveal-on-hover" href="#">      
+      <span class="icon-wwf_scroll-down hide-on-hover"></span>      
+      <span class="icon-wwf_scroll-down-hover show-on-hover show-on-hover-inline"></span>      
+    </a>
+  </div>
+</div>
+<% } %>

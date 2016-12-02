@@ -1,0 +1,37 @@
+<div class="modal content-scroll panel-dark">
+  <div class="share-modal-header panel-header">
+    <a href="#" class="icon-wwf_close close-item ocean-bgcolor"></a>
+    <h3 class="modal-suptitle ocean-color"><%= t.app.title %></h3>
+    <h1 class="modal-title"><%= t.ux.print.print_title %></h1>
+  </div>
+  <div class="waves"></div>          
+  <div class="modal-content">
+    <div class="content-container">
+      <% if (print_url === '' || print_url === 'loading'){ %>
+      <p> <%= t.ux.print.wait  %> </p>
+      <span class="loading-animation print-loading-animation"></span>
+
+      <% } else { %>
+
+      <ul class="share-links print-links list-unstyled list-inline">
+        <li>
+          <a href='<%= print_url %>' target='_blank'
+           class="btn btn-small btn-default btn-share ocean-bgcolor" >
+          <span class="btn-icon-text"><%= t.ux.print.download %></span>
+        </a>
+        </li>
+        <li>
+          <a href="#"
+           class="btn btn-small btn-default btn-share print-share ocean-bgcolor" target="_blank" >
+          <span class="btn-icon-text"><%= t.ux.print.share %></span>
+        </a>
+        </li>
+      </ul>
+      <% } %>
+      <div class="share-copy-link">
+        <h4><%= t.ux.print.link %></h4>
+        <input class="form-control select-on-click share-link ocean-color" type="text" value="<%= url_id %>">
+      </div>
+    </div>
+  </div> 
+</div>

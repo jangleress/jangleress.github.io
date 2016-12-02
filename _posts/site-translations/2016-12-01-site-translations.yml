@@ -1,0 +1,347 @@
+---
+published: true
+tags:
+  - translations
+en:
+  lang:
+    title: English
+    short: EN
+  app:
+    wwfurl: 'http://www.wwf.ca'
+    wwfanchor: 'www.wwf.ca'
+    title: Canada's oceans
+    subtitle: Planning for a better future
+  nav:
+    home: Home    
+    learn-more: Learn more
+    take-action: Take Action
+    ocean-planning: Ocean Planning
+    share: Share
+    help: Help    
+    basemap: Map attribution
+    story: Feature regions
+    layers: Map layers    
+  oceans:
+    atlantic: Atlantic
+    pacific: Pacific
+    arctic: Arctic    
+  storychapters:
+    0: Introduction
+    1: Natural riches
+    2: Challenges
+    3: Solutions
+  categories:
+    wildlife: Wildlife
+    human: Human activity    
+    ecology: Protected and important areas
+    planning: Planning and management 
+    custom: Custom 
+    basemap: Basemap 
+  subcategories:
+    fishing: 
+      title: Fishing
+      disclaimer: Data are displayed for select fisheries in different units and years for each sub-region. The different units cannot be directly compared. Please see info for more details. 
+    shipping: 
+      title: Shipping
+    oil_gas:  
+      title: Oil/gas
+    renewables:  
+      title: Renewable energy
+    community:
+      title: Proposed industrial development
+    traditional:  
+      title: Traditional activities
+    federal_planning:  
+      title: Federal planning areas
+    regional_msp:  
+      title: Active regional planning initiatives
+    other_planning:  
+      title: Other management measures
+    protected:  
+      title: Protected areas
+    important_areas:  
+      title: Ecologically important areas
+    seaice:  
+      title: Sea ice
+    marine_mammal:  
+      title: Marine mammals
+    fish: 
+      title: Fish
+    eelgrass:
+      title: Eelgrass beds
+    fisheries_closures:
+      title: Fisheries closures
+  groups:
+    maritimes: Maritimes
+    nl: Newfoundland 
+    seaiceextent: Sea ice extent
+    mpa: Marine Protected Areas
+  ux:
+    menu: Menu
+    close_menu: Close Menu   
+    scroll: Scroll    
+    info: Info    
+    learn_more_about: Learn more about
+    back_to_map: Back to map 
+    references: References          
+    home: 
+      select_ocean: Select an ocean      
+    ocean:
+      select_story: Select a feature region
+    layers:      
+      category_hint: Add layers by category
+      print_hint: Export map
+      status: Status
+      population: Population
+      references_text: Text
+      references_layer: Map layer  
+      add_layer: Add layer
+      edit_layer: Edit
+      delete_layer: Remove
+      edit_title: Change title      
+      edit_color: Change color
+      confirm: Confirm      
+      cancel: Cancel
+      your_layers: Your custom layers
+      custom_default_title: Your custom layer
+      edit_instructions: Please use the toolbar on the map to add features to your custom layer
+      draw:         
+        finish: Finish
+        undo: Remove last point        
+        edit: Edit features
+        remove: Remove features        
+        add_line: Add a line
+        add_polygon: Add an area
+        add_rectangle: Add a rectangle
+        add_circle: Add a circle
+        add_marker: Add a marker
+        circle_tooltip: Click and drag to draw circle 
+        marker_tooltip: Click map to place marker
+        polygon_tooltip_start: Click to start drawing area
+        polygon_tooltip_continue: Click to continue drawing area
+        polygon_tooltip_end: Click first point to close this area
+        line_tooltip_start: Click to start drawing line
+        line_tooltip_continue: Click to continue drawing line
+        line_tooltip_end: Click last point to finish line
+        rectangle_tooltip: Click and drag to draw rectangle
+        tooltip_end: Release mouse to finish drawing
+        edit_tooltip: Drag handles, or marker to edit feature
+        edit_tooltip_hint: Click cancel to undo changes
+        remove_tooltip: Click on a feature to remove        
+    story:
+      item_link: To learn more, visit
+      select_story: Select a different feature region
+      explore_more: 
+        pacific: Explore more layers for the Pacific ocean
+        arctic: Explore more layers for the Arctic ocean
+        atlantic: Explore more layers for the Atlantic ocean
+    pages: 
+      download_graphic: Download infographic
+    map: 
+      markerClickHint: Click to view    
+      map_key: Key
+    take_action_now: Take Action Now    
+    share:
+      share_title: Share this map      
+      share_link_current_view: Get link to current view
+      share_visit: Visit us online
+      share_tweet : Planning for the future of Canada's oceans with unique mapping tool!
+      share_twitter_hashtag: WWFCanadasOceans
+      share_twitter_via: WWFCanada
+      facebook: Facebook
+      twitter: Twitter
+      google: Google+
+      instagram: Instagram
+      pinterest: Pinterest
+      youtube: YouTube
+      blog: Blog
+      facebook_url: https://www.facebook.com/WWFCanada
+      twitter_url: https://twitter.com/WWFCanada
+      google_url: https://plus.google.com/u/2/b/112063376253404185131/112063376253404185131/posts
+      instagram_url: http://instagram.com/wwfcanada
+      pinterest_url: http://www.pinterest.com/wwfcanada
+      youtube_url: http://youtube.com/wwfcanada
+      blog_url: http://blog.wwf.ca
+    print:
+      print_title: Export this map
+      download: Download screenshot
+      share: Share on Facebook
+      link: Get link to your custom map      
+      wait: Please wait while your high-resolution screenshot is being generated    
+      header_note_url: View interactive version of this map at
+      footer_note_origin: This map was created using 
+      footer_note_further_use: All map components must be referenced correctly for further use. 
+      footer_note_map_creator: Map creator assumes all responsibility for this product.      
+      custom_attribution: Custom layer - map creator assumes all responsibility
+fr:
+  lang:
+    title: Français
+    short: FR
+  app:
+    wwfurl: 'http://www.wwf.ca/fr'
+    wwfanchor: 'www.wwf.ca/fr'
+    title: Océans du Canada
+    subtitle: Planifier un avenir meilleur    
+  nav:  
+    home: Accueil    
+    learn-more: En savoir plus    
+    take-action: Agir
+    ocean-planning: Planification des océans   
+    share: Partager
+    help: Aide
+    basemap: Fond cartographique
+    story: Régions présentées
+    layers: Couches cartographiques
+  oceans:
+    atlantic: Atlantique
+    pacific: Pacifique
+    arctic: Arctique
+  storychapters:
+    0: Présentation
+    1: Richesses naturelles
+    2: Défis
+    3: Solutions
+  categories:
+    wildlife: Faune
+    human: Activité humaine    
+    ecology: Zones protégées et importantes
+    planning: Planification et gestion
+    custom: Personnalisée 
+    basemap: Fond cartographique	
+  subcategories:
+    fishing: 
+      title: Pêche
+      disclaimer: Des données sont affichées pour sélectionner la pêches dans différentes unités et des années pour chaque sous-région. Aucune comparaison directe n’est possible entre les différentes unités. Veuillez consulter l’information pour plus de détails.
+    shipping: 
+      title: Transport maritime
+    oil_gas:  
+      title: Pétrole et gaz
+    renewables:  
+      title: Énergie renouvelable
+    community:
+      title: Développement industriel proposé 	  
+    traditional:  
+      title: Activités traditionnelles
+    federal_planning:  
+      title: Zones de planification fédérale
+    regional_msp:  
+      title: Initiatives actives de planification régionale
+    other_planning:  
+      title: Autres mesures de gestion
+    protected:  
+      title: Zones protégées
+    important_areas:  
+      title: Zones écologiquement importantes
+    seaice:  
+      title: Glace de mer
+    marine_mammal:  
+      title: Mammifères marins
+    fish:  
+      title: Poissons
+    eelgrass:
+      title: Lits de zostères
+    fisheries_closures:
+      title: Fermetures de pêcheries 
+  groups:
+    maritimes: Maritimes 
+    nl: Terre-Neuve
+    seaiceextent: Étendue de la glace de mer 
+    mpa: Aires marines protégées
+  ux:
+    menu: Menu
+    close_menu: Fermer le menu
+    scroll: Défiler
+    info: Info    
+    learn_more_about: En apprendre plus sur
+    back_to_map: Retour à la carte
+    references: Références  
+    home: 
+      select_ocean: Choisir un océan
+    ocean:
+      select_story: Choisir une région présentée
+    layers:      
+      category_hint: Ajouter des couches par catégorie
+      print_hint: Exporter la carte
+      status: État
+      population: Population          
+      references_text: Texte
+      references_layer: Couche cartographique
+      add_layer: Ajouter une couche
+      edit_layer: Modifier
+      delete_layer: Supprimer
+      edit_title: Modifier le titre      
+      edit_color: Modifier la couleur
+      confirm: Confirmer      
+      cancel: Annuler
+      your_layers: Vos couches personnalisées
+      custom_default_title: Votre couche personnalisée
+      edit_instructions: Veuillez utiliser la barre d’outils de la carte pour ajouter des détails à votre couche personnalisée.
+      draw:         
+        finish: Terminer
+        undo: Supprimer le dernier point        
+        edit: Modifier des détails
+        remove: Supprimer des détails        
+        add_line: Ajouter une ligne
+        add_polygon: Ajouter une zone
+        add_rectangle: Ajouter un rectangle
+        add_circle: Ajouter un cercle
+        add_marker: Ajouter une balise
+        circle_tooltip: Cliquer et glisser pour dessiner un cercle 
+        marker_tooltip: Cliquer sur la carte pour placer la balise
+        polygon_tooltip_start: Cliquer pour commencer à dessiner une zone
+        polygon_tooltip_continue: Cliquer pour continuer de dessiner la zone
+        polygon_tooltip_end: Cliquer sur le premier point pour fermer cette zone
+        line_tooltip_start: Cliquer pour commencer à dessiner une ligne
+        line_tooltip_continue: Cliquer pour continuer de dessiner la ligne
+        line_tooltip_end: Cliquer sur le dernier point pour compléter la ligne
+        rectangle_tooltip: Cliquer et glisser pour dessiner un rectangle
+        tooltip_end: Relâcher la souris pour compléter le dessin
+        edit_tooltip: Glisser les poignées ou la balise pour modifier le détail
+        edit_tooltip_hint: Cliquer sur Annuler pour annuler les modifications
+        remove_tooltip: Cliquer sur un détail pour le supprimer  	  
+    story:
+      item_link: Pour en savoir plus, rendez-vous à
+      select_story: Choisir une autre région présentée
+      explore_more: 
+        pacific: Explorer d’autres couches de l’océan Pacifique
+        arctic: Explorer d’autres couches de l’océan Arctique
+        atlantic: Explorer d’autres couches de l’océan Atlantique
+    pages: 
+      download_graphic: Télécharger l’infographie
+    map: 
+      markerClickHint: Cliquer pour voir
+      map_key: Légende
+    take_action_now: Agir maintenant    
+    share:
+      share_title: Partager cette carte     
+      share_link_current_view: Obtenir le lien de l’aperçu actuel
+      share_visit: Visitez-nous en ligne  
+      share_tweet : Outil de cartographie unique permettant de planifier l’avenir des océans du Canada!
+      share_twitter_hashtag: WWFOcéansduCanada
+      share_twitter_via: WWFCanadaFR
+      facebook: Facebook
+      twitter: Twitter
+      google: Google+
+      instagram: Instagram
+      pinterest: Pinterest
+      youtube: YouTube
+      blog: Blogue
+      facebook_url: https://www.facebook.com/WWFCanadafrancais
+      twitter_url: https://twitter.com/WWFCanadaFR
+      google_url: https://plus.google.com/u/2/b/112063376253404185131/112063376253404185131/posts
+      instagram_url: http://instagram.com/wwfcanada
+      pinterest_url: http://www.pinterest.com/wwfcanada
+      youtube_url: http://youtube.com/wwfcanada
+      blog_url: http://blog.wwf.ca/fr/      
+    print:
+      print_title: Imprimer et partager votre carte personnalisée
+      download: Télécharger la capture d’écran
+      share: Partager sur Facebook
+      link: Obtenir le lien de votre carte personnalisée         
+      wait: Veuillez patienter pendant la préparation de votre capture d’écran haute résolution
+      header_note_url: Visualiser la version interactive de cette carte à
+      footer_note_origin: Cette carte a été créée à l’aide de
+      footer_note_further_use: Toutes les composantes de la carte doivent être référencées correctement pour être utilisables ultérieurement. 
+      footer_note_map_creator: La personne ayant créé la carte porte l’entière responsabilité relative à ce produit.            
+      custom_attribution: Couche personnalisée - la personne ayant créé la carte porte l’entière responsabilité
+---

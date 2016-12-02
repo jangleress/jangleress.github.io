@@ -1,0 +1,59 @@
+<div class="layer-control">
+  <table class="table-layer-select"><tbody>
+    <tr class="layer-key-main">
+      <td class="toggle">
+        <a href="#" class="icon-wwf_tick toggle-layer <%= isActive ? 'active' : '' %>"
+           data-toggable="<%= toggable %>"                         
+           data-layerid="<%= id %>">
+        </a>     
+      </td>
+      <td class="title">
+        <a href="#" class="toggle-layer <%= isActive ? 'active' : '' %> " 
+           data-toggable="<%= toggable %>"           
+           data-layerid="<%= id %>">
+          <div class="title-inner"><%= title %></div>
+        </a>
+        <% if(hint !== '') { %>
+        <div class="hint">
+          <%= hint %>
+        </div>
+        <% } %>        
+      </td>
+      <% if (info) { %>
+      <td class="action-link">
+        <a class="layer-info-link layer-action-link pull-right" data-layerid="<%= id %>" href='#'>
+          <%= t.ux.info %>
+        </a>
+      </td>      
+      <% } %>
+      <td class="key">
+        <%= keyHtml %>
+      </td>      
+    </tr>
+    <% if (layerGradient) { %>
+    <tr class="layer-color-gradient">
+      <td></td>
+      <td colspan="<%= info ? 3 : 2 %>">
+        <%= layerGradient %> 
+      </td>      
+    </tr>
+    <% } %>
+    <% if (layerCategories) { %>
+    <tr class="layer-color-groups">
+      <td></td>
+      <td>
+        <ul class="list-unstyled">
+        <% _.each(layerCategories, function(cat){ %>
+          <li>
+            <%= cat.color %>            
+            <%= cat.label %>
+          </li>          
+        <% }) %>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <% } %>
+    </tbody>
+  </table>
+</div>

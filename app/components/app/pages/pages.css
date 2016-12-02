@@ -1,0 +1,228 @@
+/* pages */
+
+#pages h1 {
+  /* letter-spacing: 1px; */
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#pages .subpage-list li {
+  padding-right: 16px;
+}
+
+#pages .subpage-list li:last-child {
+  padding-right: 0;
+}
+
+#pages .page-content-header-image {
+  padding-top: 30px;
+}
+
+/* page content */
+
+.page-item-main .container-fluid {
+    max-width: 960px;
+}
+#pages .page-item-main {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+#pages .page-content-main h2 {
+  font-size: 36px;
+  text-align: center;
+  margin: 40px 0 30px 0;
+}
+
+#pages .page-content-main h1 {
+  font-size:48px;
+  text-transform: none;
+  margin-top: 30px;
+}
+#pages .page-content-main h3 {
+    margin-top: 38px;
+}
+#pages .page-content-main h4 {
+    font-family: 'Helvetica','Arial','sans-serif';
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 32px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#pages .page-content-main h5 {
+    line-height: 1.2;
+    text-transform: none;
+    font-size: 25px;
+}
+#pages .page-item-main .page-content-image {
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+.page-item-link {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-item-main .close-item {
+    position: fixed;
+    top: 30px;
+    right: -7px;
+}  
+@media (min-width: 769px) {  
+  #pages .page-item-main {
+    margin-top: 100px;
+  }
+
+  #pages .page-item-main .page-content-image {
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+    display: inline-block;
+  }
+  .page-item-main .close-item {  
+    top: initial;
+    right: initial;
+  } 
+}
+
+#pages .page-content-main .btn {
+  margin: 0 auto;
+}
+
+#pages ol {
+  padding-left: 16px;
+}
+
+#pages .action-btn {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#pages .page-bottom-link .page-item-link{
+  border-top: 1px solid #d0d3d4;
+  padding-top: 20px;
+}
+#pages .page-content-main-wrap {
+  margin-bottom: 60px;
+}
+.page-bottom-links {
+  margin-top:40px
+}  
+.page-content-main blockquote {
+    line-height: 1.2;
+}
+
+@media (min-width: 769px) {
+  .page-content-main blockquote {
+      position: absolute;
+      right: 100%;
+      width: 50%;
+      padding: 0 16px;
+  }
+  .page-content-main blockquote.blockquote-offset-right {
+      right: auto;
+      left:100%
+  }
+}
+
+/* page carousel */
+#pages .page-content-slideshow-title h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+#pages .carousel-inner .item-first-row {
+  background-color: #05a4db;
+  display: table;
+    width: 100%;
+}
+
+#pages .carousel .col-figure {
+  background-color: #f4f5f5;
+  padding-right: 0;
+}
+
+#pages .carousel .col-caption {
+  color: #fff;
+  font-family: 'wwfregular';
+  font-size: 18px;
+  padding: 10px 35px 10px 15px;
+  line-height: 1.2;
+}
+@media (min-width: 769px) {  
+  #pages .carousel .col-figure {
+    float: left;
+    width: 75%;
+  }
+
+  #pages .carousel .col-caption {
+    font-size: 24px;
+    width: 25%;
+    float: left;
+  }
+}
+/* page footer */
+#pages .page-item-footer {
+  color: #a0a5a6;
+  margin-top: 30px;
+}
+
+#pages .page-item-footer h4 {
+  font-size: 14px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+#pages .page-item-footer .page-references {
+  font-size: 12px;
+}
+
+.page-learn-more-planning img {
+  width: 100%;
+}
+
+.page-learn-more-planning .page-content-main p {
+  text-align:center
+}
+.page-learn-more-planning .page-content-main em {
+    font-style: normal;
+    padding: 0 16.6666667%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.page-learn-more-planning .page-content-main a {
+    float: left;
+    display: block;
+}
+.page .link-download {
+  font-family: 'wwfregular';
+  font-size: 20px;
+}
+
+
+
+.page-learn-more-planning .page-content-main p:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.page .page-content-main ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.page .page-content-main ul li{
+    padding-left: 20px;
+    text-indent: -15px;
+}
+.page .page-content-main ul li:before {
+    content: "\0025AA";
+    color: #05a4db;
+    padding-right: 7px;
+}

@@ -1,0 +1,168 @@
+/* asideTemplate */
+#key {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    bottom: 140px;
+    width: 40px;
+    z-index:3000;
+    display:none
+}
+
+@media (min-width:769px) {
+  #key {
+    top: 242px; 
+    bottom:0;
+  }
+}
+
+/*map key*/
+.map-key-layer-list {
+    width: 100%;
+}
+
+.map-key-layer-list-item {
+    width: 40px;
+}
+.map-key-layer-list-item:last-child {
+    margin-bottom: 0;
+}
+.map-key-layer-list-item .show-on-hover {
+    color: #1c282c;
+    padding: 10px 8px;
+    left: 100%;
+    top: 50%;
+    width: 250px;
+    min-height: 40px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-box-shadow: 0 0 12px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 12px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px -3px rgba(0, 0, 0, 0.5);
+    z-index:3300;
+}
+
+.map-key-layer-list-item .show-on-hover.align-bottom {
+  top: 40px;
+  -webkit-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  transform: translate(0, -100%);
+}
+
+.map-key-layer-list-item .show-on-hover.align-bottom::after {
+    top: auto;
+    bottom: 12px;
+}
+
+.map-key-layer-list-item .show-on-hover::after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #fff;
+    border-width: 8px;
+    margin-top: -8px;
+}
+
+
+.placeholder-map-key {
+    position: absolute;
+    padding: 0;
+    bottom: 20px;
+        width: 100%;
+}
+
+
+.map-key-label {
+    background-color: #ffffff;
+    display: block;
+    z-index: 3200;
+    position: relative;
+    width:100%;
+    text-align:center;
+    padding: 0 5px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    -webkitbox-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* dont show toggle on layer select */
+.prevent-layer-toggle .table-layer-select td:first-child {
+    display: none;
+}
+
+/* key scrolling hacl */
+.scroll-cover{
+  position: relative;
+}
+.scroll-scroller{
+  position: relative;
+    top: 0;
+}
+a.scroll-up{
+  top:-41px;
+  left:0;
+}
+a.scroll-down {
+  bottom:0;
+  left:0;
+}
+a.scroll-up, a.scroll-down {
+  display:none;
+  position:absolute;
+  height:40px;
+  padding:5px;
+  background-color:#fff;
+  z-index:3300;
+  width:100%;
+  text-align:center;
+}
+a.scroll-up:hover, a.scroll-down:hover {
+  background-color:#fff;
+}
+.scrolling a.scroll-down {
+  display:block;
+}
+.scrolling.scrolled a.scroll-up {
+  display:block;
+}
+.scrolling.scrolled-bottom a.scroll-down {
+  display:none;
+}
+
+
+#key .key-wrap {
+  background-color:transparent;
+}
+
+
+.key-wrap.key-type-marker {
+    text-align: center;
+    padding: 1px;
+    background: transparent;
+}
+.key-lg-wrap.key-type-marker {    
+    padding: 5px;
+}
+
+
+[data-lang=fr] .map-key-label {
+    font-size: 9px;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+  .module-layers.layer-item #key,
+  .module-story #key {
+      display: none !important;
+  }
+}

@@ -1,0 +1,9 @@
+  <ul class="list-inline story-list links-large list-module-nav nav-secondary ">
+    <% _.each(stories, function(story){ %>
+    <li class="nav-story-item">
+      <a href="#" data-storyid="<%= story.id %>" class="story-link <%= typeof linkClass !== 'undefined' ? linkClass : '' %>">
+        <%= story.getTitle() %>
+      </a>      
+    </li>  
+    <% }) %>
+  </ul>

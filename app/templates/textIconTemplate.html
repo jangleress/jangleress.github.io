@@ -1,0 +1,10 @@
+<% var sizeInner = (size - (paddingOuter*2)) %>
+<div class="text-icon-outer" 
+     style="background-color:<%= fillColorOuter %>;width:<%= size %>px;height:<%= size %>px;padding:<%= paddingOuter %>px">
+  <div class="text-icon-inner" 
+       style="background-color:<%= fillColor %>;color:<%= color %>;width:<%= sizeInner %>px;height:<%= sizeInner %>px;"
+  >
+    <%= title %>
+    <div class="<%= iconClass %>"></div>
+  </div>
+</div>

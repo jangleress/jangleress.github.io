@@ -1,0 +1,44 @@
+<div class="layer-key-panel key-layer-<%= id %>">
+  <div class="print-key-layer-list-item-top">
+    <table class="table-layer-select"><tbody>
+      <tr class="layer-key-main">
+        <td class="key">
+          <%= keyHtml %>
+        </td>
+        <td class="title">
+          <div class="title-inner"><%= title %></div>
+          <% if(hint !== '') { %>
+          <div class="hint">
+            <%= hint %>
+          </div>
+          <% } %>            
+        </td>      
+      </tr>
+        <% if (layerGradient) { %>
+        <tr class="layer-color-gradient">
+          <td colspan="2">
+            <%= layerGradient %> 
+          </td>      
+        </tr>
+        <% } %>
+        <% if (layerCategories) { %>
+        <tr class="layer-color-groups">
+          <td colspan="2">
+            <ul class="list-unstyled">
+            <% _.each(layerCategories, function(cat){ %>
+              <li>
+                <%= cat.color %>            
+                <%= cat.label %>
+              </li>          
+            <% }) %>
+            </ul>
+          </td>
+        </tr>
+        <% } %>      
+      </tbody>
+    </table>
+  </div>
+  <div class="print-key-layer-list-item-bottom">
+    <div class="print-key-layer-list-item-reference"><%= reference %></div>
+  </div>
+</div>

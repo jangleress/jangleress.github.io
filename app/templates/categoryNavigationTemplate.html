@@ -1,0 +1,38 @@
+<nav class="hidden-xs layer-links layer-links-bar layer-links-bar-category">
+  <table class=""><tbody>
+    <tr class="hint hidden-xs">
+      <th colspan='<%= categories.length + 2%>'><%= t.ux.layers.category_hint%> </th>
+      <th><%= t.ux.layers.print_hint%> </th>
+    </tr>              
+    <tr class="nav-list">
+  <% var width = 96 / (categories.length + 1) %>
+  <% _.each(categories,function(cat){ %>
+      <td class="column-cat-link-layers-<%= cat.value %>" style='width:<%=width%>%' >
+        <a href='#'
+           data-catid='<%= cat.value %>' 
+           class='cat-link cat-link-layers cat-link-layers-<%= cat.value %> <%= category === cat.value ? "active" : "" %>' 
+           title='<%= t.categories[cat.value] %>'
+           data-toggle="tooltip" data-placement="top" >
+          <div class='cat-link-icon icon-wwf_<%= cat.value %> ocean-bgcolor'></div>
+        </a>
+        <% if (cat.activeCount > 0) { %> 
+        <a href="#"
+           data-catid='<%= cat.value %>' 
+           class="cat-layers-remove reveal-on-hover">
+          <span class="hide-on-hover"><%= cat.activeCount %></span>
+          <span class="show-on-hover icon-wwf_close-menu"></span>
+        </a>
+        <% } %>            
+      </td>      
+  <% }) %>
+      <td class="spacer" style='width:2%'></td>
+      <td class="spacer-border spacer" style='width:2%'></td>
+      <td class="" style='width:<%=width%>%'>                
+          <a href="#" class="cat-link-layers toggle-print-modal print-map"
+           data-toggle="tooltip" data-placement="top" title="<%= t.ux.layers.print_hint%>">
+            <div class='cat-link-icon icon-wwf_export'></div>                
+          </a>
+      </td>      
+    </tr>
+  </tbody></table>        
+</nav>

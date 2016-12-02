@@ -1,0 +1,217 @@
+---
+layout: default
+---
+{% assign t = site.tags.translations[0][page.lang] %}
+{% capture storyid %}{{ page.permalink | split: '/' | last }}{% endcapture %}
+{% assign items = site.categories[storyid] %}
+{% if items.size > 0 %}
+  {% assign items = items | sort:"order" %}
+{% endif %}
+
+<div id="map"><span class="loading-animation hide-on-app-loaded map-loading-animation"></span></div>
+<div id="key"></div>
+<div id="story" class="content-aside">
+  <div class="story-{{storyid}} content">
+  <div class="content-scroll">  
+    <div class=" panel-header story-header content-container panel-light">
+      <div class="story-ocean">
+        <h3 class="placeholder-ocean">&nbsp;</h3>
+      </div>
+      <a href="#" class="reveal-on-hover story-nav-previous previous-story-link pull-left">
+        <span class="hide-on-hover icon-wwf_arrow-left-dark"></span>
+        <span class="show-on-hover icon-wwf_arrow-left-dark-hover"></span>
+      </a>
+      <a href="#" class="reveal-on-hover story-nav-next next-story-link pull-right">
+        <span class="hide-on-hover icon-wwf_arrow-right-dark"></span>
+        <span class="show-on-hover icon-wwf_arrow-right-dark-hover"></span>
+      </a>
+      <div class="story-title">
+        <h1>{{page.title}}</h1>
+      </div>
+    </div>
+    <div class="hidden-xs chapter-nav nav-secondary content-container panel-light">
+      <ul class="list-inline">
+        <li class="nav-item">
+          <a class="chapter-link" href="#" data-chapterid="0">{{ t.storychapters[0]}}</a>
+        </li>
+  {% for chapter in site.storychapters %}
+    {% assign i = 0 %}
+    {% assign chapter_value = chapter.value | plus: 0 %}
+    {% for post in items %}
+      {% assign post_chapter = post.chapter | plus: 0 %}
+      {% if post.lang == page.lang and post_chapter == chapter_value %}
+        {% assign i = i | plus : 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if i > 0 %}
+        <li class="nav-item">
+          <a href="#" class="chapter-link" data-chapterid="{{chapter_value}}">
+            {{ t.storychapters[chapter_value]}}
+          </a>
+        </li>
+    {% endif %}
+  {% endfor %}
+      </ul>
+    </div><!-- chapter-nav -->
+    <div class="chapters">
+      <ul class="list-chapters list-unstyled">
+        <li id="chapter-0" class="chapter chapter-intro panel-light content-container" data-chapterid="0">
+          <div class="story-item" data-layers="{{page.layers}}">
+  {% if page.image and page.image != '' %}
+          <div class="chapter-image ">
+            <figure>
+              <div class="media-responsive-container media-responsive-container-16x9">
+    {% if page.image contains 'http' %}
+              <img class="img-responsive" src="{{page.image}}" alt="{{page.image_att}}">
+    {% else %}
+              <img class="img-responsive" src="{{site.imageurl}}/{{page.image}}" alt="{{page.image_att}}">
+    {% endif %}
+              </div>
+              <figcaption class="figcaption">
+                {% if page.image_att && page.image_att != '' %}
+                {{page.image_att | markdownify }}
+                {% endif %}
+              </figcaption>
+            </figure>
+          </div>
+  {% endif %}
+          <div class="chapter-text">
+            {{content}}
+          </div>
+          <div class="visible-xs placeholder-layercontrol"></div>
+          </div>
+        </li><!-- chapter-intro -->
+        <li class="chapter-gap">
+          <div class="hidden-xs content-container panel-light"><div class="chapter-border"></div></div>
+        </li>
+  {% for chapter in site.storychapters %}
+    {% assign i = 0 %}
+    {% assign chapter_value = chapter.value | plus: 0 %}
+    {% for post in items %}
+      {% assign post_chapter = post.chapter | plus: 0 %}
+      {% if post.lang == page.lang and post_chapter == chapter_value %}
+        {% assign i = i | plus : 1 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if i > 0 %}
+        <li id="chapter-{{chapter.value}}"  data-chapterid="{{chapter_value}}" class="chapter">
+          <div class="chapter-title align-center  content-container panel-light ">
+            <h5 class="ocean-color">{{ t.storychapters[chapter_value] }}</h5>
+          </div>
+          <ul class="list-items list-unstyled">
+      {% for post in items %}
+        {% assign post_chapter = post.chapter | plus: 0 %}
+        {% if post.lang == page.lang and post_chapter == chapter_value %}
+            <li class="story-item  content-container panel-light " data-layers="{{post.layers}}">
+              <div class="item-title">
+                <h4>{{post.title}}</h4>
+              </div>
+          {% if post.media_no > 0 %}
+            {% if post.media_no == 1 %}
+              <div class="item-media item-media-type-{{post.media_type_1}}">
+                <figure>
+
+
+              {% if post.media_type_1 != 'video' %}
+                <div class="media-responsive-container media-responsive-container-16x9">
+                {% if post.media_url_1 contains 'http' %}
+                  <img class="img-responsive" src="{{post.media_url_1}}" alt="{{post.media_att_1}}">
+                {% else %}
+                  <img class="img-responsive" src="{{site.imageurl}}/{{post.media_url_1}}" alt="{{post.media_att_1}}">
+                {% endif %}
+                </div>
+              {% else %}
+                  <div class="media-responsive-container media-responsive-container-16x9 media-responsive-container-video">
+                    <iframe src="https://www.youtube.com/embed/{{post.media_url_1}}?version=3&amp;autoplay=0&amp;rel=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+              {% endif %}
+                  <figcaption class="figcaption attribution">
+                    {% if post.media_att_1 && post.media_att_1 != '' %}
+                    {{post.media_att_1 | markdownify }}
+                    {% endif %}                    
+                  </figcaption>
+                </figure>
+              </div><!-- item media //  single media -->
+            {% else %}              
+              {% include carousel-story.html %}
+            {% endif %}
+          {% endif %}
+          {% if post.fact and post.fact != "" %}
+            <blockquote class="item-fact ocean-color">
+              <p>
+                {{post.fact}}
+              </p>
+            </blockquote>
+          {% endif %}
+              <div class="item-content">
+                {{ post.content | markdownify }} 
+              </div>
+          {% if post.link_url and post.link_url != "" %}
+              <div class="item-link">
+                <div class="item-link-description hint">
+                  {{post.link_description}}
+                </div>
+                <a href="{{post.link_url}}" target="_blank" class="ocean-color">
+                  {{post.link_anchor}}
+                </a>
+              </div>
+          {% endif %}
+          {% if post.audio and post.audio != "" %}
+            <div class="audio">
+              <audio>
+                Your browser does not support the <code>audio</code> element.
+                <source src="{{site.imageurl}}/{{ post.audio }}" type="audio/wav">
+              </audio>
+              <div class="play-button">
+                <span class="icon-wwf_play hide-on-active hide-on-end"></span>
+                <span class="icon-wwf_pause show-on-active hide-on-end"></span>
+                <span class="icon-wwf_replay show-on-end"></span>
+              </div>
+              <div class="audio-controls">
+                <div class="audio-position">                  
+                  <div class="audio-slider"></div>
+                </div>
+                <div class="audio-times hint">                  
+                  <div class="time-progress pull-left">0:00</div>
+                  <div class="time-total pull-right">0:00</div>
+                </div>
+              </div>
+
+            </div>
+          {% endif %}
+            <div class="visible-xs placeholder-layercontrol"></div>          
+            </li><!-- item -->
+            <li class="chapter-gap">
+              <div class="hidden-xs content-container panel-light"><div class="chapter-border"></div></div>
+            </li>
+        {% endif %}
+      {% endfor %}
+          </ul><!-- .list-items -->          
+        </li><!-- chapter -->
+    {% endif %}
+  {% endfor %}
+      </ul><!-- list-chapters -->
+    </div><!-- .chapters -->
+    <div class="story-bottom  panel-light">
+      <div class="content-container planning-link-container">
+        {% include planning-link.html %}
+      </div>
+      <div class="waves"></div>
+      {% if page.ref_text and page.ref_text != '' %}
+      <div class="content-container story-references item-references">
+        <h5>{{t.ux.references}}</h5>
+        <div class="convert-markdown">          
+          {{page.ref_text}}      
+        </div>
+      </div>
+      {% endif %}
+      <div class="story-nav content-container text-center">
+        <p class="hint">{{t.ux.story.select_story }}</p>        
+        <div class="placeholder-story-nav"></div>
+      </div>   
+      <div class="placeholder-story-layer-hint container-fluid"></div>
+    </div>
+  </div> <!-- .content-scroll -->
+  </div> <!-- .story-[id] -->
+</div> <!-- #story -->

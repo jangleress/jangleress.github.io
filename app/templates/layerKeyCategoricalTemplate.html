@@ -1,0 +1,7 @@
+<div class="<%= classes %>">
+  <ul class="list-inline">
+    <% _.each(colors,function(color,i,list){ %>  
+      <li style="background-color:<%= color %>;width:<%= 100/list.length %>%"></li>
+    <% }) %>  
+  </ul>
+</div>
