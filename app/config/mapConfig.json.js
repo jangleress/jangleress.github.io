@@ -55,7 +55,7 @@
       [ "urn:ogc:def:crs:EPSG::5937",   "+proj=sterea +lat_0=90 +lat_ts=90 +lon_0=-100 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +nadgrids=@null" ]
     ],
     "arcgisOptions" :   { 
-      "ip" : "72.0.211.8",
+      "ip" : "http://72.0.211.8",
       "path" : "arcgis/rest/services",
       "queryArgs" : {
         "returnGeometry" : true,
