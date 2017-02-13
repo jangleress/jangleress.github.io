@@ -4,6 +4,7 @@ define([
   'backbone',
   'jquery.spectrum',
   'text!./layerCustomCategoryTemplate.html',
+  'text!templates/categoryNavigationTemplate.html'
 ], function($, _, Backbone, spectrum, template, catNavTemplate){
 
   var LayerCustomCategoryView = Backbone.View.extend({
