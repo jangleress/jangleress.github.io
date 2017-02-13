@@ -3,8 +3,7 @@ define([
   'underscore',
   'backbone',
   'jquery.spectrum',
-  'text!./layerCustomCategoryTemplate.html',
-  'text!templates/categoryNavigationTemplate.html'
+  'text!./layerCustomCategoryTemplate.html'
 ], function($, _, Backbone, spectrum, template, catNavTemplate){
 
   var LayerCustomCategoryView = Backbone.View.extend({

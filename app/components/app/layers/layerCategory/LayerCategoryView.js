@@ -2,7 +2,7 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'text!./layerCategoryTemplate.html',]  
+  'text!./layerCategoryTemplate.html']  
 ], function($, _, Backbone, template, catNavTemplate){
 
   var LayerCategoryView = Backbone.View.extend({
