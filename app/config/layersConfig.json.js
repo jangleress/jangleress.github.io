@@ -204,7 +204,7 @@
 	"path": "Oceans/Polynya/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"featureAttributeMap": {
 		"featureDescription": {
@@ -248,7 +248,7 @@
 	"path": "Oceans/Skeena_LNG/MapServer/0/",
 	"type": "point",
 	"ocean": "pacific",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "community",
 	"featureAttributeMap": {
 		"title": {
@@ -288,7 +288,7 @@
 	"path": "Oceans/ebsa/MapServer/0/",
 	"type": "polygon",
 	"ocean": "atlantic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"queryArgs": {
 		"where": "Coast='Atlantic'",
@@ -317,7 +317,7 @@
 	"path": "Oceans/ebsa/MapServer/0/",
 	"type": "polygon",
 	"ocean": "pacific",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"queryArgs": {
 		"where": "Coast='Pacific'",
@@ -346,7 +346,7 @@
 	"path": "Oceans/ebsa/MapServer/0/",
 	"type": "polygon",
 	"ocean": "arctic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"queryArgs": {
 		"where": "Coast='Arctic'",
@@ -370,7 +370,7 @@
 	"path": "Oceans/iba/MapServer/0/",
 	"ocean": "pacific",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"style": {
 		"color": "#edab00",
@@ -397,7 +397,7 @@
 	"path": "Oceans/iba/MapServer/0/",
 	"ocean": "atlantic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"style": {
 		"color": "#edab00",
@@ -424,7 +424,7 @@
 	"path": "Oceans/iba/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"style": {
 		"color": "#edab00",
@@ -754,7 +754,7 @@
 	"attribution": "British Columbia Conservation Analysis, 2009. http://bcmca.ca/",
 	"ocean": "pacific",
 	"type": "raster",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "important_areas",
 	"style": {
 		"color": "#B7EC62",
@@ -784,7 +784,7 @@
 	"path": "Oceans/Closures_Corals_Sponges/MapServer/0/",
 	"ocean": "pacific",
 	"type": "polygon",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "fisheries_closures",
 	"queryArgs": {
 		"where": "Coast='Pacific'"
@@ -822,7 +822,7 @@
 	"path": "Oceans/Closures_Corals_Sponges/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "fisheries_closures",
 	"queryArgs": {
 		"where": "Coast='Arctic'"
@@ -864,7 +864,7 @@
 	"path": "Oceans/Closures_Corals_Sponges/MapServer/0/",
 	"ocean": "atlantic",
 	"type": "polygon",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "fisheries_closures",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
@@ -912,7 +912,7 @@
 	"path": "Oceans/Arctic_Fishing/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"style": {
 		"color": "#ce75ae",
@@ -935,7 +935,7 @@
 	"path": "Oceans/Tidal_Sites/MapServer/0/",
 	"ocean": "atlantic",
 	"type": "point",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "renewables",
 	"style": {
 		"fillColor": "#ebc701",
@@ -963,7 +963,7 @@
 	"path": "Oceans/AtlanticShipping_5937/MapServer/",
 	"ocean": "atlantic",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "shipping",
 	"style": {
 		"opacity": 0.5
@@ -1010,7 +1010,7 @@
 	"attribution": "MARIN (Maritime Activity and Risk Investigation Network); Oil in Canadian Waters Research Working Group",
 	"ocean": "pacific",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "shipping",
 	"style": {
 		"opacity": 0.5
@@ -1052,7 +1052,7 @@
 	"source": "mapbox",
 	"attribution": "Vard Marine Inc, A Fincantieri Company, 2015",
 	"ocean": "arctic",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "shipping",
 	"key": {
 		"type": "line"
@@ -1075,7 +1075,7 @@
 	"path": "Oceans/SeaIce_MedMin_1981_2010/MapServer/0/",
 	"ocean": "arctic",
 	"type": "line",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "seaice",
 	"group": "seaiceextent",
 	"style": {
@@ -1094,7 +1094,7 @@
 	"path": "Oceans/SeaIce_MedMax_1981_2010/MapServer/0/",
 	"ocean": "arctic",
 	"type": "line",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "seaice",
 	"group": "seaiceextent",
 	"style": {
@@ -1113,7 +1113,7 @@
 	"path": "Oceans/SeaIce_Min_09_2015/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "seaice",
 	"group": "seaiceextent",
 	"style": {
@@ -1135,7 +1135,7 @@
 	"path": "Oceans/SeaIce_Max_03_2015/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "seaice",
 	"group": "seaiceextent",
 	"style": {
@@ -1163,7 +1163,7 @@
 	"path": "Oceans/DFO_AOIs/MapServer/0/",
 	"type": "point",
 	"ocean": "atlantic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
   "group": "mpa",
 	"icon": {
@@ -1196,7 +1196,7 @@
 	"path": "Oceans/DFO_AOIs/MapServer/0/",
 	"type": "point",
 	"ocean": "arctic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
   "group": "mpa",  
 	"icon": {
@@ -1229,7 +1229,7 @@
 	"path": "Oceans/DFO_AOIs/MapServer/0/",
 	"type": "point",
 	"ocean": "pacific",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
   "group": "mpa",  
 	"icon": {
@@ -1266,7 +1266,7 @@
 	"path": "Oceans/nationalparks/MapServer/0/",
 	"ocean": "pacific",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"queryArgs": {
 		"where": "Coast='Pacific'"
@@ -1293,7 +1293,7 @@
 	"path": "Oceans/nationalparks/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"queryArgs": {
 		"where": "Coast='Arctic'"
@@ -1320,7 +1320,7 @@
 	"path": "Oceans/nationalparks/MapServer/0/",
 	"type": "polygon",
 	"ocean": "atlantic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
@@ -1343,7 +1343,7 @@
 	"path": "Oceans/DFO_MPAs_Points/MapServer/0/",
 	"type": "point",
 	"ocean": "pacific",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"group": "mpa",
 	"queryArgs": {
@@ -1373,7 +1373,7 @@
 	"path": "Oceans/DFO_MPAs_Points/MapServer/0/",
 	"ocean": "arctic",
 	"type": "point",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"group": "mpa",
 	"queryArgs": {
@@ -1403,7 +1403,7 @@
 	"path": "Oceans/DFO_MPAs_Points/MapServer/0/",
 	"type": "point",
 	"ocean": "atlantic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"group": "mpa",
 	"queryArgs": {
@@ -1438,7 +1438,7 @@
 	"path": "Oceans/DFO_MPAs_Polygons/MapServer/0/",
 	"type": "polygon",
 	"ocean": "pacific",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"group": "mpa",
 	"queryArgs": {
@@ -1467,7 +1467,7 @@
 	"path": "Oceans/DFO_MPAs_Polygons/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"group": "mpa",
 	"queryArgs": {
@@ -1496,7 +1496,7 @@
 	"path": "Oceans/DFO_MPAs_Polygons/MapServer/0/",
 	"type": "polygon",
 	"ocean": "atlantic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"group": "mpa",
 	"queryArgs": {
@@ -1524,7 +1524,7 @@
 	"path": "Oceans/NMCA/MapServer/0/",
 	"type": "polygon",
 	"ocean": "pacific",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"queryArgs": {
 		"where": "Coast='Pacific'"
@@ -1576,7 +1576,7 @@
 	"path": "Oceans/NMCA/MapServer/0/",
 	"type": "polygon",
 	"ocean": "arctic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"queryArgs": {
 		"where": "Coast='Arctic'"
@@ -1617,7 +1617,7 @@
 	"path": "Oceans/NMCA/MapServer/0/",
 	"type": "polygon",
 	"ocean": "atlantic",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
@@ -1658,7 +1658,7 @@
 	"path": "Oceans/PNCIMA/MapServer/0/",
 	"type": "polygon",
 	"ocean": "pacific",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "regional_msp",
 	"style": {
 		"color": "#e5f02e",
@@ -1687,7 +1687,7 @@
 	"path": "Oceans/MaPP_Subregions/MapServer/0/",
 	"type": "polygon",
 	"ocean": "pacific",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "regional_msp"
 }, {
 	"id": "nlup",
@@ -1700,7 +1700,7 @@
 	"path": "Oceans/NLUP/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "regional_msp",
 	"queryArgs": {
 		"where": "Coast='Arctic'"
@@ -1747,7 +1747,7 @@
 	"path": "Oceans/SubsistenceHarvestAreas/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "traditional",
 	"style": {
 		"fillColor": "#dea681",
@@ -1764,7 +1764,7 @@
 	"path": "Oceans/BS_InuvialuitLandClaim/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "regional_msp",
 	"style": {
 		"color": "#e5f02e",
@@ -1788,7 +1788,7 @@
 	"path": "Oceans/pNMWA/MapServer/0/",
 	"type": "polygon",
 	"ocean": "pacific",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "protected",
 	"style": {
 		"color": "#0dca9b",
@@ -1805,7 +1805,7 @@
 	"path": "Oceans/ScotianShelf_BOF/MapServer/0/",
 	"type": "polygon",
 	"ocean": "atlantic",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "regional_msp",
 		"style": {
 		"color": "#e5f02e",
@@ -1836,7 +1836,7 @@
 	"path": "Oceans/Bioregions/MapServer/0/",
 	"type": "polygon",
 	"ocean": "pacific",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "federal_planning",
 	"queryArgs": {
 		"where": "Coast='Pacific'"
@@ -1865,7 +1865,7 @@
 	"path": "Oceans/Bioregions/MapServer/0/",
 	"type": "polygon",
 	"ocean": "arctic",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "federal_planning",
 	"queryArgs": {
 		"where": "Coast='Arctic'"
@@ -1894,7 +1894,7 @@
 	"path": "Oceans/Bioregions/MapServer/0/",
 	"type": "polygon",
 	"ocean": "atlantic",
-	"category": "planning",
+	"category": "wildlife",
 	"subcategory": "federal_planning",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
@@ -1910,7 +1910,7 @@
 	"path": "Oceans/LastIceArea/MapServer/0/",
 	"ocean": "arctic",
 	"type": "polygon",
-	"category": "ecology",
+	"category": "wildlife",
 	"subcategory": "seaice",
 	"style": {
 		"color": "#a6d2d5",
@@ -1939,7 +1939,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "maritimes",
 	"style": {
@@ -2001,7 +2001,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "maritimes",
 	"style": {
@@ -2064,7 +2064,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "maritimes",
 	"style": {
@@ -2126,7 +2126,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "maritimes",
 	"style": {
@@ -2188,7 +2188,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "nl",
 	"style": {
@@ -2250,7 +2250,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "nl",
 	"style": {
@@ -2312,7 +2312,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "nl",
 	"style": {
@@ -2374,7 +2374,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "nl",
 	"style": {
@@ -2436,7 +2436,7 @@
 	"ocean": "atlantic",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"group": "nl",
 	"style": {
@@ -2498,7 +2498,7 @@
 	"ocean": "pacific",
 	"attribution":"Fisheries and Oceans Canada",
 	"type": "raster",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"key": {
 		"type": "categorical",
@@ -2553,7 +2553,7 @@
 	"path": "Oceans/PC_Salmon/MapServer/0/",
 	"ocean": "pacific",
 	"type": "polygon",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"featureAttributeMap": {
 		"featureTitle": {
@@ -2622,7 +2622,7 @@
 	"path": "Oceans/PC_Herring/MapServer/0/",
 	"ocean": "pacific",
 	"type": "polygon",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "fishing",
 	"featureStyle": {
 		"attribute": "code",
@@ -2684,7 +2684,7 @@
 	"path": "Oceans/oilgas/MapServer/0/",
 	"type": "polygon",
 	"ocean": "arctic",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "oil_gas",
 	"queryArgs": {
 		"where": "Coast='Arctic'"
@@ -2740,7 +2740,7 @@
 	"path": "Oceans/oilgas/MapServer/0/",
 	"type": "polygon",
 	"ocean": "atlantic",
-	"category": "human",
+	"category": "wildlife",
 	"subcategory": "oil_gas",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
