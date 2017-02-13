@@ -55,45 +55,6 @@
             </h1>
           </a>
         </div>
-        <div class="link-list-wrapper">           
-          <ul id="page-links" class="nav navbar-nav">
-            <li>
-              <a href="#" data-pageid='learn-more' class="page-link page-link-learn ocean-color" title="{{t.nav.learn-more}}">
-                {{t.nav.learn-more}}
-              </a>
-            </li>
-            <li>
-              <a href="#" data-pageid='take-action' class="page-link page-link-take-action ocean-color" title="{{t.nav.take-action}}">
-                {{t.nav.take-action}}
-              </a>
-            </li>
-            <li>
-              <a href="#" data-modaltype='share' class="modal-link modal-link-share ocean-color" title="{{t.nav.share}}">
-                {{t.nav.share}}
-              </a>
-            </li>
-            <li class="ocean-color">
-              <a href="#" data-pageid='help' class="page-link page-link-help ocean-color" title="{{t.nav.help}}">
-                {{t.nav.help}}
-              </a>
-            </li>
-          </ul>
-          <ul id="" class="lang-links nav navbar-nav nav-language hidden-xs">
-          {% for lang in site.languages %}
-          {% if lang.value != page.lang %}
-            <li class="ocean-color">
-              {% if lang.value == 'en' %}
-              <a class="ocean-color" href='{{site.baseurl | append: '/'}}' data-lang='{{lang.value}}' title="{{site.tags.translations[0][lang.value].lang.title}}">
-              {% else %}
-              <a class="ocean-color" href='{{site.baseurl | append: '/' | append: lang.value}}' data-lang='{{lang.value}}' title="{{site.tags.translations[0][lang.value].lang.title}}">
-              {% endif %}
-                {{site.tags.translations[0][lang.value].lang.title}}
-              </a>
-            </li>
-          {% endif %}
-          {% endfor %}
-          </ul>
-        </div>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
