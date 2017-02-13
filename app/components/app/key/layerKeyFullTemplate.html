@@ -20,17 +20,6 @@
         </div>
         <% } %>           
       </td>
-      <td class="action-link">
-        <% if (isCustom) { %>
-        <a class="edit-layer layer-action-link pull-right" data-layerid="<%= id %>" href='#'>
-          <%= t.ux.layers.edit_layer %>
-        </a>
-        <% } else { %>
-        <a class="layer-info-link layer-action-link pull-right" data-layerid="<%= id %>" href='#'>
-          <%= t.ux.info %>
-        </a>        
-        <% }  %>
-      </td>
     </tr>
     <% if (layerGradient) { %>
     <tr class="layer-color-gradient">
