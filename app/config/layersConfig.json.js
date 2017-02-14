@@ -306,208 +306,6 @@
 		"fillOpacity": 0.7
 	}
 }, {
-	"id": "shipping_atlantic",
-	"title": {
-		"en": "Shipping density, 2010",
-		"fr": "Densité du trafic maritime (2010)"
-	},
-	"source": "mapbox",
-	"options": {
-		"id": "webteamwwf.0wmbqlao",
-		"retinaId": "webteamwwf.a5zpxhbe",
-		"printId": "webteamwwf.b2x0m2fv",
-		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
-		"minZoom": 1,
-		"maxZoom": 8,
-		"opacity": 0.7
-	},
-	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
-	"path": "Oceans/AtlanticShipping_5937/MapServer/",
-	"ocean": "atlantic",
-	"type": "raster",
-	"category": "wildlife",
-	"subcategory": "shipping",
-	"style": {
-		"opacity": 0.5
-	},
-	"key": {
-		"type": "categorical",
-		"categories": [{
-			"title": {
-				"en": "High intensity",
-				"fr": "Forte intensité"
-			},
-			"fillColor": "#202620"
-		}, {
-			"title": {
-				"en": "Medium intensity",
-				"fr": "Intensité moyenne"
-			},
-			"fillColor": "#4d514d"
-		}, {
-			"title": {
-				"en": "Low intensity",
-				"fr": "Basse intensité"
-			},
-			"fillColor": "#8b8f8b"
-
-		}]
-	}
-}, {
-	"id": "shipping_pacific",
-	"title": {
-		"en": "Shipping density, 2010",
-		"fr": "Densité du trafic maritime (2010)"
-	},
-	"source": "mapbox",
-	"options": {
-		"id": "webteamwwf.1gzd8in0",
-		"retinaId": "webteamwwf.cwpifpci",
-		"printId": "webteamwwf.0opiqaal",
-		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
-		"minZoom": 1,
-		"maxZoom": 8,
-		"opacity": 0.7
-	},
-	"attribution": "MARIN (Maritime Activity and Risk Investigation Network); Oil in Canadian Waters Research Working Group",
-	"ocean": "pacific",
-	"type": "raster",
-	"category": "wildlife",
-	"subcategory": "shipping",
-	"style": {
-		"opacity": 0.5
-	},
-	"key": {
-		"type": "categorical",
-		"categories": [{
-			"title": {
-				"en": "High intensity",
-				"fr": "Forte intensité"
-			},
-			"fillColor": "#161b16"
-		}, {
-			"title": {
-				"en": "Medium intensity",
-				"fr": "Intensité moyenne"
-			},
-			"fillColor": "#4d514d"
-		}, {
-			"title": {
-				"en": "Low intensity",
-				"fr": "Basse intensité"
-			},
-			"fillColor": "#8b8f8b"
-
-		}]
-	}
-}, {
-	"id": "shipping_arctic",
-	"title": {
-		"en": "Shipping routes, 2013",
-		"fr": "Routes de navigation (2013)"
-	},
-	"hint": {
-		"en": "Each line for one transit",
-		"fr": "Chaque ligne représente un passage"
-	},
-	"type": "raster",
-	"source": "mapbox",
-	"attribution": "Vard Marine Inc, A Fincantieri Company, 2015",
-	"ocean": "arctic",
-	"category": "wildlife",
-	"subcategory": "shipping",
-	"key": {
-		"type": "line"
-	},
-	"options": {
-		"id": "webteamwwf.d7bkf4ry",
-		"retinaId": "webteamwwf.620iobpp",
-		"printId": "webteamwwf.8w4yw4st",
-		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA"
-	}
-}, {
-	"id": "seaice_medmin",
-	"contentid": "seaice",
-	"title": {
-		"en": "Sea ice, Median Minimum (1981- 2010)",
-		"fr": "Glace de mer, minimum médian (1981-2010)"
-	},
-	"source": "arcgis",
-	"attribution": "National Snow & Ice Data Centre: Sea ice, 2015. https://nsidc.org/",
-	"path": "Oceans/SeaIce_MedMin_1981_2010/MapServer/0/",
-	"ocean": "arctic",
-	"type": "line",
-	"category": "wildlife",
-	"subcategory": "seaice",
-	"group": "seaiceextent",
-	"style": {
-		"color": "#ff5353",
-		"weight":2
-	}
-}, {
-	"id": "seaice_medmax",
-	"contentid": "seaice",
-	"title": {
-		"en": "Sea ice, Median Maximum (1981-2010)",
-		"fr": "Glace de mer, maximum médian (1981-2010)"
-	},
-	"source": "arcgis",
-	"attribution": "National Snow & Ice Data Centre: Sea ice, 2015. https://nsidc.org/",
-	"path": "Oceans/SeaIce_MedMax_1981_2010/MapServer/0/",
-	"ocean": "arctic",
-	"type": "line",
-	"category": "wildlife",
-	"subcategory": "seaice",
-	"group": "seaiceextent",
-	"style": {
-		"color": "#cf33cd",
-		"weight":2
-	}
-}, {
-	"id": "seaice_min",
-	"contentid": "seaice",
-	"title": {
-		"en": "Sea ice, Minimum 2015 (September)",
-		"fr": "Glace de mer, minimum (septembre 2015)"
-	},
-	"source": "arcgis",
-	"attribution": "National Snow & Ice Data Centre: Sea ice, 2015. https://nsidc.org/",
-	"path": "Oceans/SeaIce_Min_09_2015/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "seaice",
-	"group": "seaiceextent",
-	"style": {
-		"fillColor": "#ff5353",
-		"fillOpacity":0.05,
-		"opacity":0.9,
-		"color": "#ff5353",
-		"weight":1
-	}
-}, {
-	"id": "seaice_max",
-	"contentid": "seaice",
-	"title": {
-		"en": "Sea ice, Maximum 2015 (March)",
-		"fr": "Glace de mer, maximum (mars 2015)"
-	},
-	"source": "arcgis",
-	"attribution": "National Snow & Ice Data Centre: Sea ice, 2015. https://nsidc.org/",
-	"path": "Oceans/SeaIce_Max_03_2015/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "seaice",
-	"group": "seaiceextent",
-	"style": {
-		"fillColor": "#cf33cd",
-		"fillOpacity":0.05,
-		"opacity":0.95,
-		"color": "#cf33cd",
-		"weight":1
-	}
-}, {
 	"id": "aoi_atlantic",
 	"contentid": "aoi",
 	"title": {
@@ -541,126 +339,6 @@
 		"weight": 1
 	}
 }, {
-	"id": "aoi_arctic",
-	"contentid": "aoi",
-	"title": {
-		"en": "Areas of Interest",
-		"fr": "Zones d’intérêt"
-	},
-	"featureAttributeMap": {
-		"title": {
-			"en": "Name",
-			"fr": "Nom"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_AOIs/MapServer/0/",
-	"type": "point",
-	"ocean": "arctic",
-	"category": "wildlife",
-	"subcategory": "protected",
-  "group": "mpa",  
-	"icon": {
-		"type": "marker"
-	},
-	"queryArgs": {
-		"where": "Coast='Arctic'"
-	},
-	"style": {
-		"fillColor": "#007840",
-		"opacity": 0.9,
-		"color": "#01572f",
-		"weight": 1
-	}
-}, {
-	"id": "aoi_pacific",
-	"contentid": "aoi",
-	"title": {
-		"en": "Areas of Interest",
-		"fr": "Zones d’intérêt"
-	},
-	"featureAttributeMap": {
-		"title": {
-			"en": "Name",
-			"fr": "Nom"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_AOIs/MapServer/0/",
-	"type": "point",
-	"ocean": "pacific",
-	"category": "wildlife",
-	"subcategory": "protected",
-  "group": "mpa",  
-	"icon": {
-		"type": "marker"
-	},
-	"queryArgs": {
-		"where": "Coast='Pacific'"
-	},
-	"style": {
-		"fillColor": "#007840",
-		"opacity": 0.9,
-		"color": "#01572f",
-		"weight": 1
-	}
-}, {
-	"id": "cnp_pacific",
-	"contentid": "cnp",
-	"title": {
-		"en": "National Parks",
-		"fr": "Parcs nationaux"
-	},
-	"style": {
-		"color": "#157543",
-		"weight": 1
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "NAME_E",
-			"fr": "NOM_F"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Parks Canada, 2016 <br> Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010",
-	"path": "Oceans/nationalparks/MapServer/0/",
-	"ocean": "pacific",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"queryArgs": {
-		"where": "Coast='Pacific'"
-	}
-}, {
-	"id": "cnp_arctic",
-	"contentid": "cnp",
-	"title": {
-		"en": "National Parks",
-		"fr": "Parcs nationaux"
-	},
-	"style": {
-		"color": "#157543",
-		"weight": 1
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "NAME_E",
-			"fr": "NOM_F"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Parks Canada, 2016 <br> Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010",
-	"path": "Oceans/nationalparks/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"queryArgs": {
-		"where": "Coast='Arctic'"
-	}
-}, {
 	"id": "cnp_atlantic",
 	"contentid": "cnp",
 	"title": {
@@ -686,66 +364,6 @@
 	"subcategory": "protected",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
-	}
-}, {
-	"id": "mpa_points_pacific",
-	"contentid": "mpa",
-	"title": {
-		"en": "Marine Protected Areas (point locations)",
-		"fr": "Zones de protection marine (données de localisation)"
-	},
-	"featureAttributeMap": {
-		"title": {
-			"en": "NAME_E",
-			"fr": "FIRST_NOM_F"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_MPAs_Points/MapServer/0/",
-	"type": "point",
-	"ocean": "pacific",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"group": "mpa",
-	"queryArgs": {
-		"where": "Coast='Pacific'"
-	},
-	"style": {
-		"fillColor": "#003a88",
-		"opacity": 0.9,
-		"color": "#00275b",
-		"weight": 1
-	}
-}, {
-	"id": "mpa_points_arctic",
-	"contentid": "mpa",
-	"title": {
-		"en": "Marine Protected Areas (point locations)",
-		"fr": "Zones de protection marine (données de localisation)"
-	},
-	"featureAttributeMap": {
-		"title": {
-			"en": "NAME_E",
-			"fr": "FIRST_NOM_F"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_MPAs_Points/MapServer/0/",
-	"ocean": "arctic",
-	"type": "point",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"group": "mpa",
-	"queryArgs": {
-		"where": "Coast='Arctic'"
-	},
-	"style": {
-		"fillColor": "#003a88",
-		"opacity": 0.9,
-		"color": "#00275b",
-		"weight": 1
 	}
 }, {
 	"id": "mpa_points_atlantic",
@@ -778,64 +396,6 @@
 		"weight": 1
 	}
 }, {
-	"id": "mpa_pacific",
-	"contentid": "mpa",
-	"title": {
-		"en": "Marine Protected Areas (polygons)",
-		"fr": "Aires marines protégées (polygones)"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "NAME_E",
-			"fr": "FIRST_NOM_F"
-		}
-	},
-	"style": {
-		"color": "#003a88",
-		"fillOpacity": 0.3,
-		"weight": 1
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_MPAs_Polygons/MapServer/0/",
-	"type": "polygon",
-	"ocean": "pacific",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"group": "mpa",
-	"queryArgs": {
-		"where": "Coast='Pacific'"
-	}
-}, {
-	"id": "mpa_arctic",
-	"contentid": "mpa",
-	"title": {
-		"en": "Marine Protected Areas (polygons)",
-		"fr": "Aires marines protégées (polygones)"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "NAME_E",
-			"fr": "FIRST_NOM_F"
-		}
-	},
-	"style": {
-		"color": "#003a88",
-		"fillOpacity": 0.3,
-		"weight": 1
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_MPAs_Polygons/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"group": "mpa",
-	"queryArgs": {
-		"where": "Coast='Arctic'"
-	}
-}, {
 	"id": "mpa_atlantic",
 	"contentid": "mpa",
 	"title": {
@@ -863,99 +423,6 @@
 	"group": "mpa",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
-	}
-}, {
-	"id": "nmca_pacific",
-	"contentid": "nmca",
-	"title": {
-		"en": "National Marine Conservation Areas",
-		"fr": "Aires marines nationales de conservation"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "Name",
-			"fr": "Name_F"
-		},
-		"featureDescription": {
-			"en": "status",
-			"fr": "status_f"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010; Parks Canada, 2016",
-	"path": "Oceans/NMCA/MapServer/0/",
-	"type": "polygon",
-	"ocean": "pacific",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"queryArgs": {
-		"where": "Coast='Pacific'"
-	},
-	"featureStyle": {
-		"attribute": "status",
-		"Designated": {
-			"title": {
-				"en": "Designated",
-				"fr": "Désignée"
-			},
-			"style": {
-				"color": "#5d8900",
-				"opacity":0.6,
-				"weight":1
-			}
-		},
-		"Proposed": {
-			"title": {
-				"en": "Proposed",
-				"fr": "Proposée"
-			},
-			"style": {
-				"color": "#67c511",
-				"opacity":0.8,
-				"weight":1
-			}
-		}
-	}
-}, {
-	"id": "nmca_arctic",
-	"contentid": "nmca",
-	"title": {
-		"en": "National Marine Conservation Areas",
-		"fr": "Aires marines nationales de conservation"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "Name",
-			"fr": "Name_F"
-		},
-		"featureDescription": {
-			"en": "status",
-			"fr": "status_f"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010; Parks Canada, 2016",
-	"path": "Oceans/NMCA/MapServer/0/",
-	"type": "polygon",
-	"ocean": "arctic",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"queryArgs": {
-		"where": "Coast='Arctic'"
-	},
-	"featureStyle": {
-		"attribute": "status",
-		"Proposed": {
-			"title": {
-				"en": "Proposed",
-				"fr": "Proposée"
-			},
-			"style": {
-				"color": "#67c511",
-				"opacity":0.5,
-				"weight":1
-			}
-		}
 	}
 }, {
 	"id": "nmca_atlantic",
@@ -1010,151 +477,52 @@
 		}
 	}
 }, {
-	"id": "pncima",
+	"id": "shipping_atlantic",
 	"title": {
-		"en": "Pacific North Coast Integrated Management Area",
-		"fr": "Zone de gestion intégrée de la côte nord du Pacifique"
+		"en": "Shipping density, 2010",
+		"fr": "Densité du trafic maritime (2010)"
 	},
-	"source": "arcgis",
-	"attribution": "Fisheries and Oceans Canada Atlas of the Pacific North Coast Integrated Management Area, 2016, http://www.pncima.org/site/atlas.html",
-	"path": "Oceans/PNCIMA/MapServer/0/",
-	"type": "polygon",
-	"ocean": "pacific",
+	"source": "mapbox",
+	"options": {
+		"id": "webteamwwf.0wmbqlao",
+		"retinaId": "webteamwwf.a5zpxhbe",
+		"printId": "webteamwwf.b2x0m2fv",
+		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
+		"minZoom": 1,
+		"maxZoom": 8,
+		"opacity": 0.7
+	},
+	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
+	"path": "Oceans/AtlanticShipping_5937/MapServer/",
+	"ocean": "atlantic",
+	"type": "raster",
 	"category": "wildlife",
-	"subcategory": "regional_msp",
+	"subcategory": "shipping",
 	"style": {
-		"color": "#e5f02e",
-		"opacity":0.3,
-		"weight": 1
-	}
-}, {
-	"id": "mapp",
-	"title": {
-		"en": "Marine Plan Partnership for the North Pacific Coast",
-		"fr": "Partenariat de planification marine pour la côte nord du Pacifique"
+		"opacity": 0.5
 	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "Subregion",
-			"fr": "Sub_F"
-		}
-	},
-	"style": {
-		"color": "#b46211",
-		"opacity":0.2,
-		"weight": 1
-	},
-	"source": "arcgis",
-	"attribution": "Marine Plan Partnership for the North Pacific Coast, 2016",
-	"path": "Oceans/MaPP_Subregions/MapServer/0/",
-	"type": "polygon",
-	"ocean": "pacific",
-	"category": "wildlife",
-	"subcategory": "regional_msp"
-}, {
-	"id": "nlup",
-	"title": {
-		"en": "Nunavut Land Use Plan",
-		"fr": "Plan d’aménagement du territoire du Nunavut"
-	},
-	"source": "arcgis",
-	"attribution": "Land Use Designations, Draft Nunavut Land Use Plan (DNLUP), produced by Nunavut Planning Commission, 2014 ",
-	"path": "Oceans/NLUP/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "regional_msp",
-	"queryArgs": {
-		"where": "Coast='Arctic'"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "Desg",
-			"fr": "Desg_F"
-		}
-	},
-	"featureStyle": {
-		"attribute": "Desg",
-		"Protected-areas": {
+	"key": {
+		"type": "categorical",
+		"categories": [{
 			"title": {
-				"en": "Protected areas",
-				"fr": "Aires protégées"
+				"en": "High intensity",
+				"fr": "Forte intensité"
 			},
-			"style": {
-				"color": "#76b600",
-				"opacity":0.2,
-				"weight": 1
-			}
-		},
-		"Special-management-areas": {
+			"fillColor": "#202620"
+		}, {
 			"title": {
-				"en": "Special management areas",
-				"fr": "Zones spéciales de gestion"
+				"en": "Medium intensity",
+				"fr": "Intensité moyenne"
 			},
-			"style": {
-				"color": "#989784",
-				"opacity":0.2,
-				"weight": 1
-			}
-		}
-	}
-}, {
-	"id": "hunting",
-	"title": {
-		"en": "Subsistence harvest areas",
-		"fr": "Aires de prise à des fins de subsistance"
-	},
-	"source": "arcgis",
-	"attribution": "Nunavut Atlas (1992), Gwich’in Settlement Region Area map (2003), Inuit Land Use and Occupancy Project Report (1976), Schedule A – Land Use Designations map (2010) from the Labrador Inuit Settlement Area (LISA) Regional Planning Authority, Sahtu Special Harvesting Areas & FGH/Colville Lake Group Trappnig Areas Map (2010), Thaydene Nene Map Series (2006), and WMAC's Aklavik Local and Traditional Knowledge about Porcupine Caribou publication (2009) / Braund, Stephen R. & Associates downloaded from BOEM - The Bureau of Ocean Energy Management, 2009",
-	"path": "Oceans/SubsistenceHarvestAreas/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "traditional",
-	"style": {
-		"fillColor": "#dea681",
-		"fillOpacity": 0.3
-	}
-}, {
-	"id": "bsp",
-	"title": {
-		"en": "Beaufort Sea Partnership",
-		"fr": "Partenariat de la mer de Beaufort"
-	},
-	"source": "arcgis",
-	"attribution": "GeoGratis, Government of Canada, Natural Resources Canada, Earth Sciences Sector, Surveyor General Branch, 2014 Joint Secretariat Inuvialuit Settlement Region, 2014 The Department of Indian Affairs and Northern Development, 2014",
-	"path": "Oceans/BS_InuvialuitLandClaim/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "regional_msp",
-	"style": {
-		"color": "#e5f02e",
-		"opacity":0.3,
-		"weight": 1
-	}
-}, {
-	"id": "mnwa",
-	"title": {
-		"en": "Proposed Marine National Widlife Areas",
-		"fr": "Réserves nationales de faune en milieu marin proposées"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "Name",
-			"fr": "Name_FR"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Parks Canada, 2016 <br> Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 201",
-	"path": "Oceans/pNMWA/MapServer/0/",
-	"type": "polygon",
-	"ocean": "pacific",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"style": {
-		"color": "#0dca9b",
-		"weight": 1
+			"fillColor": "#4d514d"
+		}, {
+			"title": {
+				"en": "Low intensity",
+				"fr": "Basse intensité"
+			},
+			"fillColor": "#8b8f8b"
+
+		}]
 	}
 }, {
 	"id": "rop",
