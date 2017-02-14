@@ -160,40 +160,6 @@
 		}
 	}
 }, {
-	"id": "nwp_shipping",
-	"title": {
-		"en": "Northwest Passage",
-		"fr": "Passage du Nord-Ouest"
-	},
-	"optional": false,
-	"source": "arcgis",
-	"attribution": "Arctic Marine Shipping Assessment Report, April 2009 <br> The Arctic Council and the Protection of the Marine Environment (PAME), a working group under the direction of the Arctic Council.",
-	"path": "Oceans/nwp_shipping/MapServer/0/",
-	"type": "line",
-	"style": {
-		"color": "#3c4d54",
-		"weight": 1,
-		"dashArray": "6,4",
-		"opacity": 1
-	}
-}, {
-	"id": "polynya_nw",
-	"contentid": "polynya",
-	"title": {
-		"en": "North Water polynya",
-		"fr": "Polynie des eaux du Nord"
-	},
-	"optional": false,
-	"source": "arcgis",
-	"attribution": "Data created for RACER - WWF Global Arctic Programme Prepared by: David Currie, P.Eng. Canatec Associates International Ltd. January 2012. Report available at: http://webmap.geoanalytic.com/download/wwf/polynya_report.html ",
-	"path": "Oceans/Polynya_NW/MapServer/0/",
-	"type": "polygon",
-	"style": {
-		"color": "#00507e",
-		"weight": 1,
-		"opacity": 0.5
-	}
-}, {
 	"id": "bluewhale",
 	"title": {
 		"en": "Blue whale areas of known concentration",
@@ -433,54 +399,6 @@
 		}
 	}
 }, {
-	"id": "shipping_atlantic",
-	"title": {
-		"en": "Shipping density, 2010",
-		"fr": "Densité du trafic maritime (2010)"
-	},
-	"source": "mapbox",
-	"options": {
-		"id": "webteamwwf.0wmbqlao",
-		"retinaId": "webteamwwf.a5zpxhbe",
-		"printId": "webteamwwf.b2x0m2fv",
-		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
-		"minZoom": 1,
-		"maxZoom": 8,
-		"opacity": 0.7
-	},
-	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
-	"path": "Oceans/AtlanticShipping_5937/MapServer/",
-	"ocean": "atlantic",
-	"type": "raster",
-	"category": "wildlife",
-	"subcategory": "shipping",
-	"style": {
-		"opacity": 0.5
-	},
-	"key": {
-		"type": "categorical",
-		"categories": [{
-			"title": {
-				"en": "High intensity",
-				"fr": "Forte intensité"
-			},
-			"fillColor": "#202620"
-		}, {
-			"title": {
-				"en": "Medium intensity",
-				"fr": "Intensité moyenne"
-			},
-			"fillColor": "#4d514d"
-		}, {
-			"title": {
-				"en": "Low intensity",
-				"fr": "Basse intensité"
-			},
-			"fillColor": "#8b8f8b"
-
-		}]
-	}
-},{
 	"id": "oilgas_atlantic",
 	"contentid": "oilgas",
 	"title": {
@@ -535,5 +453,53 @@
 				"color": "#744d01"
 			}
 		}
+	}
+}, {
+	"id": "shipping_atlantic",
+	"title": {
+		"en": "Shipping density, 2010",
+		"fr": "Densité du trafic maritime (2010)"
+	},
+	"source": "mapbox",
+	"options": {
+		"id": "webteamwwf.0wmbqlao",
+		"retinaId": "webteamwwf.a5zpxhbe",
+		"printId": "webteamwwf.b2x0m2fv",
+		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
+		"minZoom": 1,
+		"maxZoom": 8,
+		"opacity": 0.7
+	},
+	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
+	"path": "Oceans/AtlanticShipping_5937/MapServer/",
+	"ocean": "atlantic",
+	"type": "raster",
+	"category": "wildlife",
+	"subcategory": "shipping",
+	"style": {
+		"opacity": 0.5
+	},
+	"key": {
+		"type": "categorical",
+		"categories": [{
+			"title": {
+				"en": "High intensity",
+				"fr": "Forte intensité"
+			},
+			"fillColor": "#202620"
+		}, {
+			"title": {
+				"en": "Medium intensity",
+				"fr": "Intensité moyenne"
+			},
+			"fillColor": "#4d514d"
+		}, {
+			"title": {
+				"en": "Low intensity",
+				"fr": "Basse intensité"
+			},
+			"fillColor": "#8b8f8b"
+
+		}]
 	}
 }]
