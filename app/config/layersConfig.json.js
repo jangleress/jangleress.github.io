@@ -238,77 +238,20 @@
 		}
 	}
 }, {
-	"id": "skeena_projects",
+	"id": "bluewhale",
 	"title": {
-		"en": "Proposed industrial development (Skeena Region)",
-		"fr": "Développement industriel proposé (région de Skeena)"
+		"en": "Blue whale areas of known concentration",
+		"fr": "Zones de concentration connue du rorqual bleu"
 	},
 	"source": "arcgis",
-	"attribution": "Compiled by WWF-Canada, SkeenaWild Conservation Trust and Skeena Watershed Conservation Coalition (SWCC) <br> updated October-November 2013",
-	"path": "Oceans/Skeena_LNG/MapServer/0/",
-	"type": "point",
-	"ocean": "pacific",
-	"category": "wildlife",
-	"subcategory": "community",
-	"featureAttributeMap": {
-		"title": {
-			"en": "Name",
-			"fr": "Name_F"
-		}
-	},
-	"style": {
-		"fillColor": "#ff9000",
-		"opacity": 0.9,
-		"color": "#db7700",
-		"weight":1
-	},
-	"clusterOptions": {
-		"cluster": false
-	}
-}, {
-	"id": "beluga_arctic",
-	"title": {
-		"en": "Beluga distribution",
-		"fr": "Répartition des bélougas"
-	},
-	"featureAttributeMap": {
-		"featureDescription": {
-			"en": "DESCR",
-			"fr": "DESCR_F"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Reeves RR, Ewins PJ, Agbayani S, Heide-Jørgensen MP, Kovacs KM, Lydersen C, Suydam R, Elliott W, Polet G, van Dijk Y, Blijleven R. Distribution of endemic cetaceans in relation to hydrocarbon development and commercial shipping in a warming arctic. Marine Policy (2013), http://dx.doi.org/10.1016/j.marpol.2013.10.005i",
-	"path": "Oceans/Beluga_Distribution/MapServer/0/",
-	"ocean": "arctic",
+	"attribution": "Digitized by WWF-Canada from Beauchamp, J., Bouchard, H., de Margerie, P., Otis, N., Savaria, J.-Y., 2009. Recovery Strategy for the blue whale (Balaenoptera musculus), Northwest Atlantic population, in Canada [FINAL]. Species at Risk Act Recovery Strategy Series. Fisheries and Oceans Canada, Ottawa. 62 pp.",
+	"path": "Oceans/AtlanticBlueWhale/MapServer/0/",
+	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
 	"subcategory": "marine_mammal",
 	"style": {
-		"color": "#12bedd"
-	},
-  "sortBy" : "OBJECTID", 
-	"featureStyle": {
-		"attribute": "DESCR",
-		"Annual-range": {
-			"title": {
-				"en": "Annual range",
-				"fr": "Aire de distribution annuelle"
-			},
-			"style": {
-				"color": "#3fd5f0"
-			}
-		},
-		"Summer-range": {
-			"title": {
-				"en": "Summer range",
-				"fr": "Aire de distribution estivale"
-			},
-			"style": {
-				"color": "#12bedd",
-				"weight": 1
-			}
-		}
+		"color": "#4dd5e5"
 	}
 }, {
 	"id": "beluga",
@@ -327,162 +270,6 @@
 	"style": {
 		"color": "#12bedd",
 		"fillOpacity": 0.8
-	}
-}, {
-	"id": "bowhead",
-	"title": {
-		"en": "Bowhead distribution",
-		"fr": "Répartition des baleines boréales"
-	},
-	"featureAttributeMap": {
-		"featureDescription": {
-			"en": "DESCR",
-			"fr": "DESCR_F"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Reeves RR, Ewins PJ, Agbayani S, Heide-Jørgensen MP, Kovacs KM, Lydersen C, Suydam R, Elliott W, Polet G, van Dijk Y, Blijleven R. Distribution of endemic cetaceans in relation to hydrocarbon development and commercial shipping in a warming arctic. Marine Policy (2013), http://dx.doi.org/10.1016/j.marpol.2013.10.005i",
-	"path": "Oceans/Bowhead_Distribution/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "marine_mammal",
-  "sortBy" : "OBJECTID",
-	"featureStyle": {
-		"attribute": "DESCR",
-		"Annual-range": {
-			"title": {
-				"en": "Annual range",
-				"fr": "Aire de distribution annuelle"
-			},      
-			"style": {
-				"color": "#2294dd"
-			}
-		},
-		"Summer-range": {
-			"title": {
-				"en": "Summer range",
-				"fr": "Aire de distribution estivale"
-			},      
-			"style": {
-				"color": "#0172ba",
-				"weight": 1
-			}
-		}
-	}
-}, {
-	"id": "narwhal",
-	"title": {
-		"en": "Narwhal distribution",
-		"fr": "Répartition des narvals"
-	},
-	"source": "arcgis",
-	"attribution": "Reeves RR, Ewins PJ, Agbayani S, Heide-Jørgensen MP, Kovacs KM, Lydersen C, Suydam R, Elliott W, Polet G, van Dijk Y, Blijleven R. Distribution of endemic cetaceans in relation to hydrocarbon development and commercial shipping in a warming arctic. Marine Policy (2013), http://dx.doi.org/10.1016/j.marpol.2013.10.005i",
-	"path": "Oceans/Narwhal_Distribution/MapServer/0/",
-	"ocean": "arctic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "marine_mammal",
-	"featureAttributeMap": {
-		"featureDescription": {
-			"en": "DESCR",
-			"fr": "DESCR_F"
-		}
-	},
-  "sortBy" : "OBJECTID",
-	"featureStyle": {
-		"attribute": "DESCR",
-		"Annual-range": {
-			"title": {
-				"en": "Annual range",
-				"fr": "Aire de distribution annuelle"
-			},
-			"style": {
-				"fillColor": "#1093aa"
-			}
-		},
-		"Summer-range": {
-			"title": {
-				"en": "Summer range",
-				"fr": "Aire de distribution estivale"
-			},
-			"style": {
-				"fillColor": "#017286"
-			}
-		}
-	}
-}, {
-	"id": "orca",
-	"title": {
-		"en": "Resident orca critical habitat",
-		"fr": "Habitat essentiel de l’épaulard résident"
-	},
-	"featureAttributeMap": {
-		"featureDescription": {
-			"en": "Status",
-			"fr": "status_f"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Fisheries and Oceans Canada - Species at Risk Program",
-	"path": "Oceans/PacificKillerWhaler/MapServer/0/",
-	"ocean": "pacific",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "marine_mammal",  
-	"featureStyle": {
-		"attribute": "Status",
-		"Designated": {
-			"title": {
-				"en": "Designated",
-				"fr": "Désignée"
-			},
-			"style": {
-				"fillColor": "#0076bd"
-			}
-		},
-		"Proposed": {
-			"title": {
-				"en": "Proposed",
-				"fr": "Proposée"
-			},
-			"style": {
-				"fillColor": "#32adf7"
-			}
-		}
-	}
-}, {
-	"id": "humpback_pacific",
-	"title": {
-		"en": "Humpback whale proposed critical habitat",
-		"fr": "Habitat essentiel proposé pour la baleine à bosse"
-	},
-	"source": "arcgis",
-	"attribution": "Fisheries and Oceans Canada - Species at Risk Program",
-	"path": "Oceans/HumpbackWhale/MapServer/0/",
-	"ocean": "pacific",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "marine_mammal",
-	"style": {
-		"color": "#004a76",
-		"fillOpacity": 0.5
-	}
-}, {
-	"id": "bluewhale",
-	"title": {
-		"en": "Blue whale areas of known concentration",
-		"fr": "Zones de concentration connue du rorqual bleu"
-	},
-	"source": "arcgis",
-	"attribution": "Digitized by WWF-Canada from Beauchamp, J., Bouchard, H., de Margerie, P., Otis, N., Savaria, J.-Y., 2009. Recovery Strategy for the blue whale (Balaenoptera musculus), Northwest Atlantic population, in Canada [FINAL]. Species at Risk Act Recovery Strategy Series. Fisheries and Oceans Canada, Ottawa. 62 pp.",
-	"path": "Oceans/AtlanticBlueWhale/MapServer/0/",
-	"ocean": "atlantic",
-	"type": "polygon",
-	"category": "wildlife",
-	"subcategory": "marine_mammal",
-	"style": {
-		"color": "#4dd5e5"
 	}
 }, {
 	"id": "right",
