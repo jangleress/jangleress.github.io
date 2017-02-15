@@ -10629,7 +10629,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
         var e = window.Waypoint;
         window.jQuery && (window.jQuery.fn.waypoint = t(window.jQuery)), window.Zepto && (window.Zepto.fn.waypoint = t(window.Zepto))
     }(), define("jquery.waypoints", function() {}), define("text!templates/oceanHeaderTemplate.html", [], function() {
-        return '<a href="#" class="ocean-link ocean-color-<%= ocean %> link-large" data-oceanid="<%= ocean %>">\r\n  <%= t.oceans[ocean] %>\r\n</a>'
+        return '<%= t.oceans[ocean] %>\r\n'
     }), define("text!components/app/story/storyBottomHintsTemplate.html", [], function() {
         return '<div class="row">\r\n  <div class="col-xs-6">\r\n    <div class="story-bottom-hint story-region-hint hint">\r\n      <%= t.ux.story.select_story %>\r\n    </div>      \r\n  </div>\r\n  <div class="col-xs-6">\r\n    <div class="story-bottom-hint story-layer-hint hint">\r\n      <%= t.ux.story.explore_more[ocean] %>\r\n    </div>      \r\n  </div>\r\n</div>'
     }), define("text!templates/layerControlPlaceholderTemplate.html", [], function() {
