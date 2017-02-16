@@ -228,39 +228,6 @@
 		"fillOpacity": 0.7
 	}
 }, {
-	"id": "aoi_atlantic",
-	"contentid": "aoi",
-	"title": {
-		"en": "Areas of Interest",
-		"fr": "Zones d’intérêt"
-	},
-	"featureAttributeMap": {
-		"title": {
-			"en": "Name",
-			"fr": "Nom"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_AOIs/MapServer/0/",
-	"type": "point",
-	"ocean": "atlantic",
-	"category": "wildlife",
-	"subcategory": "protected",
-  "group": "mpa",
-	"icon": {
-		"type": "marker"
-	},
-	"queryArgs": {
-		"where": "Coast='Atlantic'"
-	},
-	"style": {
-		"fillColor": "#007840",
-		"opacity": 0.9,
-		"color": "#01572f",
-		"weight": 1
-	}
-}, {
 	"id": "cnp_atlantic",
 	"contentid": "cnp",
 	"title": {
@@ -284,65 +251,6 @@
 	"ocean": "atlantic",
 	"category": "wildlife",
 	"subcategory": "protected",
-	"queryArgs": {
-		"where": "Coast='Atlantic'"
-	}
-}, {
-	"id": "mpa_points_atlantic",
-	"contentid": "mpa",
-	"title": {
-		"en": "Marine Protected Areas (point locations)",
-		"fr": "Zones de protection marine (données de localisation)"
-	},
-	"featureAttributeMap": {
-		"title": {
-			"en": "NAME_E",
-			"fr": "FIRST_NOM_F"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_MPAs_Points/MapServer/0/",
-	"type": "point",
-	"ocean": "atlantic",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"group": "mpa",
-	"queryArgs": {
-		"where": "Coast='Atlantic'"
-	},
-	"style": {
-		"fillColor": "#003a88",
-		"opacity": 0.9,
-		"color": "#00275b",
-		"weight": 1
-	}
-}, {
-	"id": "mpa_atlantic",
-	"contentid": "mpa",
-	"title": {
-		"en": "Marine Protected Areas (polygons)",
-		"fr": "Aires marines protégées (polygones)"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "NAME_E",
-			"fr": "FIRST_NOM_F"
-		}
-	},
-	"style": {
-		"color": "#003a88",
-		"fillOpacity": 0.3,
-		"weight": 3
-	},
-	"source": "arcgis",
-	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
-	"path": "Oceans/DFO_MPAs_Polygons/MapServer/0/",
-	"type": "polygon",
-	"ocean": "atlantic",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"group": "mpa",
 	"queryArgs": {
 		"where": "Coast='Atlantic'"
 	}
@@ -397,6 +305,39 @@
 				"weight":1
 			}
 		}
+	}
+},{
+	"id": "aoi_atlantic",
+	"contentid": "aoi",
+	"title": {
+		"en": "Areas of Interest and Marine Protected Areas",
+		"fr": "Zones d’intérêt et Zones de protection marine"
+	},
+	"featureAttributeMap": {
+		"title": {
+			"en": "Name",
+			"fr": "Nom"
+		}
+	},
+	"source": "arcgis",
+	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
+	"path": "app/data/DFO_MPAs_and_AOIs.geojson",
+	"type": "point",
+	"ocean": "atlantic",
+	"category": "wildlife",
+	"subcategory": "protected",
+  "group": "mpa",
+	"icon": {
+		"type": "marker"
+	},
+	"queryArgs": {
+		"where": "Coast='Atlantic'"
+	},
+	"style": {
+		"fillColor": "#007840",
+		"opacity": 0.9,
+		"color": "#01572f",
+		"weight": 1
 	}
 }, {
 	"id": "oilgas_atlantic",
