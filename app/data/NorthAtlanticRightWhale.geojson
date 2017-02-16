@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "CHPOLY_ID": 77, "SPECIES_ID": 2820, "WATERBODY": "Grand Manan Basin", "EN_COMMON": "North Atlantic Right Whale", "FR_COMMON": "Baleine noire de l`Atlantique Nord", "TAXON": "Mammals", "TAXONTYPE": "Marine", "SCIENTIFIC": "Eubalaena glacialis", "REGION": "Maritimes", "SUPPORT_RE": "Quebec, Gulf, Newfoundland and Labrador", "COSEWICSTA": "Endangered", "SARASTATUS": "Endangered", "SARA_DOCUM": "http:\/\/www.sararegistry.gc.ca\/species\/speciesDetails_e.cfm?sid=780", "Status": "Critical Habitat", "Coast": "Atlantic", "SHAPE_Leng": 123729.194717, "SHAPE_Area": 1005790411.4400001 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 4939827.4431212246, -2441594.7642940171 ], [ 4930777.3020497039, -2447571.6802905984 ], [ 4915308.2237176374, -2424096.7357215285 ], [ 4919808.6880999133, -2402996.567187462 ], [ 4935001.4024384618, -2398076.8887722455 ], [ 4943396.3610454798, -2410656.6692796834 ], [ 4945361.7933459133, -2427535.3939573541 ], [ 4939827.4431212246, -2441594.7642940171 ] ] ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "CHPOLY_ID": 78, "SPECIES_ID": 2820, "WATERBODY": "Roseway Basin", "EN_COMMON": "North Atlantic Right Whale", "FR_COMMON": "Baleine noire de l`Atlantique Nord", "TAXON": "Mammals", "TAXONTYPE": "Marine", "SCIENTIFIC": "Eubalaena glacialis", "REGION": "Maritimes", "SUPPORT_RE": "Quebec, Gulf, Newfoundland and Labrador", "COSEWICSTA": "Endangered", "SARASTATUS": "Endangered", "SARA_DOCUM": "http:\/\/www.sararegistry.gc.ca\/species\/speciesDetails_e.cfm?sid=780", "Status": "Critical Habitat", "Coast": "Atlantic", "SHAPE_Leng": 304117.871678, "SHAPE_Area": 4639478111.3500004 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 5183808.1760490462, -2544135.3915152177 ], [ 5151301.5407871455, -2588030.7313752659 ], [ 5089874.3569128513, -2595330.0682623945 ], [ 5152635.7316783965, -2488521.7389799245 ], [ 5183808.1760490462, -2544135.3915152177 ] ] ] } }
+
+]
+}

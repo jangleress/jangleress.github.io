@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "Name": "American Bank", "Nom": "Banc des Américains", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4825356.2741598785, -1876443.2090302929 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "Name": "Laurentian Channel", "Nom": "Chenal Laurentien", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5418101.6359617263, -1769044.8167781159 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "Name": "Shediac Valley", "Nom": "Vallée de Shediac", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4885328.7570967302, -2034197.4377431013 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "Name": "St. Anns Bank", "Nom": "Banc de Sainte-Anne", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5343491.3831605613, -1860647.2569342963 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "Name": "St. Lawrence Estuary", "Nom": "Estuaire du Saint-Laurent", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4479196.6723071411, -2158664.3567058295 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "Name": "Basin Head Marine Protected Area", "Nom": "Zone de protection marine de Basin Head", "Coast": "Atlantic", "Category": "Marine Protected Area" }, "geometry": { "type": "Point", "coordinates": [ 5120693.2563279495, -2009465.8528487645 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "Name": "Eastport Marine Protected Area", "Nom": "Zone de protection marine d'Eastport", "Coast": "Atlantic", "Category": "Marine Protected Area" }, "geometry": { "type": "Point", "coordinates": [ 5456950.8960391656, -1302788.3112107255 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "Name": "Gilbert Bay Marine Protected Area", "Nom": "Zone de protection marine de la baie Gilbert", "Coast": "Atlantic", "Category": "Marine Protected Area" }, "geometry": { "type": "Point", "coordinates": [ 4992753.861070469, -1087602.3447702155 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "Name": "Gully Marine Protected Area", "Nom": "Zone de protection marine du Gully", "Coast": "Atlantic", "Category": "Marine Protected Area" }, "geometry": { "type": "Point", "coordinates": [ 5558434.8727125674, -2084342.4219403453 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "Name": "Musquash Estuary Marine Protected Area", "Nom": "Zone de protection marine de l'estuaire de la Musquash", "Coast": "Atlantic", "Category": "Marine Protected Area" }, "geometry": { "type": "Point", "coordinates": [ 4911657.2269080728, -2354382.9051144421 ] } }
+
+]
+}
