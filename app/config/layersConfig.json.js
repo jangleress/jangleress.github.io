@@ -231,8 +231,8 @@
 	"id": "cnp_atlantic",
 	"contentid": "cnp",
 	"title": {
-		"en": "National Parks",
-		"fr": "Parcs nationaux"
+		"en": "National Parks and National Marine Conservation Areas",
+		"fr": "Parcs nationaux et Aires marines nationales de conservation"
 	},
 	"style": {
 		"color": "#157543",
@@ -244,9 +244,9 @@
 			"fr": "NOM_F"
 		}
 	},
-	"source": "arcgis",
+	"source": "geojson",
 	"attribution": "Parks Canada, 2016 <br> Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010",
-	"path": "Oceans/nationalparks/MapServer/0/",
+	"path": "app/data/NationalParks_and_NMCAs.geojson",
 	"type": "polygon",
 	"ocean": "atlantic",
 	"category": "wildlife",
@@ -255,58 +255,6 @@
 		"where": "Coast='Atlantic'"
 	}
 }, {
-	"id": "nmca_atlantic",
-	"contentid": "nmca",
-	"title": {
-		"en": "National Marine Conservation Areas",
-		"fr": "Aires marines nationales de conservation"
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "Name",
-			"fr": "Name_F"
-		},
-		"featureDescription": {
-			"en": "status",
-			"fr": "status_f"
-		}
-	},
-	"source": "arcgis",
-	"attribution": "Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010; Parks Canada, 2016",
-	"path": "Oceans/NMCA/MapServer/0/",
-	"type": "polygon",
-	"ocean": "atlantic",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"queryArgs": {
-		"where": "Coast='Atlantic'"
-	},
-	"featureStyle": {
-		"attribute": "status",
-		"Designated": {
-			"title": {
-				"en": "Designated",
-				"fr": "Désignée"
-			},
-			"style": {
-				"color": "#5d8900",
-				"opacity":0.8,
-				"weight":1
-			}
-		},
-		"Proposed": {
-			"title": {
-				"en": "Proposed",
-				"fr": "Proposée"
-			},
-			"style": {
-				"color": "#67c511",
-				"opacity":0.6,
-				"weight":1
-			}
-		}
-	}
-},{
 	"id": "aoi_atlantic",
 	"contentid": "aoi",
 	"title": {
