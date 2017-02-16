@@ -303,9 +303,9 @@
 	"style": {
 		"weight": 1
 	},
-	"source": "arcgis",
+	"source": "geojson",
 	"attribution": "Canada-Nova Scotia Offshore Petroleum Board, http://www.cnsopb.ns.ca/ <br> Canada-Newfoundland & Labrador Offshore Petroleum Board, http://www.cnlopb.ca/",
-	"path": "Oceans/oilgas/MapServer/0/",
+	"path": "app/data/OilGas.geojson",
 	"type": "polygon",
 	"ocean": "atlantic",
 	"category": "wildlife",
