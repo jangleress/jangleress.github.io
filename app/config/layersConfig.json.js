@@ -319,7 +319,7 @@
 			"fr": "Nom"
 		}
 	},
-	"source": "arcgis",
+	"source": "geojson",
 	"attribution": "The Oceans Program, Fisheries and Oceans Canada",
 	"path": "app/data/DFO_MPAs_and_AOIs.geojson",
 	"type": "point",
