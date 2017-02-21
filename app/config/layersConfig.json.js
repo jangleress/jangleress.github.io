@@ -349,7 +349,7 @@
 		"en": "Shipping density, 2010",
 		"fr": "Densité du trafic maritime (2010)"
 	},
-	"source": "mapbox",
+	"source": "ovr",
 	"options": {
 		"id": "webteamwwf.0wmbqlao",
 		"retinaId": "webteamwwf.a5zpxhbe",
@@ -360,7 +360,7 @@
 		"opacity": 0.7
 	},
 	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
-	"path": "Oceans/AtlanticShipping_5937/MapServer/",
+	"path": "app/data/Shipping.ovr",
 	"ocean": "atlantic",
 	"type": "raster",
 	"category": "wildlife",
