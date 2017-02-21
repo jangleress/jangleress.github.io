@@ -360,7 +360,7 @@
 		"opacity": 0.7
 	},
 	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
-	"path": "Oceans/AtlanticShipping_5937/MapServer/poo",
+	"path": "",
 	"ocean": "atlantic",
 	"type": "raster",
 	"category": "wildlife",
