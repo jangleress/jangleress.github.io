@@ -4219,8 +4219,8 @@ a:hover .icon-wwf_arrow-right-white, a:hover .icon-wwf_arrow-left-white, a.icon-
     height: 15px;
 }
 .icon-wwf_tick {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .icon-wwf_download {
     width: 30px;
@@ -4506,8 +4506,8 @@ h2 {
     line-height: 1;
 }
 h3 {
-    font-size: 24px;
-    margin: 25px 0 15px;
+    font-size: 29px;
+    margin: 30px 0 18px;
 }
 h4 {
     font-size: 20px;
@@ -4949,7 +4949,7 @@ ul.nav.nav-left, ul.nav.nav-right {
     text-align: center;
     font-family: 'wwfregular';
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 1px;
 }
 .panel-header .category .category-text, .panel-header .category .category-icon {
@@ -4970,7 +4970,7 @@ ul.nav.nav-left, ul.nav.nav-right {
     font-size: 36px;
 }
 .panel-header h2 {
-    font-size: 32px;
+    font-size: 40px;
 }
 }
 .panel-header .category span {
@@ -5843,15 +5843,11 @@ a.scroll-up:hover, a.scroll-down:hover {
 .table-layer-select {
     width: 100%;
 }
-.table-layer-select td {
-    vertical-align: top;
-}
 .table-layer-select td.title {
     width: 100%;
 }
 .table-layer-select td.title .title-inner {
-    line-height: 15px;
-    padding-top: 3px;
+    line-height: 35px;
 }
 td.title .hint {
     font-size: 11px;
@@ -5877,7 +5873,7 @@ tr.layer-color-gradient td, tr.layer-color-groups td {
 }
 @media (min-width:1200px) {
     .table-layer-select td.title a {
-    font-size: 14px;
+    font-size: 17px;
 }
 }
 .prevent-layer-toggle .toggle a:hover, .prevent-layer-toggle .title a:hover, .table-layer-select.module-default .toggle a:hover, .table-layer-select.module-default .title a:hover {
@@ -5891,10 +5887,10 @@ tr.layer-color-gradient td, tr.layer-color-groups td {
     padding: 2px 6px 2px;
 }
 td.toggle a.toggle-layer {
-    margin: 0 8px 0 0;
+    margin: 0 15px 0 0;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 2px;
     background-color: #fff;
     border: 1px solid;
@@ -5903,8 +5899,8 @@ td.toggle a.toggle-layer.active {
     background-color: #808889;
 }
 .key-sm-wrap {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .key-inner.categorical svg {
     width: 100%;
@@ -6317,8 +6313,8 @@ header #title a.home-link {
 }
 @media (min-width:769px) {
     #title h1 {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 38px;
+    line-height: 45px;
     text-transform: uppercase;
 }
 header .link-list-wrapper, #title {
