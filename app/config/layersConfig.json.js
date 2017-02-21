@@ -343,4 +343,52 @@
 			}
 		}
 	}
+}, {
+	"id": "shipping_atlantic",
+	"title": {
+		"en": "Shipping density, 2010",
+		"fr": "Densité du trafic maritime (2010)"
+	},
+	"source": "mapbox",
+	"options": {
+		"id": "webteamwwf.0wmbqlao",
+		"retinaId": "webteamwwf.a5zpxhbe",
+		"printId": "webteamwwf.b2x0m2fv",
+		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
+		"minZoom": 1,
+		"maxZoom": 8,
+		"opacity": 0.7
+	},
+	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
+	"path": "",
+	"ocean": "atlantic",
+	"type": "raster",
+	"category": "wildlife",
+	"subcategory": "shipping",
+	"style": {
+		"opacity": 0.5
+	},
+	"key": {
+		"type": "categorical",
+		"categories": [{
+			"title": {
+				"en": "High intensity",
+				"fr": "Forte intensité"
+			},
+			"fillColor": "#202620"
+		}, {
+			"title": {
+				"en": "Medium intensity",
+				"fr": "Intensité moyenne"
+			},
+			"fillColor": "#4d514d"
+		}, {
+			"title": {
+				"en": "Low intensity",
+				"fr": "Basse intensité"
+			},
+			"fillColor": "#8b8f8b"
+
+		}]
+	}
 }]
