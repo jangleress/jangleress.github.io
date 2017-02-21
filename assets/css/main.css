@@ -5912,7 +5912,7 @@ td.toggle a.toggle-layer.active {
     height: 20px;
 }
 .key-inner.categorical li {
-    height: 20px;
+    height: 30px;
     padding: 0;
 }
 .key-lg-wrap {
