@@ -4157,8 +4157,8 @@ th.visible-print, td.visible-print {
 }
 }
 .icon-wwf_edit, .icon-wwf_remove, .icon-wwf_polygon, .icon-wwf_square, .icon-wwf_line, .icon-wwf_circle, .icon-wwf_marker, .icon-wwf_type, .icon-wwf_minus, .icon-wwf_plus {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 .icon-wwf_edit-light, .icon-wwf_edit-atlantic, .icon-wwf_edit-arctic, .icon-wwf_edit-pacific {
     width: 18px;
@@ -5536,8 +5536,8 @@ ul.nav.nav-left, ul.nav.nav-right {
     border-radius: 0;
 }
 .leaflet-touch .leaflet-bar a, .leaflet-bar a, .leaflet-bar a:hover {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #fff;
     padding: 5px;
 }
@@ -5628,7 +5628,7 @@ a.leaflet-control-zoom-in:hover, a.leaflet-control-zoom-in {
     left: 0;
     top: 80px;
     bottom: 140px;
-    width: 40px;
+    width: 50px;
     z-index: 3000;
     display: none;
 }
@@ -5699,9 +5699,9 @@ a.leaflet-control-zoom-in:hover, a.leaflet-control-zoom-in {
     width: 100%;
     text-align: center;
     padding: 0 5px;
-    font-size: 12px;
-    height: 40px;
-    line-height: 40px;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
     -webkitbox-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2);
@@ -5916,15 +5916,15 @@ td.toggle a.toggle-layer.active {
     padding: 0;
 }
 .key-lg-wrap {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 .key-lg.key-inner.categorical ul {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 .key-lg.key-inner.categorical li {
-    height: 40px;
+    height: 50px;
 }
 .key-wrap {
     display: block;
