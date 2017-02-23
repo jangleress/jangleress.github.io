@@ -24560,8 +24560,8 @@ $(document).ready(function() {
 });
 
 $(document).ready(function () {
-    $('#key .reveal-on-hover').click(function() {
-		$('#map').hide();
+    $('#map').click(function() {
+		$(this).hide();
         //$(this).toggleClass('popup-key');
     });
 });
