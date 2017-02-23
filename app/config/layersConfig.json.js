@@ -190,7 +190,7 @@
 	"subcategory": "marine_mammal",
   "sortBy" : "OBJECTID",
 	"style": {
-		"color": "#db5400",
+		"color": "#edab00",
 		"fillOpacity": 0.7
 	}
 }, {
@@ -224,7 +224,7 @@
 	"category": "wildlife",
 	"subcategory": "marine_mammal",
 	"style": {
-		"color": "#c82536",
+		"color": "#f88379",
 		"fillOpacity": 0.7
 	}
 }, {
