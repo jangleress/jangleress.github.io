@@ -5847,7 +5847,8 @@ a.scroll-up:hover, a.scroll-down:hover {
     width: 100%;
 }
 .table-layer-select td.title .title-inner {
-    line-height: 35px;
+    line-height: 20px;
+	padding-left: 20px;
 }
 td.title .hint {
     font-size: 11px;
@@ -5866,7 +5867,7 @@ tr.layer-color-gradient td, tr.layer-color-groups td {
     padding-right: 8px;
 }
 .layer-key-panel .table-layer-select a.toggle-layer {
-    font-size: 13px;
+    font-size: 16px;
 }
 .table-layer-select a {
     font-size: 13px;
@@ -5897,6 +5898,9 @@ td.toggle a.toggle-layer {
 }
 td.toggle a.toggle-layer.active {
     background-color: #808889;
+}
+#key td.toggle a.toggle-layer.active {
+	display: none;
 }
 .key-sm-wrap {
     width: 30px;
