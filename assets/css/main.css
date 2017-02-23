@@ -6948,3 +6948,9 @@ header .navbar-default .navbar-collapse {
     font-weight: normal;
     font-style: normal;
 }
+
+/* Hide unnecessary elements on page load */
+#home {
+	display: none;
+	background: transparent;
+}
