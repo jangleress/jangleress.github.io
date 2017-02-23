@@ -190,7 +190,7 @@
 	"subcategory": "marine_mammal",
   "sortBy" : "OBJECTID",
 	"style": {
-		"color": "#12bedd",
+		"color": "#db5400",
 		"fillOpacity": 0.8
 	}
 }, {
