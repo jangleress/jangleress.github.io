@@ -24547,3 +24547,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
     }), require(["app"], function(e) {
         googletagmanager("GTM-MMJ5SZ"), e.initialize()
     }), define("main", function() {});
+	
+$('#map').click(function() {
+	$('li.map-key-layer-list-item.reveal-on-hover').off("mouseenter mouseleave");
+});
