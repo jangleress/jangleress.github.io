@@ -24560,7 +24560,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function () {
-    $('#key').click(function() {
+    $('#key .reveal-on-hover').click(function() {
 		$(this).hide();
         //$(this).toggleClass('popup-key');
     });

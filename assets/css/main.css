@@ -5642,7 +5642,7 @@ a.leaflet-control-zoom-in:hover, a.leaflet-control-zoom-in {
     width: 100%;
 }
 .map-key-layer-list-item {
-    width: 40px;
+    width: 50px;
 }
 .map-key-layer-list-item:last-child {
     margin-bottom: 0;
