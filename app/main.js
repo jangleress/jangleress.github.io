@@ -24551,7 +24551,3 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
 $(document).on('click', '#key .reveal-on-hover', function() {
 		$(this).toggleClass('popup-key');
  }) ;
- 
-$(document).click(function() {
-	$("#key .reveal-on-hover.popup-key").trigger("click");
-}); 
