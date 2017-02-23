@@ -5946,10 +5946,10 @@ td.toggle a.toggle-layer.active {
     border-radius: 999px;
 }
 .key-sm.key-inner.multiple-areas {
-    border-width: 10px;
+    border-width: 15px;
 }
 .key-lg.key-inner.multiple-areas {
-    border-width: 20px;
+    border-width: 25px;
 }
 .key-wrap.key-type-line .key-inner {
     border-bottom-style: solid;
