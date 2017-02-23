@@ -24560,7 +24560,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function () {
-    $('#map').click(function() {
+    $('#key').click(function() {
 		$(this).hide();
         //$(this).toggleClass('popup-key');
     });
