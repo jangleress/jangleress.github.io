@@ -5908,8 +5908,8 @@ td.toggle a.toggle-layer.active {
 }
 .key-inner.categorical ul {
     margin: 0;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .key-inner.categorical li {
     height: 30px;
