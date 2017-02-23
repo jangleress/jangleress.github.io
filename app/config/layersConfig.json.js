@@ -191,7 +191,7 @@
   "sortBy" : "OBJECTID",
 	"style": {
 		"color": "#db5400",
-		"fillOpacity": 0.8
+		"fillOpacity": 0.6
 	}
 }, {
 	"id": "right",
