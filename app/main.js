@@ -24561,7 +24561,8 @@ $(document).ready(function() {
 
 $(document).ready(function () {
     $('#key .reveal-on-hover').click(function() {
-        $(this).toggleClass('popup-key');
+		$('#map').hide();
+        //$(this).toggleClass('popup-key');
     });
 });
 
