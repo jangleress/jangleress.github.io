@@ -24565,6 +24565,3 @@ $(document).ready(function () {
     });
 });
 
-$(document).click(function() {
-	$("#key .reveal-on-hover.popup-key").trigger("click");
-});    
