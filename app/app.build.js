@@ -25,7 +25,8 @@
   },    
   modules: [
     {
-      name: "main"
+      name: "main",
+	  name: "unbind"
     }
   ],
   optimizeCss: 'standard'
