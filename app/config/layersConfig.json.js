@@ -173,7 +173,7 @@
 	"category": "wildlife",
 	"subcategory": "marine_mammal",
 	"style": {
-		"color": "#002069"
+		"color": "#00609c"
 	}
 }, {
 	"id": "beluga",
