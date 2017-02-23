@@ -24547,8 +24547,10 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
     }), require(["app"], function(e) {
         googletagmanager("GTM-MMJ5SZ"), e.initialize()
     }), define("main", function() {});
-	
-$('#key').click(function() {
-	$('#map').hide();
-	//$('li.map-key-layer-list-item.reveal-on-hover').unbind("mouseenter mouseleave");
+
+$( document ).ready(function() {
+	$('#key').click(function() {
+		$('#map').hide();
+		//$('li.map-key-layer-list-item.reveal-on-hover').unbind("mouseenter mouseleave");
+	});
 });
