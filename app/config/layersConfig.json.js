@@ -224,7 +224,7 @@
 	"category": "wildlife",
 	"subcategory": "marine_mammal",
 	"style": {
-		"color": "#db2645",
+		"color": "#d41a1f",
 		"fillOpacity": 0.7
 	}
 }, {
