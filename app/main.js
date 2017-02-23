@@ -24549,6 +24549,5 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
     }), define("main", function() {});
 	
 $('#map').click(function() {
-	$(this).hide();
-	//$('li.map-key-layer-list-item.reveal-on-hover').off("mouseenter mouseleave");
+	$('li.map-key-layer-list-item.reveal-on-hover').unbind("mouseenter mouseleave");
 });
