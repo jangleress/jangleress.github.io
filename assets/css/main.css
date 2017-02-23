@@ -6767,7 +6767,7 @@ header .navbar-default .navbar-toggle .icon-bar + .icon-bar {
     padding: 0 10px;
 }
 #application.module-home {
-    background-color: #ffffff;
+    background-color: #404c4e;
 }
 #title a, .table-layer-select a:hover, .nav-secondary a.active, .nav-secondary a.active:focus, .nav-secondary a:hover, body {
     color: #212728;
