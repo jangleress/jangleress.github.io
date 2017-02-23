@@ -4,7 +4,7 @@
     "attribution" : "<a class='page-link' data-pageid='basemap' href='#' >Basemap Attribution</a>",
     "mapOptions" : {
       "minZoom":2,
-      "maxZoom":8,
+      "maxZoom":6,
       "zoomControl" : false,
       "attributionControl": false
     },
