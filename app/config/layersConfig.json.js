@@ -191,7 +191,7 @@
   "sortBy" : "OBJECTID",
 	"style": {
 		"color": "#db5400",
-		"fillOpacity": 0.6
+		"fillOpacity": 0.7
 	}
 }, {
 	"id": "right",
@@ -208,7 +208,7 @@
 	"subcategory": "marine_mammal",
 	"style": {
 		"color": "#800080",
-		"fillOpacity": 0.6
+		"fillOpacity": 0.7
 	}
 }, {
 	"id": "bottlenose",
@@ -224,7 +224,7 @@
 	"category": "wildlife",
 	"subcategory": "marine_mammal",
 	"style": {
-		"color": "#00334c",
+		"color": "#9e0012",
 		"fillOpacity": 0.7
 	}
 }, {
