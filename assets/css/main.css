@@ -5835,7 +5835,7 @@ a.scroll-up:hover, a.scroll-down:hover {
     margin-left: 10px;
 }
 .layer-group {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 .layer-select-list-item {
     margin: 2px 0;
@@ -5873,7 +5873,7 @@ tr.layer-color-gradient td, tr.layer-color-groups td {
 }
 @media (min-width:1200px) {
     .table-layer-select td.title a {
-    font-size: 17px;
+    font-size: 18px;
 }
 }
 .prevent-layer-toggle .toggle a:hover, .prevent-layer-toggle .title a:hover, .table-layer-select.module-default .toggle a:hover, .table-layer-select.module-default .title a:hover {
