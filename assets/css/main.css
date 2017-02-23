@@ -6954,3 +6954,6 @@ header .navbar-default .navbar-collapse {
 	display: none;
 	background: transparent;
 }
+#layers {
+	display: block;
+}
