@@ -24549,8 +24549,22 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
     }), define("main", function() {});
 
 $(document).ready(function() {
-	$('#key').click(function() {
-		$('#map').hide();
-		//$('li.map-key-layer-list-item.reveal-on-hover').unbind("mouseenter mouseleave");
+	$('#key .reveal-on-hover').click(function() {
+		$(this).addClass('clicked');
+	});
+	$('#application').click(function() {
+		if ($('#key .reveal-on-hover').hasClass('clicked')) {
+			$(this).hide();
+		}
 	});
 });
+
+$(document).ready(function () {
+    $('#key .reveal-on-hover').click(function() {
+        $(this).toggleClass('popup-key');
+    });
+});
+
+$(document).click(function() {
+	$("#key .reveal-on-hover.popup-key").trigger("click");
+});    
