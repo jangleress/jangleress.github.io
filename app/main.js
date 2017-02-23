@@ -24549,5 +24549,5 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
     }), define("main", function() {});
 	
 $('li.map-key-layer-list-item.reveal-on-hover').on("tap",function(){
-	$(this).child('.show-on-hover').addClass('clicked');
+	$(this).children('.show-on-hover').addClass('clicked');
 });
