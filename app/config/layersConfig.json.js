@@ -207,8 +207,8 @@
 	"category": "wildlife",
 	"subcategory": "marine_mammal",
 	"style": {
-		"color": "#2f9fcd",
-		"fillOpacity": 0.8
+		"color": "#9E0061",
+		"fillOpacity": 0.6
 	}
 }, {
 	"id": "bottlenose",
