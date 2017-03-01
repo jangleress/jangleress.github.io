@@ -1426,7 +1426,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 19,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri'
           }
@@ -1438,7 +1438,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 19,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri'
           }
@@ -1450,7 +1450,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 16,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri'
           }
@@ -1462,7 +1462,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             logoPosition: 'bottomright',
             //pane: 'esri-label',
             minZoom: 1,
-            maxZoom: 16,
+            maxZoom: 10,
             subdomains: ['server', 'services']
           }
         },
@@ -1472,7 +1472,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 16,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri'
           }
@@ -1483,7 +1483,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 16,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri, DeLorme, HERE'
           }
@@ -1495,7 +1495,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             logoPosition: 'bottomright',
             //pane: 'esri-label',
             minZoom: 1,
-            maxZoom: 16,
+            maxZoom: 10,
             subdomains: ['server', 'services']
           }
         },
@@ -1505,7 +1505,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 16,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri, NAVTEQ, DeLorme'
           }
@@ -1517,7 +1517,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             logoPosition: 'bottomright',
             //pane: 'esri-label',
             minZoom: 1,
-            maxZoom: 16,
+            maxZoom: 10,
             subdomains: ['server', 'services']
           }
         },
@@ -1527,7 +1527,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 19,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri, DigitalGlobe, GeoEye, i-cubed, USDA, USGS, AEX, Getmapping, Aerogrid, IGN, IGP, swisstopo, and the GIS User Community'
           }
@@ -1539,7 +1539,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             logoPosition: 'bottomright',
             //pane: 'esri-label',
             minZoom: 1,
-            maxZoom: 19,
+            maxZoom: 10,
             subdomains: ['server', 'services']
           }
         },
@@ -1550,7 +1550,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: true,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 19,
+            maxZoom: 10,
             subdomains: ['server', 'services']
           }
         },
@@ -1560,7 +1560,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 13,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri, NAVTEQ, DeLorme'
           }
@@ -1572,7 +1572,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             logoPosition: 'bottomright',
             //pane: 'esri-label',
             minZoom: 1,
-            maxZoom: 12,
+            maxZoom: 10,
             subdomains: ['server', 'services']
           }
         },
@@ -1582,7 +1582,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             hideLogo: false,
             logoPosition: 'bottomright',
             minZoom: 1,
-            maxZoom: 13,
+            maxZoom: 10,
             subdomains: ['server', 'services'],
             attribution: 'Esri, USGS, NOAA'
           }
@@ -1594,7 +1594,7 @@ EsriLeaflet.Tasks.identifyFeatures = function(params){
             logoPosition: 'bottomright',
             //pane: 'esri-label',
             minZoom: 1,
-            maxZoom: 13,
+            maxZoom: 10,
             subdomains: ['server', 'services']
           }
         }

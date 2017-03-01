@@ -16,7 +16,7 @@
 		"printId": "webteamwwf.dane3tr5",
 		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
 		"minZoom": 1,
-		"maxZoom": 3
+		"maxZoom": 8
 	},
 	"key": {
 		"type": "categorical",
