@@ -160,11 +160,11 @@
 		}
 	}
 }, {
-	"id": "2014_story",
-	"contentid": "14_st",
+	"id": "whale_ice",
+	"contentid": "ice",
 	"title": {
-		"en": "2014 Story",
-		"fr": "2014 Story"
+		"en": "Whales found in ice",
+		"fr": "Whales found in ice"
 	},
 	"featureAttributeMap": {
 		"title": {
@@ -174,7 +174,71 @@
 	},
 	"source": "geojson",
 	"attribution": "Dave Ireland",
-	"path": "app/data/2014_story.geojson",
+	"path": "app/data/whale_ice.geojson",
+	"type": "point",
+	"ocean": "atlantic",
+	"category": "wildlife",
+	"subcategory": "2014 Story",
+	"icon": {
+		"type": "marker"
+	},
+	"queryArgs": {
+		"where": "Coast='Atlantic'"
+	},
+	"style": {
+		"fillColor": "#007840",
+		"opacity": 0.9,
+		"color": "#01572f",
+		"weight": 1
+	}
+}, {
+	"id": "whale_ashore",
+	"contentid": "ashore",
+	"title": {
+		"en": "Whales washed ashore",
+		"fr": "Whales washed ashor"
+	},
+	"featureAttributeMap": {
+		"title": {
+			"en": "Name",
+			"fr": "Nom"
+		}
+	},
+	"source": "geojson",
+	"attribution": "Dave Ireland",
+	"path": "app/data/whale_ashore.geojson",
+	"type": "point",
+	"ocean": "atlantic",
+	"category": "wildlife",
+	"subcategory": "2014 Story",
+	"icon": {
+		"type": "marker"
+	},
+	"queryArgs": {
+		"where": "Coast='Atlantic'"
+	},
+	"style": {
+		"fillColor": "#007840",
+		"opacity": 0.9,
+		"color": "#01572f",
+		"weight": 1
+	}
+}, {
+	"id": "whale_salvage",
+	"contentid": "salvage",
+	"title": {
+		"en": "One whale towed here to salvage",
+		"fr": "One whale towed here to salvage"
+	},
+	"featureAttributeMap": {
+		"title": {
+			"en": "Name",
+			"fr": "Nom"
+		}
+	},
+	"source": "geojson",
+	"attribution": "Dave Ireland",
+	"path": "app/data/whale_salvage.geojson",
 	"type": "point",
 	"ocean": "atlantic",
 	"category": "wildlife",

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+
+{ "type": "Feature", "id": 3, "properties": { "Name": "Woody Point", "Nom": "Woody Point", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5343491.3831605613, -1860647.2569342963 ] } }
+
+]
+}

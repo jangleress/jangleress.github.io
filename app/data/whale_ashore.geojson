@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 1, "properties": { "Name": "Trout River", "Nom": "Rivière Trout", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 45120693.2563279495, -2009465.8528487645 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "Name": "Rocky Harbour", "Nom": "Rocky Harbour", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4885328.7570967302, -2034197.4377431013 ] } }
+
+]
+}

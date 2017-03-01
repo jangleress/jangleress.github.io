@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "Name": "Whales found in ice", "Nom": "Whales found in ice", "Coast": "Atlantic", "Category": "2014 Story" }, "geometry": { "type": "Point", "coordinates": [ 45120693.2563279495, -2009465.8528487645 ] } }
+
+]
+}
