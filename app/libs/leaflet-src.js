@@ -2399,7 +2399,7 @@ L.TileLayer = L.Class.extend({
 
 	options: {
 		minZoom: 0,
-		maxZoom: 18,
+		maxZoom: 6,
 		tileSize: 256,
 		subdomains: 'abc',
 		errorTileUrl: '',
