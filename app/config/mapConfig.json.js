@@ -3,8 +3,8 @@
     "mapID" : "basemap",
     "attribution" : "<a class='page-link' data-pageid='basemap' href='#' >Basemap Attribution</a>",
     "mapOptions" : {
-      "minZoom":4,
-      "maxZoom":8,
+      "minZoom":5,
+      "maxZoom":9,
       "zoomControl" : false,
       "attributionControl": false
     },
