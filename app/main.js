@@ -10278,7 +10278,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                 _defaultLocateOptions: {
                     watch: !1,
                     setView: !1,
-                    maxZoom: 10,
+                    maxZoom: Infinity,
                     timeout: 1e4,
                     maximumAge: 0,
                     enableHighAccuracy: !1
