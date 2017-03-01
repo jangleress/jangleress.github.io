@@ -3,7 +3,7 @@
                                                                                 
 "features": [
 
-{ "type": "Feature", "id": 3, "properties": { "Name": "Whales found in ice", "Nom": "Whales found in ice", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5343491.3831605613, -2000000.0000000000 ] } }
+{ "type": "Feature", "id": 3, "properties": { "Name": "Whales found in ice", "Nom": "Whales found in ice", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5343491.3831605613, -2044197.2569342963 ] } }
 
 ]
 }
