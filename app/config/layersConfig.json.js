@@ -259,7 +259,7 @@
 	"id": "bluewhale",
 	"title": {
 		"en": "Blue whale areas of known concentration",
-		"fr": "Zones de concentration connue du rorqual bleu"
+		"fr": "Zones de concentration connue de la baleine bleue"
 	},
 	"source": "geojson",
 	"attribution": "Digitized by WWF-Canada from Beauchamp, J., Bouchard, H., de Margerie, P., Otis, N., Savaria, J.-Y., 2009. Recovery Strategy for the blue whale (Balaenoptera musculus), Northwest Atlantic population, in Canada [FINAL]. Species at Risk Act Recovery Strategy Series. Fisheries and Oceans Canada, Ottawa. 62 pp.",
