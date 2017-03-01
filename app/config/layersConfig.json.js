@@ -171,7 +171,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "whale_habitats",
+	"subcategory": "Whale habitats",
 	"style": {
 		"color": "#00609c"
 	}
@@ -187,7 +187,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "whale_habitats",
+	"subcategory": "Whale habitats",
   "sortBy" : "OBJECTID",
 	"style": {
 		"color": "#edab00",
@@ -205,7 +205,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "whale_habitats",
+	"subcategory": "Whale habitats",
 	"style": {
 		"color": "#ff4040",
 		"fillOpacity": 0.7
@@ -222,7 +222,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "whale_habitats",
+	"subcategory": "Whale habitats",
 	"style": {
 		"color": "#800080",
 		"fillOpacity": 0.7
