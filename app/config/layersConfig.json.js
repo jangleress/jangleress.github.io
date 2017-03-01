@@ -258,8 +258,8 @@
 	"id": "aoi_atlantic",
 	"contentid": "aoi",
 	"title": {
-		"en": "Areas of Interest and Marine Protected Areas",
-		"fr": "Zones d’intérêt et Zones de protection marine"
+		"en": "Marine Protected Areas and Areas of Interest",
+		"fr": "Zones de protection marine et Zones d’intérêt"
 	},
 	"featureAttributeMap": {
 		"title": {
@@ -274,7 +274,6 @@
 	"ocean": "atlantic",
 	"category": "wildlife",
 	"subcategory": "protected",
-  "group": "mpa",
 	"icon": {
 		"type": "marker"
 	},
