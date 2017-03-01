@@ -16,7 +16,7 @@ oceans: &oceans
     value: pacific
   - name: 'Arctic'
     value: arctic
-  - name: 'Atlantic'
+  - name: 'Northwest Atlantic Ocean'
     value: atlantic
 storychapters: &storychapters
   - name: 'Natural Riches'
