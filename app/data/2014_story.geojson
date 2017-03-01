@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "Name": "Whales found in ice", "Nom": "Whales found in ice", "Coast": "Atlantic", "Category": "2014 Story" }, "geometry": { "type": "Point", "coordinates": [ 45120693.2563279495, -2009465.8528487645 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "Name": "Whales washed ashore in Trout River", "Nom": "Whales washed ashore in Trout River", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 45120693.2563279495, -2009465.8528487645 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "Name": "Whales washed ashore in Rocky Harbour", "Nom": "Whales washed ashore in Rocky Harbour", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4885328.7570967302, -2034197.4377431013 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "Name": "One whale towed here to salvage in Woody Point", "Nom": "One whale towed here to salvage in Woody Point", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5343491.3831605613, -1860647.2569342963 ] } }
+
+]
+}

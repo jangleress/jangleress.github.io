@@ -160,6 +160,38 @@
 		}
 	}
 }, {
+	"id": "2014_story",
+	"contentid": "14_st",
+	"title": {
+		"en": "2014 Story",
+		"fr": "2014 Story"
+	},
+	"featureAttributeMap": {
+		"title": {
+			"en": "Name",
+			"fr": "Nom"
+		}
+	},
+	"source": "geojson",
+	"attribution": "Dave Ireland",
+	"path": "app/data/2014_story.geojson",
+	"type": "point",
+	"ocean": "atlantic",
+	"category": "wildlife",
+	"subcategory": "2014 Story",
+	"icon": {
+		"type": "marker"
+	},
+	"queryArgs": {
+		"where": "Coast='Atlantic'"
+	},
+	"style": {
+		"fillColor": "#007840",
+		"opacity": 0.9,
+		"color": "#01572f",
+		"weight": 1
+	}
+}, {
 	"id": "bluewhale",
 	"title": {
 		"en": "Blue whale areas of known concentration",
