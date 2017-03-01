@@ -16,8 +16,8 @@ oceans: &oceans
     value: pacific
   - name: 'Arctic'
     value: arctic
-  - name: 'sdkjfsdkljkl'
-    value: bjkweljklj
+  - name: 'Atlantic'
+    value: atlantic
 storychapters: &storychapters
   - name: 'Natural Riches'
     value: 1
