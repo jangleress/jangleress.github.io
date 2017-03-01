@@ -7500,7 +7500,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                 includes: i.Mixin.Events,
                 options: {
                     minZoom: 0,
-                    maxZoom: 18,
+                    maxZoom: 8,
                     tileSize: 256,
                     subdomains: "abc",
                     errorTileUrl: "",
