@@ -164,7 +164,7 @@
 	"contentid": "ice",
 	"title": {
 		"en": "Whales found in ice",
-		"fr": "Whales found in ice"
+		"fr": "Baleines découvertes dans les glaces"
 	},
 	"featureAttributeMap": {
 		"title": {
@@ -197,7 +197,7 @@
 	"contentid": "ashore",
 	"title": {
 		"en": "Whales washed ashore",
-		"fr": "Whales washed ashor"
+		"fr": "Baleines échouées"
 	},
 	"featureAttributeMap": {
 		"title": {
@@ -229,7 +229,7 @@
 	"contentid": "salvage",
 	"title": {
 		"en": "One whale towed here to salvage",
-		"fr": "One whale towed here to salvage"
+		"fr": "Baleine remorquée en vue de sa récupération"
 	},
 	"featureAttributeMap": {
 		"title": {
@@ -260,7 +260,7 @@
 	"id": "bluewhale",
 	"title": {
 		"en": "Blue whale areas of known concentration",
-		"fr": "Zones de concentration connue de la baleine bleue"
+		"fr": "Zones de concentration connues de la baleine bleue"
 	},
 	"source": "geojson",
 	"attribution": "Digitized by WWF-Canada from Beauchamp, J., Bouchard, H., de Margerie, P., Otis, N., Savaria, J.-Y., 2009. Recovery Strategy for the blue whale (Balaenoptera musculus), Northwest Atlantic population, in Canada [FINAL]. Species at Risk Act Recovery Strategy Series. Fisheries and Oceans Canada, Ottawa. 62 pp.",
@@ -276,7 +276,7 @@
 	"id": "beluga",
 	"title": {
 		"en": "Beluga critical habitat ",
-		"fr": "Habitat essentiel du bélouga"
+		"fr": "Habitat essentiel du béluga"
 	},
 	"source": "geojson",
 	"attribution": "Fisheries and Oceans Canada - Species at Risk Program",
@@ -294,7 +294,7 @@
 	"id": "right",
 	"title": {
 		"en": "North Atlantic right whale critical habitat",
-		"fr": "Habitat essentiel de la baleine noire de l’Atlantique Nord"
+		"fr": "Habitat essentiel de la Baleine noire/franche de l’Atlantique Nord"
 	},
 	"source": "geojson",
 	"attribution": "Fisheries and Oceans Canada - Species at Risk Program",
@@ -329,7 +329,7 @@
 	"contentid": "cnp",
 	"title": {
 		"en": "National Parks and National Marine Conservation Areas",
-		"fr": "Parcs nationaux et Aires marines nationales de conservation"
+		"fr": "Parcs nationaux et aires marines nationales de conservation"
 	},
 	"style": {
 		"color": "#157543",
@@ -356,7 +356,7 @@
 	"contentid": "aoi",
 	"title": {
 		"en": "Marine Protected Areas and Areas of Interest",
-		"fr": "Zones de protection marine et Zones d’intérêt"
+		"fr": "Aires marines protégées et sites d’intérêt"
 	},
 	"featureAttributeMap": {
 		"title": {
