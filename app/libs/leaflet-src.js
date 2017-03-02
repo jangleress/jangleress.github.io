@@ -6780,7 +6780,7 @@ L.Handler = L.Class.extend({
  */
 
 L.Map.mergeOptions({
-	dragging: true,
+	dragging: false,
 
 	inertia: !L.Browser.android23,
 	inertiaDeceleration: 3400, // px/s^2
