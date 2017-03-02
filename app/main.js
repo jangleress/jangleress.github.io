@@ -7363,7 +7363,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                     }, this, !1, this._container)
                 },
                 _onMouseClick: function(e) {
-                    if (!this._loaded || !e._simulated && this.boxZoom && this.boxZoom.moved()) || i.DomEvent._skipped(e)) return;
+                    if (!this._loaded || !e._simulated && (this.boxZoom && this.boxZoom.moved()) || i.DomEvent._skipped(e)) return;
                     this.fire("preclick"), this._fireMouseEvent(e)
                 },
                 _fireMouseEvent: function(e) {
