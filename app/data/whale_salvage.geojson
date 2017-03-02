@@ -3,6 +3,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5937" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "Item": "Woody Point", "Lat": 49.503848, "Long": -57.916193 }, "geometry": { "type": "Point", "coordinates": [ 5140236.4247259405, -1476821.1193836103 ] } }
+{ "type": "Feature", "properties": { "Name": "Woody Point", "Nom": "Woody Point", "Lat": 49.503848, "Long": -57.916193 }, "geometry": { "type": "Point", "coordinates": [ 5140236.4247259405, -1476821.1193836103 ] } }
 ]
 }
