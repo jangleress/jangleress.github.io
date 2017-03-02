@@ -8013,6 +8013,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                         t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu"];
                     i.DomUtil.addClass(e, "leaflet-clickable"), i.DomEvent.on(e, "click", this._onMouseClick, this), i.DomEvent.on(e, "keypress", this._onKeyPress, this);
                     for (var n = 0; n < t.length; n++) i.DomEvent.on(e, t[n], this._fireMouseEvent, this);
+                    i.Handler.MarkerDrag && (this.dragging = new i.Handler.MarkerDrag(this), this.options.draggable && this.dragging.enable())
                 },
                 _onMouseClick: function(e) {
                     var t = this.dragging && this.dragging.moved();
