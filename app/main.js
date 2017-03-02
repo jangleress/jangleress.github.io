@@ -14483,14 +14483,14 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
             _initInteraction: function() {
                 if (!this.options.clickable) return;
                 var e = this._container,
-                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu"];
+                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu", "tap"];
                 r.DomUtil.addClass(e, "leaflet-clickable"), r.DomEvent.on(e, "click", this._onMouseClick, this);
                 for (var n = 0; n < t.length; n++) r.DomEvent.on(e, t[n], this._fireMouseEvent, this)
             },
             _removeInteraction: function() {
                 if (!this.options.clickable) return;
                 var e = this._container,
-                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu"];
+                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu", "tap"];
                 r.DomUtil.removeClass(e, "leaflet-clickable"), r.DomEvent.off(e, "click", this._onMouseClick, this);
                 for (var n = 0; n < t.length; n++) r.DomEvent.off(e, t[n], this._fireMouseEvent, this)
             },
