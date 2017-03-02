@@ -1,10 +1,9 @@
 {
 "type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5937" } },
                                                                                 
 "features": [
-{ "type": "Feature", "id": 3, "properties": { "Name": "Trout River", "Nom": "Trout River", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5343491.3831605613, -1860647.2569342963 ] } }
-,
-{ "type": "Feature", "id": 2, "properties": { "Name": "Rocky Harbour", "Nom": "Rocky Harbour", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4885328.7570967302, -2034197.4377431013 ] } }
-
+{ "type": "Feature", "properties": { "Item": "Trout River", "Lat": 49.480835, "Long": -58.130473 }, "geometry": { "type": "Point", "coordinates": [ 5129035.5178798242, -1491027.7275142795 ] } },
+{ "type": "Feature", "properties": { "Item": "Rocky Harbour", "Lat": 49.592091, "Long": -57.924537 }, "geometry": { "type": "Point", "coordinates": [ 5131913.3179750573, -1469692.9986471557 ] } }
 ]
 }
