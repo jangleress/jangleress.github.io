@@ -24548,12 +24548,3 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
         googletagmanager("GTM-MMJ5SZ"), e.initialize()
     }), define("main", function() {});
 
-$(document).on('click', '#key .reveal-on-hover', function() {
-		$(this).toggleClass('popup-key');
-});
-
-$(document).ready(function() {
-	 $('#application').click(function() {
-		$('#key .reveal-on-hover.popup-key')[0].click();
-	});
-});
