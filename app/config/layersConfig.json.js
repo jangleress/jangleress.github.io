@@ -189,6 +189,7 @@
 		"fillColor": "#007840",
 		"opacity": 0.9,
 		"color": "#01572f",
+		"iconSize": [42, 66],
 		"weight": 1
 	}
 }, {
