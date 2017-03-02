@@ -186,7 +186,7 @@
 		"where": "Coast='Atlantic'"
 	},
 	"style": {
-		"fillColor": "#007840",
+		"fillColor": "#002069",
 		"opacity": 0.9,
 		"color": "#01572f",
 		"iconSize": [42, 66],
@@ -219,7 +219,7 @@
 		"where": "Coast='Atlantic'"
 	},
 	"style": {
-		"fillColor": "#007840",
+		"fillColor": "#00609c",
 		"opacity": 0.9,
 		"color": "#01572f",
 		"weight": 1
@@ -251,7 +251,7 @@
 		"where": "Coast='Atlantic'"
 	},
 	"style": {
-		"fillColor": "#007840",
+		"fillColor": "#53c1e8",
 		"opacity": 0.9,
 		"color": "#01572f",
 		"weight": 1
