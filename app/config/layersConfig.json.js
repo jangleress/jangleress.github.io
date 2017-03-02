@@ -268,7 +268,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "Whale habitats",
+	"subcategory": "marine_mammal",
 	"style": {
 		"color": "#00609c"
 	}
@@ -284,7 +284,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "Whale habitats",
+	"subcategory": "marine_mammal",
   "sortBy" : "OBJECTID",
 	"style": {
 		"color": "#edab00",
@@ -302,7 +302,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "Whale habitats",
+	"subcategory": "marine_mammal",
 	"style": {
 		"color": "#ff4040",
 		"fillOpacity": 0.7
@@ -319,7 +319,7 @@
 	"ocean": "atlantic",
 	"type": "polygon",
 	"category": "wildlife",
-	"subcategory": "Whale habitats",
+	"subcategory": "marine_mammal",
 	"style": {
 		"color": "#800080",
 		"fillOpacity": 0.7
