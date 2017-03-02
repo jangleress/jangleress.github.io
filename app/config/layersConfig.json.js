@@ -251,7 +251,6 @@
 	},
 	"style": {
 		"fillColor": "#007840",
-		"radius": 10,
 		"opacity": 0.9,
 		"color": "#01572f",
 		"weight": 1
