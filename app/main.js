@@ -8016,10 +8016,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                     i.Handler.MarkerDrag && (this.dragging = new i.Handler.MarkerDrag(this), this.options.draggable && this.dragging.enable())
                 },
                 _onMouseClick: function(e) {
-                    var t = this.dragging && this.dragging.moved();
-                    (this.hasEventListeners(e.type) || t) && i.DomEvent.stopPropagation(e);
-                    if (t) return;
-                    if ((!this.dragging || !this.dragging._enabled) && this._map.dragging && this._map.dragging.moved()) return;
+
                     this.fire(e.type, {
                         originalEvent: e,
                         latlng: this._latlng
