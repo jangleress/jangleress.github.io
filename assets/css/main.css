@@ -4768,10 +4768,6 @@ a.hero {
 .module-layers.layer-item .layers-bottom-categories, .module-layers.layer-item #nav-bottom-modules {
     display: none !important;
 }
-.module-story .content-aside, .module-ocean .content-aside, .module-layers .content-aside {
-    bottom: 50px;
-    padding-bottom: 50px;
-}
 @media(min-width:769px) {
     .module-ocean .content-aside {
     padding-bottom: 0;
