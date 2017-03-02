@@ -178,7 +178,7 @@
 	"type": "point",
 	"ocean": "atlantic",
 	"category": "wildlife",
-	"subcategory": "2014 Story",
+	"subcategory": "2014_story",
 	"icon": {
 		"type": "marker"
 	},
@@ -211,7 +211,7 @@
 	"type": "point",
 	"ocean": "atlantic",
 	"category": "wildlife",
-	"subcategory": "2014 Story",
+	"subcategory": "2014_story",
 	"icon": {
 		"type": "marker"
 	},
@@ -243,7 +243,7 @@
 	"type": "point",
 	"ocean": "atlantic",
 	"category": "wildlife",
-	"subcategory": "2014 Story",
+	"subcategory": "2014_story",
 	"icon": {
 		"type": "marker"
 	},

@@ -45,6 +45,8 @@ en:
       title: Shipping
     oil_gas:  
       title: Oil/gas
+    2014_story:  
+      title: 2014 story
     renewables:  
       title: Renewable energy
     community:
@@ -216,6 +218,8 @@ fr:
       title: Transport maritime
     oil_gas:  
       title: Pétrole et gaz
+    2014_story:  
+      title: Tragédie de 2014
     renewables:  
       title: Énergie renouvelable
     community:
