@@ -6405,14 +6405,14 @@ L.DomEvent = {
 
 				obj.addEventListener(newType, handler, false);
 
-			} /*else if (type === 'click' && L.Browser.android) {
+			} else if (type === 'click' && L.Browser.android) {
 				originalHandler = handler;
 				handler = function (e) {
 					return L.DomEvent._filterClick(e, originalHandler);
 				};
 
 				obj.addEventListener(type, handler, false);
-			}*/ else {
+			} else {
 				obj.addEventListener(type, handler, false);
 			}
 
