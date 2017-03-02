@@ -253,7 +253,7 @@
 		"fillColor": "#007840",
 		"opacity": 0.9,
 		"color": "#01572f",
-		"weight": 3
+		"weight": 1
 	}
 }, {
 	"id": "bluewhale",
