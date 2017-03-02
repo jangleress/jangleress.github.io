@@ -8434,7 +8434,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                 _initEvents: function() {
                     if (this.options.clickable) {
                         (i.Browser.svg || !i.Browser.vml) && i.DomUtil.addClass(this._path, "leaflet-clickable"), i.DomEvent.on(this._container, "click", this._onMouseClick, this);
-                        var e = ["dblclick", "mousedown", "mouseover", "mouseout", "mousemove", "contextmenu", "tap"];
+                        var e = ["dblclick", "mousedown", "mouseover", "mouseout", "mousemove", "contextmenu"];
                         for (var t = 0; t < e.length; t++) i.DomEvent.on(this._container, e[t], this._fireMouseEvent, this)
                     }
                 },
@@ -14483,14 +14483,14 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
             _initInteraction: function() {
                 if (!this.options.clickable) return;
                 var e = this._container,
-                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu", "tap"];
+                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu"];
                 r.DomUtil.addClass(e, "leaflet-clickable"), r.DomEvent.on(e, "click", this._onMouseClick, this);
                 for (var n = 0; n < t.length; n++) r.DomEvent.on(e, t[n], this._fireMouseEvent, this)
             },
             _removeInteraction: function() {
                 if (!this.options.clickable) return;
                 var e = this._container,
-                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu", "tap"];
+                    t = ["dblclick", "mousedown", "mouseover", "mouseout", "contextmenu"];
                 r.DomUtil.removeClass(e, "leaflet-clickable"), r.DomEvent.off(e, "click", this._onMouseClick, this);
                 for (var n = 0; n < t.length; n++) r.DomEvent.off(e, t[n], this._fireMouseEvent, this)
             },
