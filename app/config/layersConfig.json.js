@@ -253,6 +253,7 @@
 		"fillColor": "#007840",
 		"opacity": 0.9,
 		"color": "#01572f",
+		"marker-size": "large",
 		"weight": 1
 	}
 }, {
