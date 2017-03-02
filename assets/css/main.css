@@ -5615,8 +5615,8 @@ a.leaflet-control-zoom-in:hover, a.leaflet-control-zoom-in {
 }
 .leaflet-marker-icon {
     opacity: 0.9;
-	width: 25px;
-	height: 45px;
+	width: 25px!important;
+	height: 45px!important;
 }
 .leaflet-marker-icon:hover {
     opacity: 1;
