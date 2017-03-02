@@ -7938,7 +7938,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                     title: "",
                     alt: "",
                     clickable: !0,
-                    draggable: !1,
+                    draggable: !0,
                     keyboard: !0,
                     zIndexOffset: 0,
                     opacity: 1,
