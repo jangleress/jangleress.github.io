@@ -1,9 +1,8 @@
 {
 "type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5937" } },
                                                                                 
 "features": [
-
-{ "type": "Feature", "id": 3, "properties": { "Name": "Whales found in ice", "Nom": "Whales found in ice", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4843491.3831605613, -1660647.2569342963 ] } }
-
+{ "type": "Feature", "properties": { "Item": "Whale Found", "Lat": 48.240830, "Long": -59.713472 }, "geometry": { "type": "Point", "coordinates": [ 5132650.8080771454, -1695656.2692740113 ] } }
 ]
 }
