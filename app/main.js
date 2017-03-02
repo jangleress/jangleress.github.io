@@ -9161,7 +9161,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                         u, a, f;
                     return e[o] ? this : (u = function(t) {
                         return n.call(r || e, t || i.DomEvent._getEvent())
-                    }, i.Browser.pointer && t.indexOf("touch") === 0 ? this.addPointerListener(e, t, u, s) : (i.Browser.touch && t === "dblclick" && this.addDoubleTapListener && this.addDoubleTapListener(e, u, s), "addEventListener" in e ? t === "mousewheel" ? (e.addEventListener("DOMMouseScroll", u, !1), e.addEventListener(t, u, !1)) : t === "mouseenter" || t === "mouseleave" ? (a = u, f = t === "mouseenter" ? "mouseover" : "mouseout", u = function(t) {
+                    }, i.Browser.pointer && t.indexOf("touch") === 0 ? this.addPointerListener(e, t, u, s) : (i.Browser.touch && t === "click" && this.addDoubleTapListener && this.addDoubleTapListener(e, u, s), "addEventListener" in e ? t === "mousewheel" ? (e.addEventListener("DOMMouseScroll", u, !1), e.addEventListener(t, u, !1)) : t === "mouseenter" || t === "mouseleave" ? (a = u, f = t === "mouseenter" ? "mouseover" : "mouseout", u = function(t) {
                         if (!i.DomEvent._checkMouse(e, t)) return;
                         return a(t)
                     }, e.addEventListener(f, u, !1)) : t === "click" && i.Browser.android ? (a = u, u = function(e) {
