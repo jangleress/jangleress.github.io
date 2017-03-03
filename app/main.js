@@ -24554,6 +24554,8 @@ $(document).on('click', '#key .reveal-on-hover', function() {
 
 $(document).ready(function() {
 	 $('#application').click(function() {
-		$('#key .reveal-on-hover.popup-key')[0].click();
+		if(#('#key .reveal-on-hover.popup-key').length) {
+			$('#key .reveal-on-hover.popup-key')[0].click();
+		}
 	});
 });
