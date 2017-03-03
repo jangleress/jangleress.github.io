@@ -6,7 +6,7 @@
 ,
 { "type": "Feature", "id": 1, "properties": { "Name": "Laurentian Channel", "Nom": "Chenal Laurentien", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5418101.6359617263, -1769044.8167781159 ] } }
 ,
-{ "type": "Feature", "id": 2, "properties": { "Name": "Shediac Valley", "Nom": "Vallée de Shediac", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4885328.7570967302, -2034197.4377431013 ] } }
+{ "type": "Feature", "id": 2, "properties": { "Name": "Shediac Valley", "Nom": "Vall&eacute;e de Shediac", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4885328.7570967302, -2034197.4377431013 ] } }
 ,
 { "type": "Feature", "id": 3, "properties": { "Name": "St. Anns Bank", "Nom": "Banc de Sainte-Anne", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5343491.3831605613, -1860647.2569342963 ] } }
 ,
