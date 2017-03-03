@@ -111,7 +111,7 @@ ContentModel){
 
           this.$('#layers-control').show()
           if (this.$('#layers-control-'+viewId).length === 0) {
-            this.$('#layers-control').append('<div id="layers-control-'+viewId+'" class="layers-control-category"></div>')
+            this.$('#layers-control').prepend('<div id="layers-control-'+viewId+'" class="layers-control-category"></div>')
           }
 
           
