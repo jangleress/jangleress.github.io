@@ -6954,3 +6954,31 @@ header .navbar-default .navbar-collapse {
 #layers {
 	display: block;
 }
+
+/* Translation feature */
+#translate {
+	position: absolute;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+}
+
+#translate .inner {
+	border: 
+}
+
+#translate .inner td a {
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 15px 20px;
+	border: 8px solid #FD5F00;
+}
+
+#translate .inner td.english a {
+	border-right: 4px solid #FD5F00;
+}
+
+#translate .inner td.french a {
+	border-right: 4px solid #FD5F00;
+}
