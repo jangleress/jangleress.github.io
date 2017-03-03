@@ -21429,7 +21429,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                     e = this.model.getCategory();
                     if (e === "custom" || e !== "" && t.contains(this.model.getLayers().getCategories(), e)) {
                         var v = n + "-" + e;
-                        this.$("#layers-control").show(), this.$("#layers-control-" + v).length === 0 && this.$("#layers-control").append('<div id="layers-control-' + v + '" class="layers-control-category"></div><div id="translate"><table class="inner"><tbody><tr><td class="english"><a href="https://romtoronto-map.github.io/#!/layers/home?view=50.3616|-59.7097|5||1312|682&ocean=atlantic&cat=wildlife">EN</a></td><td class="french"><a href="https://romtoronto-map.github.io/fr/#!/layers/home?view=50.3616|-59.7097|5||1312|682&ocean=atlantic&cat=wildlife">FR</a></td></tr></tbody></table></div>'), e === "custom" ? (this.views[v] = this.views[v] || new s({
+                        this.$("#layers-control").show(), this.$("#layers-control-" + v).length === 0 && this.$("#layers-control").append('<div id="layers-control-' + v + '" class="layers-control-category"></div>'), e === "custom" ? (this.views[v] = this.views[v] || new s({
                             el: this.$("#layers-control-" + v),
                             model: new o({
                                 id: v,
