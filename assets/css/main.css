@@ -6990,3 +6990,10 @@ header .navbar-default .navbar-collapse {
 #application[data-lang="fr"] #translate .inner td.french a {
 	color: #ffffff;
 }
+
+/* Pinch icon */ 
+#pinch {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
