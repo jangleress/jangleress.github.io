@@ -24553,7 +24553,7 @@ $(document).on('click', '#key .reveal-on-hover', function() {
 });
 
 $(document).ready(function() {
-	 $('#application').click(function() {
+	 $('.leaflet-tile-pane').click(function() {
 		$('#key .reveal-on-hover.popup-key')[0].click();
 	});
 });
