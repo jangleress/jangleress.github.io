@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "id": 0, "properties": { "Name": "American Bank", "Nom": "Banc des Américains", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4825356.2741598785, -1876443.2090302929 ] } }
+{ "type": "Feature", "id": 0, "properties": { "Name": "American Bank", "Nom": "Banc des Am&eacute;ricains", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 4825356.2741598785, -1876443.2090302929 ] } }
 ,
 { "type": "Feature", "id": 1, "properties": { "Name": "Laurentian Channel", "Nom": "Chenal Laurentien", "Coast": "Atlantic", "Category": "Area of Interest" }, "geometry": { "type": "Point", "coordinates": [ 5418101.6359617263, -1769044.8167781159 ] } }
 ,
