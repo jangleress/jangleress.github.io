@@ -182,7 +182,7 @@ fr:
   app:
     wwfurl: 'http://www.wwf.ca/fr'
     wwfanchor: 'www.wwf.ca/fr'
-    title: Océans du Canada
+    title: L'océan Atlantique du Canada
     subtitle: Planifier un avenir meilleur    
   nav:  
     home: Accueil    
@@ -195,7 +195,7 @@ fr:
     story: Régions présentées
     layers: Couches cartographiques
   oceans:
-    atlantic: L'océan Atlantique du Canada
+    atlantic: Océan Atlantique Nord-Ouest
     pacific: Pacifique
     arctic: Arctique
   storychapters:
