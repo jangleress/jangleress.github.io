@@ -4506,8 +4506,8 @@ h2 {
     line-height: 1;
 }
 h3 {
-    font-size: 30px;
-    margin: 28px 0 18px;
+    font-size: 31px;
+    margin: 30px 0 18px;
 }
 h4 {
     font-size: 24px;
@@ -4957,7 +4957,7 @@ ul.nav.nav-left, ul.nav.nav-right {
 }
 @media (min-width:769px) {
     .panel-header {
-    padding-top: 0;
+    padding-top: 15px;
 }
 .panel-header h2, .panel-header h1 {
     line-height: 40px;
@@ -6959,7 +6959,7 @@ header .navbar-default .navbar-collapse {
 #translate {
     float: right;
     z-index: 999;
-    margin: 0 20px 20px;
+    margin: 20px;
 }
 #translate .inner td {
 	border: 6px solid #FD5F00;
