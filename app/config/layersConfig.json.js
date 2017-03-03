@@ -325,33 +325,6 @@
 		"fillOpacity": 0.7
 	}
 }, {
-	"id": "cnp_atlantic",
-	"contentid": "cnp",
-	"title": {
-		"en": "National Parks and National Marine Conservation Areas",
-		"fr": "Parcs nationaux et aires marines nationales de conservation"
-	},
-	"style": {
-		"color": "#157543",
-		"weight": 1
-	},
-	"featureAttributeMap": {
-		"featureTitle": {
-			"en": "NAME_E",
-			"fr": "NOM_F"
-		}
-	},
-	"source": "geojson",
-	"attribution": "Parks Canada, 2016 <br> Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010",
-	"path": "app/data/NationalParks_and_NMCAs.geojson",
-	"type": "polygon",
-	"ocean": "atlantic",
-	"category": "wildlife",
-	"subcategory": "protected",
-	"queryArgs": {
-		"where": "Coast='Atlantic'"
-	}
-}, {
 	"id": "aoi_atlantic",
 	"contentid": "aoi",
 	"title": {
@@ -382,6 +355,33 @@
 		"opacity": 0.9,
 		"color": "#01572f",
 		"weight": 1
+	}
+}, {
+	"id": "cnp_atlantic",
+	"contentid": "cnp",
+	"title": {
+		"en": "National Parks and National Marine Conservation Areas",
+		"fr": "Parcs nationaux et aires marines nationales de conservation"
+	},
+	"style": {
+		"color": "#157543",
+		"weight": 1
+	},
+	"featureAttributeMap": {
+		"featureTitle": {
+			"en": "NAME_E",
+			"fr": "NOM_F"
+		}
+	},
+	"source": "geojson",
+	"attribution": "Parks Canada, 2016 <br> Conservation Areas Reporting and Tracking System (CARTS) - Canadian Council on Ecological Areas (CCEA), 2015 / International Union for Conservation of Nature (IUCN) and United Nations Environment Programme (UNEP), 2010",
+	"path": "app/data/NationalParks_and_NMCAs.geojson",
+	"type": "polygon",
+	"ocean": "atlantic",
+	"category": "wildlife",
+	"subcategory": "protected",
+	"queryArgs": {
+		"where": "Coast='Atlantic'"
 	}
 }, {
 	"id": "oilgas_atlantic",
