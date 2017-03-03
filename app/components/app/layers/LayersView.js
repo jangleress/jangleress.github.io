@@ -111,7 +111,7 @@ ContentModel){
 
           this.$('#layers-control').show()
           if (this.$('#layers-control-'+viewId).length === 0) {
-            this.$('#layers-control').append('<div id="layers-control-'+viewId+'" class="layers-control-category"></div>')
+            this.$('#layers-control').append('<div id="layers-control-'+viewId+'" class="layers-control-category"></div> <div id="translate"><table class="inner"><tbody><tr><td class="english"><a href="https://romtoronto-map.github.io/#!/layers/home?view=50.3616|-59.7097|5||1312|682&ocean=atlantic&cat=wildlife">EN</a></td><td class="french"><a href="https://romtoronto-map.github.io/fr/#!/layers/home?view=50.3616|-59.7097|5||1312|682&ocean=atlantic&cat=wildlife">FR</a></td></tr></tbody></table></div>')
           }
 
           
