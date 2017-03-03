@@ -6957,6 +6957,7 @@ header .navbar-default .navbar-collapse {
 
 /* Translation feature */
 #translate {
+    position: absolute;
     z-index: 999;
     bottom: 16px;
     right: 18px;
