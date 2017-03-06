@@ -6957,9 +6957,21 @@ header .navbar-default .navbar-collapse {
 
 /* Translation feature */
 #translate {
-    float: right;
     z-index: 999;
     margin: 10px 20px 20px;
+}
+#translate .instructions {
+    float: left;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 48px;
+	color: #a0a5a6
+}
+#application[data-lang="fr"] #translate .instructions .english {
+	display: none;
+}
+#translate .inner {
+	float: right;
 }
 #translate .inner td {
 	border: 6px solid #f55702;
