@@ -6962,30 +6962,30 @@ header .navbar-default .navbar-collapse {
     margin: 10px 20px 20px;
 }
 #translate .inner td {
-	border: 6px solid #FD5F00;
+	border: 6px solid #f55702;
 }
 #translate .inner td.english {
-	border-right: 3px solid #FD5F00;
+	border-right: 3px solid #f55702;
 }
 #translate .inner td.french{
-	border-left: 3px solid #FD5F00;
+	border-left: 3px solid #f55702;
 }
 #translate .inner td a {
     font-size: 35px;
     font-family: Arial;
     font-weight: bold;
     padding: 0 26px;
-    color: #FD5F00;
+    color: #f55702;
     line-height: 105%;
 }
 #application[data-lang="en"] #translate .inner td.english {
-	background-color: #FD5F00;
+	background-color: #f55702;
 }
 #application[data-lang="en"] #translate .inner td.english a {
 	color: #ffffff;
 }
 #application[data-lang="fr"] #translate .inner td.french {
-	background-color: #FD5F00;
+	background-color: #f55702;
 }
 #application[data-lang="fr"] #translate .inner td.french a {
 	color: #ffffff;
