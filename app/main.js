@@ -11985,7 +11985,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !1,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 16,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"],
                                     attribution: "Esri"
                                 }
@@ -11996,7 +11996,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !0,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 16,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"]
                                 }
                             },
@@ -12006,7 +12006,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !1,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 16,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"],
                                     attribution: "Esri"
                                 }
@@ -12017,7 +12017,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !1,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 16,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"],
                                     attribution: "Esri, DeLorme, HERE"
                                 }
@@ -12028,7 +12028,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !0,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 16,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"]
                                 }
                             },
@@ -12038,7 +12038,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !1,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 16,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"],
                                     attribution: "Esri, NAVTEQ, DeLorme"
                                 }
@@ -12049,7 +12049,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !0,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 16,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"]
                                 }
                             },
@@ -12090,7 +12090,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !1,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 13,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"],
                                     attribution: "Esri, NAVTEQ, DeLorme"
                                 }
@@ -12101,7 +12101,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !0,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 12,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"]
                                 }
                             },
@@ -12111,7 +12111,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !1,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 13,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"],
                                     attribution: "Esri, USGS, NOAA"
                                 }
@@ -12122,7 +12122,7 @@ if (typeof jQuery == "undefined") throw new Error("Bootstrap's JavaScript requir
                                     hideLogo: !0,
                                     logoPosition: "bottomright",
                                     minZoom: 1,
-                                    maxZoom: 13,
+                                    maxZoom: 19,
                                     subdomains: ["server", "services"]
                                 }
                             }
