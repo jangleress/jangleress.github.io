@@ -259,7 +259,7 @@
 }, {
 	"id": "bluewhale",
 	"title": {
-		"en": "Blue whale areas of known concentration",
+		"en": "Blue whale areas of concentration",
 		"fr": "Zones de concentration connues de la baleine bleue"
 	},
 	"source": "geojson",
@@ -328,7 +328,7 @@
 	"id": "aoi_atlantic",
 	"contentid": "aoi",
 	"title": {
-		"en": "Marine Protected Areas and Areas of Interest",
+		"en": "Actual and potential Marine Protected Areas",
 		"fr": "Aires marines protégées et sites d’intérêt"
 	},
 	"featureAttributeMap": {
