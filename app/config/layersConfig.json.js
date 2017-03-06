@@ -16,7 +16,7 @@
 		"printId": "webteamwwf.dane3tr5",
 		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
 		"minZoom": 1,
-		"maxZoom": 3
+		"maxZoom": 9
 	},
 	"key": {
 		"type": "categorical",
@@ -452,7 +452,7 @@
 		"printId": "webteamwwf.b2x0m2fv",
 		"accessToken": "pk.eyJ1Ijoid2VidGVhbXd3ZiIsImEiOiJjaXExejY1cmowMDM3aHNtMnFkM2Z2MXRwIn0.3p5OK5m142-mavANxW9TlA",
 		"minZoom": 1,
-		"maxZoom": 8,
+		"maxZoom": 9,
 		"opacity": 0.7
 	},
 	"attribution": "Koropatnick, T., S.K. Johnston, S. Coffen-Smout, P. Macnab, and A. Szeto. 2012. Development and Applications of Vessel Traffic Maps Based on Long Range Identification and Tracking (LRIT) Data in Atlantic Canada. Can. Tech. Rep. Fish. Aquat. Sci. 2966.",
