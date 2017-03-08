@@ -24558,4 +24558,16 @@ $(document).ready(function() {
 			$('#key .reveal-on-hover.popup-key')[0].click();
 		}
 	});
+
+	var time = new Date().getTime();
+	$(document.body).bind("mousemove touchmove touchstart keypress ", function () {
+		time = new Date().getTime();
+	});
+
+	setInterval(function() {
+		if (new Date().getTime() - time >= 60000) {
+			window.location.href="https://romtoronto-map.github.io/#!/layers/home?view=50.3765|-59.6899|6||1312|974&ocean=atlantic&cat=wildlife";
+		}
+	}, 1000);
+	
 });
