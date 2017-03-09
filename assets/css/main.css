@@ -7720,6 +7720,7 @@ a.ocean-color-atlantic:hover {
 #translate .instructions .french{
     font-size: 15px;
     line-height: 17px;
+	max-width: 300px;
 }
 #application[data-lang=fr] #translate .instructions .english,
 #application[data-lang=en] #translate .instructions .french {
