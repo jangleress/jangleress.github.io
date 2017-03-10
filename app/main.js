@@ -23476,6 +23476,6 @@ location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.384|-59
 function resetTimer() {
 var t;
 clearTimeout(t);
-t = setTimeout(refresh, 30000)
+t = setTimeout(refresh, 60000)
   // 1000 milisec = 1 sec
 }
