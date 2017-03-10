@@ -23452,3 +23452,30 @@ if (! function(a, b) {
             $("#key .reveal-on-hover.popup-key").length && $("#key .reveal-on-hover.popup-key")[0].click()
         });
     });
+
+window.onload = function() {
+	resetTimer();
+};
+document.onmousedown = function() {
+	resetTimer();
+};
+document.onkeypress = function() {
+	resetTimer();
+};
+document.ontouchstart = function() {
+	resetTimer();
+};
+document.ondragstart = function() {
+	resetTimer();
+};
+
+function refresh() {
+location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.384|-59.68|6||1312|697&ocean=atlantic&cat=wildlife'
+}
+
+function resetTimer() {
+var t;
+clearTimeout(t);
+t = setTimeout(refresh, 30000)
+  // 1000 milisec = 1 sec
+}
