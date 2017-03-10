@@ -23451,10 +23451,4 @@ if (! function(a, b) {
         $("#application").click(function() {
             $("#key .reveal-on-hover.popup-key").length && $("#key .reveal-on-hover.popup-key")[0].click()
         });
-        var a = (new Date).getTime();
-        $(document.body).bind("mousemove touchmove touchstart keypress ", function() {
-            a = (new Date).getTime()
-        }), setInterval(function() {
-            (new Date).getTime() - a >= 6e4 && (window.location.href = "https://romtoronto-map.github.io/#!/layers/home?view=50.3765|-59.6899|6||1312|974&ocean=atlantic&cat=wildlife")
-        }, 1e3)
     });
