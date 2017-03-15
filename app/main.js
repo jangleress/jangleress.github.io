@@ -23470,18 +23470,12 @@ document.ondragstart = function() {
 };
 
 function refresh() {
-	location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.384|-59.68|6||1312|697&ocean=atlantic&cat=wildlife';
-	resetScale();
+location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.384|-59.68|6||1312|697&ocean=atlantic&cat=wildlife'
 }
 
 function resetTimer() {
-	var t;
-	clearTimeout(t);
-	t = setTimeout(refresh, 60000)
-}
-
-function resetScale() {
-	var scale = 'scale(1)';
-	document.body.style.webkitTransform =  scale;
-	document.body.style.transform = scale;    
+var t;
+clearTimeout(t);
+t = setTimeout(refresh, 60000)
+  // 1000 milisec = 1 sec
 }
