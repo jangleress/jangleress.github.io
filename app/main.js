@@ -23470,10 +23470,7 @@ document.ondragstart = function() {
 };
 
 function refresh() {
-location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.384|-59.68|6||1312|697&ocean=atlantic&cat=wildlife';
-	var scale = 'scale(1)';
-	document.style.webkitTransform =  scale;
-	document.style.transform = scale;   
+location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.384|-59.68|6||1312|697&ocean=atlantic&cat=wildlife'
 }
 
 function resetTimer() {
