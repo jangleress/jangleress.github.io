@@ -4112,23 +4112,21 @@ tbody.collapse.in {
     height: 40px
 }
 
-@media (min-width:769px) {
-    .container-fluid>.navbar-collapse,
-    .container-fluid>.navbar-header,
-    .container>.navbar-collapse,
-    .container>.navbar-header {
-        margin-right: 0;
-        margin-left: 0
-    }
-    .navbar-fixed-bottom,
-    .navbar-fixed-top,
-    .navbar-static-top {
-        border-radius: 0
-    }
-    .navbar>.container .navbar-brand,
-    .navbar>.container-fluid .navbar-brand {
-        margin-left: -16px
-    }
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+	margin-right: 0;
+	margin-left: 0
+}
+.navbar-fixed-bottom,
+.navbar-fixed-top,
+.navbar-static-top {
+	border-radius: 0
+}
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+	margin-left: -16px
 }
 
 .navbar-toggle {
@@ -5199,15 +5197,8 @@ h5 {
 }
 
 .icon-wwf_logo {
-    width: 48px;
-    height: 60px
-}
-
-@media (min-width:769px) {
-    .icon-wwf_logo {
-        width: 69px;
-        height: 85px
-    }
+	width: 69px;
+	height: 85px
 }
 
 .icon-wwf_arctic,
@@ -6191,60 +6182,58 @@ a.planning-link {
     bottom: 100px
 }
 
-@media(min-width:769px) {
-    #nav-bottom-modules td a .module-link-text {
-        text-align: center;
-        font-size: 18px
-    }
-    #nav-bottom-oceans li {
-        padding: 0 16px
-    }
-    #nav-bottom-oceans li a {
-        display: block;
-        padding: 13px 0;
-        border-radius: 9999px;
-        width: 80px;
-        height: 80px;
-        position: relative;
-        font-size: 16px;
-        letter-spacing: 0;
-        -webkit-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-        -moz-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-        box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3)
-    }
-    #nav-bottom-oceans {
-        display: block
-    }
-    .module-home #nav-bottom-oceans,
-    .module-page #nav-bottom-oceans {
-        display: none
-    }
-    .content-aside,
-    .content-full {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: auto
-    }
-    .content-full {
-        left: 0
-    }
-    .content-aside,
-    .modal {
-        -webkit-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-        -moz-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-        box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-    }
-    .content-scroll {
-        z-index: 150
-    }
-    #nav-bottom-oceans {
-        right: 50%
-    }
-    #nav-bottom-modules {
-        width: 50%;
-        left: auto
-    }
+#nav-bottom-modules td a .module-link-text {
+	text-align: center;
+	font-size: 18px
+}
+#nav-bottom-oceans li {
+	padding: 0 16px
+}
+#nav-bottom-oceans li a {
+	display: block;
+	padding: 13px 0;
+	border-radius: 9999px;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	font-size: 16px;
+	letter-spacing: 0;
+	-webkit-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
+	box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3)
+}
+#nav-bottom-oceans {
+	display: block
+}
+.module-home #nav-bottom-oceans,
+.module-page #nav-bottom-oceans {
+	display: none
+}
+.content-aside,
+.content-full {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: auto
+}
+.content-full {
+	left: 0
+}
+.content-aside,
+.modal {
+	-webkit-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
+	box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
+}
+.content-scroll {
+	z-index: 150
+}
+#nav-bottom-oceans {
+	right: 50%
+}
+#nav-bottom-modules {
+	width: 50%;
+	left: auto
 }
 
 #nav-bottom-modules,
@@ -6295,7 +6284,7 @@ ul.nav.nav-right {
 }
 
 .panel-header {
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 8px;
     position: relative
 }
@@ -6334,9 +6323,6 @@ ul.nav.nav-right {
 }
 
 @media (min-width:769px) {
-    .panel-header {
-        padding-top: 15px
-    }
     .panel-header h1,
     .panel-header h2 {
         line-height: 40px
@@ -7116,18 +7102,11 @@ a.scroll-up:hover {
 
 #key {
     position: absolute;
-    top: 80px;
+    top: 242px;
     bottom: 140px;
     width: 50px;
     z-index: 3000;
     display: none
-}
-
-@media (min-width:769px) {
-    #key {
-        top: 242px;
-        bottom: 0
-    }
 }
 
 .map-key-layer-list {
@@ -7947,10 +7926,6 @@ header .container-fluid>.navbar-collapse {
     width: 100%
 }
 
-header .navbar>.container-fluid .navbar-brand {
-    margin-left: 0
-}
-
 header .navbar-header {
     height: 0;
     z-index: 4001;
@@ -7958,13 +7933,7 @@ header .navbar-header {
 }
 
 header .navbar-brand {
-    padding: 0 0 0 8px
-}
-
-@media (min-width:769px) {
-    header .navbar-brand {
-        padding-left: 16px
-    }
+    padding: 0 0 0 16px
 }
 
 header .navbar-default {
