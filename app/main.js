@@ -23483,5 +23483,5 @@ t = setTimeout(refresh, 60000)
 $(window).resize(function() {
 var htmlWidth = document.documentElement.clientWidth;
 var screenWidth = 1920;
-body.style.zoom = htmlWidth / screenWidth;
+document.body.style.zoom = htmlWidth / screenWidth;
 });
