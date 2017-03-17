@@ -7982,9 +7982,6 @@ header .navbar-default {
 
 header .navbar-default .navbar-collapse {
     border-top: 0;
-    -webkit-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-    box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
     position: absolute;
     top: 0;
     left: 0;
@@ -8539,15 +8536,6 @@ header .navbar-collapse .nav li {
 .panel-dark .table-layer-select a:focus,
 .table-layer-select a.layer-action-link {
     color: #f4f5f5
-}
-
-#application.module-layers.layer-item,
-#application.module-page,
-#application.module-story,
-#nav-bottom-modules td a,
-.panel-light,
-header .navbar-default .navbar-collapse {
-    background-color: #f4f5f5
 }
 
 @media (min-width:769px) {
