@@ -23483,7 +23483,6 @@ location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.3765|-5
 function resetTimer() {
 	var t;
 	clearTimeout(t);
-	t = null;
 	t = setTimeout(refresh, 60000)
 }
 
