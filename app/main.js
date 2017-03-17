@@ -23466,7 +23466,13 @@ document.onkeypress = function() {
 document.ontouchstart = function() {
 	resetTimer();
 };
+document.ontouchend = function() {
+	resetTimer();
+};
 document.ondragstart = function() {
+	resetTimer();
+};
+document.ondragend = function() {
 	resetTimer();
 };
 
