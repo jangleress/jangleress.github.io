@@ -23479,3 +23479,9 @@ clearTimeout(t);
 t = setTimeout(refresh, 60000)
   // 1000 milisec = 1 sec
 }
+
+$(window).resize(function() {
+var htmlWidth = document.documentElement.clientWidth;
+var screenWidth = 1920;
+body.style.zoom = htmlWidth / screenWidth;
+});
