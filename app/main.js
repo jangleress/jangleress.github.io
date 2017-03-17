@@ -23451,24 +23451,46 @@ if (! function(a, b) {
         $("#application").click(function() {
             $("#key .reveal-on-hover.popup-key").length && $("#key .reveal-on-hover.popup-key")[0].click();
         });
-		var time = new Date().getTime();
-		$(document.body).bind("mousemove mousedown keypress touchstart dragstart", function(e) {
-		 time = new Date().getTime();
-		});
-
-		function refresh() {
-		 if(new Date().getTime() - time >= 60000) 
-			 window.location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.3765|-59.6899|6||1312|974&ocean=atlantic&cat=wildlife';
-		 else 
-			 setTimeout(refresh, 10000);
-		}
-
-		setTimeout(refresh, 10000);
+        $("#application").on("tap",function() {
+			resetTimer();
+        });
     });
 
 window.onload = function() {
+	resetTimer();
 	resizeHack();
 };
+document.onmousedown = function(e) {
+	resetTimer();
+};
+document.onkeypress = function(e) {
+	resetTimer();
+};
+document.ontouchstart = function(e) {
+	resetTimer();
+};
+document.ontouchmove = function(e) {
+	resetTimer();
+};
+document.ontouchend = function(e) {
+	resetTimer();
+};
+document.ondragstart = function(e) {
+	resetTimer();
+};
+document.ondragend = function(e) {
+	resetTimer();
+};
+
+function refresh() {
+location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.3765|-59.6899|6||1312|974&ocean=atlantic&cat=wildlife'
+}
+
+function resetTimer() {
+	var t;
+	clearTimeout(t);
+	t = setTimeout(refresh, 60000)
+}
 
 function resizeHack() {
 var htmlWidth = document.documentElement.clientWidth;
