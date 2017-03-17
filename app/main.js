@@ -23455,7 +23455,7 @@ if (! function(a, b) {
 	
 function setIdle(cb, seconds) {
     var timer; 
-    var interval = seconds * 10000;
+    var interval = 30000;
     function refresh() {
             clearInterval(timer);
             timer = setTimeout(cb, interval);
