@@ -23455,6 +23455,7 @@ if (! function(a, b) {
 
 window.onload = function() {
 	resetTimer();
+	resizeHack();
 };
 document.onmousedown = function() {
 	resetTimer();
