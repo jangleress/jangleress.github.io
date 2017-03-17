@@ -23480,9 +23480,13 @@ t = setTimeout(refresh, 60000)
   // 1000 milisec = 1 sec
 }
 
-$(window).resize(function() {
+function resizeHack() {
 var htmlWidth = document.documentElement.clientWidth;
 var screenWidth = 1920;
 var appElement = document.getElementById("application");
 appElement.style.zoom = htmlWidth / screenWidth;
+}
+
+$(window).resize(function() {
+	resizeHack();
 });

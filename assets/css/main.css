@@ -6843,25 +6843,8 @@ blockquote.pull-right {
 }
 
 #map {
-    width: auto
-}
-
-@media (min-width:769px) {
-    #map {
-        right: 50%
-    }
-}
-
-@media (min-width:1025px) {
-    #map {
-        right: 512px
-    }
-}
-
-@media (min-width:1537px) {
-    #map {
-        right: 608px
-    }
+    width: auto;
+	right: 608px;
 }
 
 #basemap {
