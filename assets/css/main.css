@@ -6240,7 +6240,6 @@ a.planning-link {
         -webkit-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
         -moz-box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
         box-shadow: 0 0 12px -3px rgba(0, 0, 0, .3);
-        width: 50%
     }
     .content-scroll {
         z-index: 150
@@ -6254,26 +6253,13 @@ a.planning-link {
     }
 }
 
-@media (min-width:1025px) {
-    #nav-bottom-modules,
-    .content-aside,
-    .modal {
-        width: 512px
-    }
-    #nav-bottom-oceans {
-        right: 512px
-    }
+#nav-bottom-modules,
+.content-aside,
+.modal {
+	width: 608px
 }
-
-@media (min-width:1537px) {
-    #nav-bottom-modules,
-    .content-aside,
-    .modal {
-        width: 608px
-    }
-    #nav-bottom-oceans {
-        right: 608px
-    }
+#nav-bottom-oceans {
+	right: 608px
 }
 
 .content-fixed-bottom {
