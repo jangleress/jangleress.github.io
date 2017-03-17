@@ -23458,31 +23458,24 @@ window.onload = function() {
 	resizeHack();
 };
 document.onmousedown = function(e) {
-	e.preventDefault();
 	resetTimer();
 };
 document.onkeypress = function(e) {
-	e.preventDefault();
 	resetTimer();
 };
 document.ontouchstart = function(e) {
-	e.preventDefault();
 	resetTimer();
 };
 document.ontouchmove = function(e) {
-	e.preventDefault();
 	resetTimer();
 };
 document.ontouchend = function(e) {
-	e.preventDefault();
 	resetTimer();
 };
 document.ondragstart = function(e) {
-	e.preventDefault();
 	resetTimer();
 };
 document.ondragend = function(e) {
-	e.preventDefault();
 	resetTimer();
 };
 
