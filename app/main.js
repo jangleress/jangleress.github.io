@@ -23449,8 +23449,10 @@ if (! function(a, b) {
         $(this).toggleClass("popup-key")
     }), $(document).ready(function() {
         $("#application").click(function() {
-            $("#key .reveal-on-hover.popup-key").length && $("#key .reveal-on-hover.popup-key")[0].click()
+            $("#key .reveal-on-hover.popup-key").length && $("#key .reveal-on-hover.popup-key")[0].click();
+			resetTimer();
         });
+		
     });
 
 window.onload = function() {
