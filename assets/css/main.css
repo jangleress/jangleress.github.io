@@ -7889,10 +7889,6 @@ header {
     left: 0
 }
 
-#title {
-    margin: 0 7px
-}
-
 #logo a,
 header a {
     display: block
@@ -7980,28 +7976,17 @@ header .navbar-default {
     background-color: rgba(244, 245, 245, .8)
 }
 
-header .navbar-default .navbar-collapse {
-    border-top: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0
-}
-
-@media (min-width:769px) {
-    header .container-fluid>.navbar-collapse {
-        width: 100%;
-        padding: 0 0 0 85px;
-        background-color: transparent;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-        position: initial;
-        top: auto;
-        left: auto;
-        right: auto
-    }
+header .container-fluid>.navbar-collapse {
+	width: 100%;
+	padding: 0 0 0 85px;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	position: initial;
+	top: auto;
+	left: auto;
+	right: auto
 }
 
 header .nav>li>a {
