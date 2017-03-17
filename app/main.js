@@ -23452,21 +23452,27 @@ if (! function(a, b) {
             $("#key .reveal-on-hover.popup-key").length && $("#key .reveal-on-hover.popup-key")[0].click()
         });
     });
-	
-var appElement = document.getElementById("application");
 
 window.onload = function() {
 	resetTimer();
 	resizeHack();
 };
-appElement.onmousedown = resetTimer;
-appElement.onkeypress  = resetTimer;
-appElement.ontouchstart = resetTimer;
-appElement.ontouchend = resetTimer;
-appElement.touchdbltap = resetTimer;
-appElement.touchcancel = resetTimer;
-appElement.ondragstart = resetTimer;
-appElement.ondragend = resetTimer;
+document.onmousedown = function(e) {
+	e.preventDefault();
+	resetTimer();
+};
+document.onkeypress = function(e) {
+	e.preventDefault();
+	resetTimer();
+};
+document.ontouchstart = function(e) {
+	e.preventDefault();
+	resetTimer();
+};
+document.ondragstart = function(e) {
+	e.preventDefault();
+	resetTimer();
+};
 
 function refresh() {
 location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.3765|-59.6899|6||1312|974&ocean=atlantic&cat=wildlife'
@@ -23481,6 +23487,7 @@ function resetTimer() {
 function resizeHack() {
 var htmlWidth = document.documentElement.clientWidth;
 var screenWidth = 1920;
+var appElement = document.getElementById("application");
 appElement.style.zoom = htmlWidth / screenWidth;
 }
 
