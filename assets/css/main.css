@@ -3778,10 +3778,6 @@ fieldset[disabled] .btn-link:hover {
     opacity: 1
 }
 
-.collapse {
-    display: none
-}
-
 .collapse.in {
     display: block
 }
@@ -6081,9 +6077,7 @@ a.planning-link {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
     right: 0;
-    width: 100%
 }
 
 .content-scroll,
@@ -7899,38 +7893,30 @@ header {
     margin: 0 7px
 }
 
-#title h1 {
-    font-size: 14px;
-    margin: 0;
-    line-height: 34px
-}
-
 #logo a,
 header a {
     display: block
 }
 
-@media (min-width:769px) {
-    header {
-        z-index: 140;
-        width: auto;
-        right: 20px
-    }
-    .module-page header {
-        z-index: 400
-    }
-    #page-links,
-    #title h1 {
-        text-transform: uppercase
-    }
-    #title h1 {
-        font-size: 38px;
-        line-height: 45px
-    }
-    #title,
-    header .link-list-wrapper {
-        margin: 0 16px
-    }
+header {
+	z-index: 140;
+	width: auto;
+	right: 20px
+}
+.module-page header {
+	z-index: 400
+}
+#page-links,
+#title h1 {
+	text-transform: uppercase
+}
+#title h1 {
+	font-size: 38px;
+	line-height: 45px
+}
+#title,
+header .link-list-wrapper {
+	margin: 0 16px
 }
 
 .navbar-nav,
@@ -8099,10 +8085,6 @@ header .show-on-collapsed {
     display: none
 }
 
-header .collapsed .show-on-collapsed {
-    display: block
-}
-
 header .navbar-toggle {
     width: 40px;
     height: 40px;
@@ -8111,10 +8093,6 @@ header .navbar-toggle {
     margin: 0;
     padding: 0;
     z-index: 4001
-}
-
-header .navbar-toggle .show-on-collapsed {
-    padding: 9px 10px
 }
 
 header .navbar-default .navbar-toggle,
