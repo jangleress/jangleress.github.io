@@ -23469,7 +23469,19 @@ document.ontouchstart = function(e) {
 	e.preventDefault();
 	resetTimer();
 };
+document.ontouchmove = function(e) {
+	e.preventDefault();
+	resetTimer();
+};
+document.ontouchend = function(e) {
+	e.preventDefault();
+	resetTimer();
+};
 document.ondragstart = function(e) {
+	e.preventDefault();
+	resetTimer();
+};
+document.ondragend = function(e) {
 	e.preventDefault();
 	resetTimer();
 };
