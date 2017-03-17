@@ -23450,9 +23450,10 @@ if (! function(a, b) {
     }), $(document).ready(function() {
         $("#application").click(function() {
             $("#key .reveal-on-hover.popup-key").length && $("#key .reveal-on-hover.popup-key")[0].click();
+        });
+        $("#application").on("tap",function() {
 			resetTimer();
         });
-		
     });
 
 window.onload = function() {
