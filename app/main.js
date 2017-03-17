@@ -23459,6 +23459,27 @@ window.onload = function() {
 	resetTimer();
 	resizeHack();
 };
+document.onmousedown = function(e) {
+	resetTimer();
+};
+document.onkeypress = function(e) {
+	resetTimer();
+};
+document.ontouchstart = function(e) {
+	resetTimer();
+};
+document.ontouchmove = function(e) {
+	resetTimer();
+};
+document.ontouchend = function(e) {
+	resetTimer();
+};
+document.ondragstart = function(e) {
+	resetTimer();
+};
+document.ondragend = function(e) {
+	resetTimer();
+};
 
 function refresh() {
 location.href = 'https://romtoronto-map.github.io/#!/layers/home?view=50.3765|-59.6899|6||1312|974&ocean=atlantic&cat=wildlife'
