@@ -7425,13 +7425,7 @@ tr.layer-color-groups td {
 }
 
 .table-layer-select a {
-    font-size: 13px
-}
-
-@media (min-width:1200px) {
-    .table-layer-select td.title a {
-        font-size: 19px
-    }
+    font-size: 19px
 }
 
 .prevent-layer-toggle .title a:hover,
