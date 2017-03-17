@@ -23460,13 +23460,22 @@ window.onload = function() {
 document.onmousedown = function() {
 	resetTimer();
 };
+document.onmousemove = function() {
+	resetTimer();
+};
 document.onkeypress = function() {
 	resetTimer();
 };
 document.ontouchstart = function() {
 	resetTimer();
 };
-document.ondragstart = function() {
+document.ontouchmove = function() {
+	resetTimer();
+};
+document.ontouchend = function() {
+	resetTimer();
+};
+document.ondragend = function() {
 	resetTimer();
 };
 
