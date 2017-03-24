@@ -23482,3 +23482,7 @@ appElement.style.zoom = htmlWidth / screenWidth;
 $(window).resize(function() {
 	resizeHack();
 });
+
+$('header .navbar, #key, .leaflet-top, #layers').on('gesturechange', function() {
+	resizeHack();
+});
